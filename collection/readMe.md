@@ -1,6 +1,3 @@
-+ [Interface Collection](readMe.md#Interface Collection) 
-+ [Interface Map](readMe.md#Interface Map) 
-
 # Java Collection Framework
 - __java.util.Collections__ - набор статических методов для работы с коллекциями.
 - __java.util.Collection__ - один из основных интерфейсов Java Collections Framework.
@@ -22,6 +19,8 @@
 данными вида «ключ — значение». Также как и Collection, он был дополнен дженериками в версии `Java 1.5`и 
 в версии `Java 8` появились дополнительные методы для работы с лямбдами, а также методы, которые зачастую 
 реализовались в логике приложения (`getOrDefault(Object key, V defaultValue)`, `putIfAbsent(K key, V value)`).
+
+![](/home/dima/Documents/IT/Tutorials/collection/img/Screenshot from 2020-04-10 13-33-40.png)
 
 ## **Интерфейс "Collection" расширяют интерфейсы:**
 + __Interface List__ Реализации:

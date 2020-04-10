@@ -13,6 +13,7 @@
         <module>jdbc</module>
         <module>core</module>
         <module>collection</module>
+        <module>web</module>
     </modules>
 
     <dependencies>
