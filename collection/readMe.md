@@ -1,5 +1,5 @@
-+ [Interface Collection](#Interface Collection) 
-+ [Interface Map](#Interface Map) 
+[Interface Collection](#Interface Collection) 
+[Interface Map](#Interface Map) 
 
 # Java Collection Framework
 - __java.util.Collections__ - набор статических методов для работы с коллекциями.
