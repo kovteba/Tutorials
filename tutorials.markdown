@@ -1,1 +1,0 @@
-[Collection](/home/dima/Documents/IT/Tutorials/collection/collection.md)
