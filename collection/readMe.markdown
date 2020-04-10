@@ -1,4 +1,4 @@
-#Java Collection Framework
+# Java Collection Framework
 - __java.util.Collections__ - набор статических методов для работы с коллекциями.
 - __java.util.Collection__ - один из основных интерфейсов Java Collections Framework.
 
