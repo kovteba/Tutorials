@@ -235,7 +235,7 @@ System.out.println("s1 equals s3 ? "+(s1.equals(s3))); //true
 свойственного строке.
 
 ### Что такое «пул строк»?
-![](/home/dima/Documents/IT/Tutorials/core/img/String_Pool.png)  
+![](https://github.com/kovteba/Tutorials/blob/master/core/img/String_Pool.png)  
 __Пул строк__ – это набор строк хранящийся в `Heap`.  
 + Пул строк возможен благодаря неизменяемости строк в Java и реализации идеи интернирования строк;
 + Пул строк помогает экономить память, но по этой же причине создание строки занимает больше времени;
@@ -318,7 +318,7 @@ public static void main(Strinп... args) {}
 + `!=`: Не равно;
 + `?:`: Тернарный (троичный) условный оператор.
 
-![](/home/dima/Documents/IT/Tutorials/core/img/Logic.png)
+![](https://github.com/kovteba/Tutorials/blob/master/core/img/Logic.png)
 
 ## Что такое тернарный оператор выбора?
 Тернарный условный оператор `?:` - оператор, которым можно заменить некоторые конструкции операторов `if-then-else`.
