@@ -1,4 +1,5 @@
-+ ![icon][done] [Interface Collection].(# Interface Collection)
++ [Interface Collection](#Interface Collection) 
++ [Interface Map](#Interface Map) 
 
 # Java Collection Framework
 - __java.util.Collections__ - набор статических методов для работы с коллекциями.
@@ -16,7 +17,7 @@
 доработан с приходом дженериков в `Java 1.5`. Так же в версии `Java 8` было добавлено несколько новых метода для 
 работы с лямбдами (такие как `stream()`, `parallelStream()`, `removeIf(Predicate<? super E> filter)` и др.).
 
-#### Map
+#### Interface Map
 Данный интерфейс также находится в составе `JDK 1.2` и предоставляет разработчику базовые методы для работы с 
 данными вида «ключ — значение». Также как и Collection, он был дополнен дженериками в версии `Java 1.5`и 
 в версии `Java 8` появились дополнительные методы для работы с лямбдами, а также методы, которые зачастую 
