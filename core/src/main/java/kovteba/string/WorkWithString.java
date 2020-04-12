@@ -1,4 +1,4 @@
-package kovteba;
+package kovteba.string;
 
 import javax.swing.*;
 import java.util.Arrays;
