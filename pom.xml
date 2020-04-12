@@ -17,8 +17,8 @@
         <module>web</module>
         <module>my-sql</module>
         <module>postgresql</module>
-        <module>internationalization</module>
         <module>servlet</module>
+        <module>internationalization</module>
     </modules>
 
     <build>
@@ -42,12 +42,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.4.2</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
