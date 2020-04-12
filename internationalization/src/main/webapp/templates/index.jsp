@@ -10,6 +10,7 @@
     <title>PhraseApp - i18n</title>
 </head>
 <body>
+index.jsp templates
 <h2>
     <fmt:message key="farewell" />
 </h2>

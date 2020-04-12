@@ -21,7 +21,7 @@ public class WelcomeServlet extends HttpServlet {
 
 
         RequestDispatcher dispatcher = req.getRequestDispatcher(
-                "/index.jsp");
+                "/templates/index.jsp");
         dispatcher.forward(req, resp);
 
 
