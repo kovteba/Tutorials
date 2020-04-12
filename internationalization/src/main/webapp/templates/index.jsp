@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page isELIgnored="false" %>
 
-<fmt:setBundle basename="messages"/>
+<fmt:setBundle basename="MessagesBundle"/>
 
 <html>
 <head>
@@ -11,7 +11,7 @@
 </head>
 <body>
 <h2>
-    <fmt:message key="label.welcome" />
+    <fmt:message key="farewell" />
 </h2>
 </body>
 </html>
