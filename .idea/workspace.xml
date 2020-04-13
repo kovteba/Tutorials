@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="internationalization:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/internationalization_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/img/exception.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/internationalization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_de_DE.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_fr_FR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/example/I18NSample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/controller/WelcomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nDE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nFR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nUS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/classes/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_de_DE.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_fr_FR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/example/I18NSample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/NextPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/PreviousPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/WelcomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nDE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nFR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nUS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/ua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/usa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/nextPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/previousPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/logs/access_log.2020-04-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/index_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/nextPage_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/nextPage_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/previousPage_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/previousPage_jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-sql/my-sql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgresql/postgresql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet/servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1ZWcg4t87WFXoYb3yNWFnaXBNRg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/internationalization/src/main/webapp/img" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37483615" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="connection" />
+      <recent name="java.kovteba" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internationalization/src/main" />
+      <recent name="$PROJECT_DIR$/internationalization/src" />
+      <recent name="$PROJECT_DIR$/internationalization/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/internationalization" />
+      <recent name="$PROJECT_DIR$/internationalization/webapp/WEB-INF/jsp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/internationalization/src/main/webapp/img" />
+      <recent name="$PROJECT_DIR$/internationalization/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/internationalization/src/main/resources" />
+      <recent name="$PROJECT_DIR$/internationalization/src/main/java" />
+      <recent name="$PROJECT_DIR$/internationalization/webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.I18NSample">
+    <configuration name="AllStringCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.string.AllStringCombinations" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I18NSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.example.I18NSample" />
+      <module name="internationalization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+      <option name="MAIN_CLASS_NAME" value="kovteba.Palindrome" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.string.Password" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.string.WorkWithString" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Palindrome" />
+      <item itemvalue="Application.WorkWithString" />
+      <item itemvalue="Application.AllStringCombinations" />
+      <item itemvalue="Application.I18NSample" />
+      <item itemvalue="Application.Password" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.I18NSample" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.Password" />
+        <item itemvalue="Application.AllStringCombinations" />
+        <item itemvalue="Application.WorkWithString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="" />
+      <created>1584958399002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584958399002</updated>
+      <workItem from="1584958402296" duration="2235000" />
+      <workItem from="1586453727650" duration="12130000" />
+      <workItem from="1586501771730" duration="28992000" />
+      <workItem from="1586542103690" duration="1897000" />
+      <workItem from="1586586491733" duration="31765000" />
+      <workItem from="1586674395609" duration="31986000" />
+      <workItem from="1586711064230" duration="7678000" />
+      <workItem from="1586721403935" duration="1639000" />
+      <workItem from="1586755515273" duration="24258000" />
+      <workItem from="1586784606268" duration="6650000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1584960517802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584960517802</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add collection.markdown">
+      <created>1586510164355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510164355</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1586510303380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510303380</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1586510425126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510425126</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add link on Collection.markdown">
+      <created>1586510509189</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510509189</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add link on Collection.markdown">
+      <created>1586510700229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510700229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add link on Collection.markdown">
+      <created>1586510957526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510957526</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update README.markdown">
+      <created>1586511058909</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586511058909</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update README.markdown">
+      <created>1586511409563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586511409563</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update README.markdown">
+      <created>1586512651154</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586512651154</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modificate readMe.md core">
+      <created>1586535995928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586535995928</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update url for img">
+      <created>1586536311221</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586536311221</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update core module">
+      <created>1586602773532</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586602773532</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add messages.properties, MessagesBundle.properties, MessagesBundle_de_DE.properties, MessagesBundle_en_US.properties, MessagesBundle_fr_FR.properties">
+      <created>1586634539990</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586634539990</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add I18NSample.java">
+      <created>1586634591957</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586634591957</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add web directory">
+      <created>1586634627322</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586634627322</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update project">
+      <created>1586634663958</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586634663958</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add img directory with flag ua, ru, usa">
+      <created>1586676264959</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1586676264959</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add controller directory, add WelcomeServlet">
+      <created>1586676300762</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1586676300762</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update readMe.md core">
+      <created>1586704331606</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586704331606</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update project">
+      <created>1586704369998</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586704369998</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add exception directory with readMe.md">
+      <created>1586721464074</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586721464074</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add string directory">
+      <created>1586721492848</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586721492848</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update internationalization module">
+      <created>1586721551473</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1586721551473</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update project">
+      <created>1586721577105</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586721577105</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Change start page">
+      <created>1586721993895</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586721993895</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix module internalionation">
+      <created>1586787043805</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586787043805</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add img to internationalization">
+      <created>1586789831125</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586789831125</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update internationalization">
+      <created>1586791188431</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1586791188431</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit" />
+    <MESSAGE value="Add collection.markdown" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Add link on Collection.markdown" />
+    <MESSAGE value="update README.markdown" />
+    <MESSAGE value="Modificate readMe.md core" />
+    <MESSAGE value="Update url for img" />
+    <MESSAGE value="Update core module" />
+    <MESSAGE value="add messages.properties, MessagesBundle.properties, MessagesBundle_de_DE.properties, MessagesBundle_en_US.properties, MessagesBundle_fr_FR.properties" />
+    <MESSAGE value="Add I18NSample.java" />
+    <MESSAGE value="add web directory" />
+    <MESSAGE value="Add img directory with flag ua, ru, usa" />
+    <MESSAGE value="Add controller directory, add WelcomeServlet" />
+    <MESSAGE value="update readMe.md core" />
+    <MESSAGE value="Add exception directory with readMe.md" />
+    <MESSAGE value="Add string directory" />
+    <MESSAGE value="Update internationalization module" />
+    <MESSAGE value="update project" />
+    <MESSAGE value="Change start page" />
+    <MESSAGE value="fix module internalionation" />
+    <MESSAGE value="add img to internationalization" />
+    <MESSAGE value="update internationalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="update internationalization" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="201" width="800" height="684" key="#Intentions" timestamp="1586551122979">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="555" y="201" width="800" height="684" key="#Intentions/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586551122979" />
+    <state x="278" y="84" width="800" height="684" key="#Project_Structure" timestamp="1586683375448">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="530" y="1139" width="800" height="684" key="#Project_Structure/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1584958488236" />
+    <state x="278" y="84" key="#Project_Structure/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586683375448" />
+    <state x="568" y="325" width="404" height="239" key="#TomEE_Server" timestamp="1586716442597">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="568" y="325" width="404" height="239" key="#TomEE_Server/0.27.1366.741@0.27.1366.741" timestamp="1586716442597" />
+    <state x="536" y="279" width="407" height="239" key="#Tomcat_Server" timestamp="1586716648270">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="536" y="279" width="407" height="239" key="#Tomcat_Server/0.27.1366.741@0.27.1366.741" timestamp="1586716648270" />
+    <state x="395" y="165" width="761" height="567" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586718093210">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="395" y="165" width="761" height="567" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1586718093210" />
+    <state x="555" y="201" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960166788" />
+    <state x="395" y="165" width="761" height="529" key="#com.intellij.execution.impl.EditConfigurationsDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586518961090" />
+    <state x="730" y="347" width="449" height="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586509282800">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="730" y="347" width="449" height="393" key="#com.intellij.fileTypes.FileTypeChooser/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509282800" />
+    <state x="743" y="1189" width="374" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1586787163032">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state x="743" y="1189" width="374" height="584" key="#com.intellij.ide.util.MemberChooser/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586787163032" />
+    <state x="491" y="132" key="#com.intellij.ide.util.MemberChooser/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586708193960" />
+    <state x="531" y="121" width="479" height="647" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1586717126906">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="531" y="121" width="479" height="647" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.27.1366.741@0.27.1366.741" timestamp="1586717126906" />
+    <state x="415" y="342" width="515" height="182" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1586696906629">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="415" y="342" width="515" height="182" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586696906629" />
+    <state x="398" y="308" width="371" height="206" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1586696887419">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="398" y="308" width="371" height="206" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586696887419" />
+    <state x="668" y="1230" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586768536883">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state x="668" y="1230" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586768536883" />
+    <state x="714" y="382" width="482" height="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586509442391">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="714" y="382" width="482" height="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509442391" />
+    <state x="704" y="1107" width="743" height="741" key="CommitChangelistDialog2" timestamp="1586791188330">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state x="636" y="146" width="681" height="795" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586721576920" />
+    <state x="704" y="1107" width="743" height="741" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791188330" />
+    <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586704369799" />
+    <state x="1122" y="1203" width="424" height="513" key="FileChooserDialogImpl" timestamp="1586778230032">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state x="1223" y="298" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1848@0.0.1920.1848" timestamp="1586453773387" />
+    <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1586717153368" />
+    <state x="1223" y="174" width="424" height="652" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586599037719" />
+    <state x="1122" y="1203" width="424" height="513" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586778230032" />
+    <state x="769" y="146" width="597" height="469" key="FileChooserDialogImpl/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586701099342" />
+    <state x="847" y="443" width="225" height="201" key="Github.ShareDialog" timestamp="1584960621610">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
+    <state width="1324" height="247" key="GridCell.Tab.0.bottom" timestamp="1586791202301">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1324" height="247" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1586718118851" />
+    <state width="1878" height="325" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640659" />
+    <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791202301" />
+    <state width="1324" height="151" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586709303959" />
+    <state width="1324" height="247" key="GridCell.Tab.0.center" timestamp="1586791202300">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1324" height="247" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1586718118850" />
+    <state width="1878" height="325" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640658" />
+    <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791202300" />
+    <state width="1324" height="151" key="GridCell.Tab.0.center/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586709303958" />
+    <state width="1324" height="247" key="GridCell.Tab.0.left" timestamp="1586791202300">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1324" height="247" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1586718118850" />
+    <state width="1878" height="325" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640658" />
+    <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791202300" />
+    <state width="1324" height="151" key="GridCell.Tab.0.left/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586709303958" />
+    <state width="1324" height="247" key="GridCell.Tab.0.right" timestamp="1586791202300">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1324" height="247" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1586718118850" />
+    <state width="1878" height="325" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640659" />
+    <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791202300" />
+    <state width="1324" height="151" key="GridCell.Tab.0.right/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586709303958" />
+    <state width="216" height="452" key="HiddenNamespacesPopup" timestamp="1584960260429">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="216" height="452" key="HiddenNamespacesPopup/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960260429" />
+    <state x="3" y="27" width="1334" height="727" key="MergeDialog" timestamp="1586536053815">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="477" y="222" width="1092" height="651" key="MergeDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586511438136" />
+    <state x="3" y="27" width="1334" height="727" key="MergeDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586536053815" />
+    <state x="608" y="310" width="357" height="256" key="MultipleFileMergeDialog" timestamp="1586536053818">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="854" y="412" width="347" height="263" key="MultipleFileMergeDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586511438140" />
+    <state x="608" y="310" width="357" height="256" key="MultipleFileMergeDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586536053818" />
+    <state x="295" y="27" width="900" height="737" key="SettingsEditor" timestamp="1586716653370">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="703" y="0" width="947" height="1080" key="SettingsEditor/0.0.1920.1848@0.0.1920.1848" timestamp="1586454839260" />
+    <state x="295" y="27" width="900" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1586716653370" />
+    <state x="304" y="37" width="947" height="737" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512048874" />
+    <state x="468" y="1107" width="1024" height="741" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586513250054" />
+    <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586696914631" />
+    <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586791199333">
+      <screen x="252" y="1080" width="1366" height="768" />
+    </state>
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512660034" />
+    <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791199333" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586704423561" />
+    <state x="506" y="315" width="353" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586535758534">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="506" y="315" width="353" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586535758534" />
+    <state x="642" y="183" width="442" height="511" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584959739282">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="642" y="183" width="442" height="511" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584959739282" />
+    <state x="709" y="1210" width="442" height="542" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1584959411465" />
+    <state x="145" y="128" width="1148" height="473" key="new project wizard" timestamp="1586701101830">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="180" y="92" width="1627" height="869" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586454713943" />
+    <state x="128" y="64" width="1148" height="473" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1586461518274" />
+    <state x="397" y="1185" width="1157" height="592" key="new project wizard/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586513243565" />
+    <state x="145" y="128" width="1148" height="473" key="new project wizard/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586701101830" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586529375488">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586529375488" />
+  </component>
+</project>
