@@ -27,19 +27,18 @@
     <button type="submit">DE</button>
 </form>
 
-<h2><%=i18nValue%></h2>
-index.jsp templates
+<h2>i18nVlulue : <%=i18nValue%></h2>
 <h2>
     <fmt:message key="farewell" />
 </h2>
+<h2>
+    <fmt:message key="greetings" />
+</h2>
+<h2>
+    <fmt:message key="inquiry" />
+</h2>
 
-<form action="previousPage.jsp">
-    <button type="submit">Previous</button>
-</form>
 
-<form action="nextPage.jsp">
-    <button type="submit">Next</button>
-</form>
 
 
 </body>
