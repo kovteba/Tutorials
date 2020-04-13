@@ -16,17 +16,11 @@ import java.io.IOException;
 public class i18nFR extends HttpServlet {
 
     @Override
-    public void init() throws ServletException {
-        System.out.println("FR");
-    }
-
-    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         req.getSession().setAttribute("i18n", "MessagesBundle_fr_FR");
 
-        System.out.println("FR");
-
         resp.sendRedirect("");
+
     }
 }

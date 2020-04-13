@@ -15,18 +15,9 @@ import java.io.IOException;
 public class i18nUS extends HttpServlet {
 
     @Override
-    public void init() throws ServletException {
-        System.out.println("US");
-    }
-
-    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("USA");
-
         req.getSession().setAttribute("i18n", "MessagesBundle_en_US");
-
-        System.out.println("USA");
 
         resp.sendRedirect("");
 

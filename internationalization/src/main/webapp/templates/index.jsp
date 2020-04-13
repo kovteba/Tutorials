@@ -27,7 +27,7 @@
     <button type="submit">DE</button>
 </form>
 
-<h2>i18nVlulue : <%=i18nValue%></h2>
+<h1>i18nVlulue : <%=i18nValue%></h1>
 <h2>
     <fmt:message key="farewell" />
 </h2>
