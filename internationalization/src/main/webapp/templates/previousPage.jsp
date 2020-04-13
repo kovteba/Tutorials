@@ -6,10 +6,20 @@
 <%@ page isELIgnored="false" %>
 
 <%
-    String i18nValue = (String) request.getSession().getAttribute("i18n");
+    String i18nValue = "MessagesBundle_en_US";
+    Cookie[] cookies = request.getCookies();
+    for (Cookie cookie : cookies) {
+        if ((cookie == null) || (cookie.getName() == null)) {
+            continue;
+        }
+        if (cookie.getName().equals("i18n")) {
+            i18nValue = cookie.getValue();
+        }
+    }
 %>
 
 <fmt:setBundle basename="<%=i18nValue%>"/>
+
 
 <html>
 <body>
@@ -17,13 +27,13 @@
     <title>PhraseApp - i18n</title>
 </head>
 
-<form action="us" method="post">
+<form action="internationalization/us" method="post">
     <button type="submit">USA</button>
 </form>
-<form action="fr" method="post">
+<form action="internationalization/fr" method="post">
     <button type="submit">FR</button>
 </form>
-<form action="de" method="post">
+<form action="internationalization/de" method="post">
     <button type="submit">DE</button>
 </form>
 
@@ -40,8 +50,6 @@ index.jsp templates
 <form action="nextPage.jsp">
     <button type="submit">Next</button>
 </form>
-
-
 </body>
 
 </html>
