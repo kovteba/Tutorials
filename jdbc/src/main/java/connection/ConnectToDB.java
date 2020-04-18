@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 public class ConnectToDB {
 
-    private static final Logger LOG = Logger.getLogger(Connect.class.getName());
+    private static final Logger LOG = Logger.getLogger(ConnectToDB.class.getName());
 
     // JDBC URL, username and password of MySQL server
     private static final String URL_DB = "jdbc:mysql://localhost:3306/motordeport";

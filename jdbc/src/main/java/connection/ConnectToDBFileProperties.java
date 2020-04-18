@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 public class ConnectToDBFileProperties {
 
-    private static final Logger LOG = Logger.getLogger(Connect.class.getName());
+    private static final Logger LOG = Logger.getLogger(ConnectToDBFileProperties.class.getName());
 
     private static final Properties PROPERTIES = new Properties();
 
@@ -17,7 +17,7 @@ public class ConnectToDBFileProperties {
         try {
 
             FileInputStream fileWithPropertiesForDB
-                    = new FileInputStream("jdbc/src/main/resources/config.db.properties");
+                    = new FileInputStream("/home/dima/Documents/IT/Tutorials/jdbc/src/main/resources/config.db.properties");
 
             PROPERTIES.load(fileWithPropertiesForDB);
             String url = PROPERTIES.getProperty("db.url");
