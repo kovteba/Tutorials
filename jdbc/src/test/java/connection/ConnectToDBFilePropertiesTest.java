@@ -4,12 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
 
-class ConnectToDBTest {
+import static org.junit.jupiter.api.Assertions.*;
+
+class ConnectToDBFilePropertiesTest {
 
     private static final Connection CONNECT_TO_DB;
 
     static {
-        CONNECT_TO_DB = ConnectToDB.connect();
+        CONNECT_TO_DB = ConnectToDBFileProperties.connect();
     }
 
     @Test
