@@ -2,25 +2,34 @@ package connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.util.logging.Logger;
 
 public class ConnectToDB {
 
+    private static final Logger LOG = Logger.getLogger(Connect.class.getName());
+
     // JDBC URL, username and password of MySQL server
-    private static final String url = "jdbc:mysql://localhost:3306/motordeport";
-    private static final String user = "root";
-    private static final String password = "root!";
+    private static final String URL_DB = "jdbc:mysql://localhost:3306/motordeport";
+    private static final String USER = "root";
+    private static final String PASSWORD = "root";
+    private static final String SERVER_TIMEZONE_UTC = "serverTimezone=UTC";
 
     public static Connection connect() {
+
         try {
-            Connection connection = DriverManager.getConnection(url, user, password);
-            System.out.println("Connection to Store DB succesfull!");
+
+            String url = URL_DB + "?" + SERVER_TIMEZONE_UTC;
+
+            Connection connection = DriverManager.getConnection(url, USER, PASSWORD);
+
+            LOG.info("Connection to Store DB successfully!");
+
             return connection;
+
         } catch (Exception ex) {
-            System.out.println("Connection failed...");
-            System.out.println(ex);
+            LOG.warning("Connection failed..." + ex);
         }
+
         return null;
     }
 
