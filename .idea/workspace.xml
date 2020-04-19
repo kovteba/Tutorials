@@ -7,30 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classdesign/Example12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +185,7 @@
       <workItem from="1587157102821" duration="646000" />
       <workItem from="1587188786530" duration="9353000" />
       <workItem from="1587231419855" duration="15000" />
-      <workItem from="1587286462507" duration="15078000" />
+      <workItem from="1587286462507" duration="15464000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1584960517802</created>
@@ -448,14 +425,20 @@
       <option name="project" value="LOCAL" />
       <updated>1587196746855</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Update">
+      <created>1587306665947</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1587306665947</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="Add link on Collection.markdown" />
     <MESSAGE value="update README.markdown" />
     <MESSAGE value="Modificate readMe.md core" />
@@ -480,7 +463,8 @@
     <MESSAGE value="Add ConnectToDBFileProperties" />
     <MESSAGE value="Add test connect" />
     <MESSAGE value="Update connect class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update connect class" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="201" width="800" height="684" key="#Intentions" timestamp="1586551122979">
@@ -541,12 +525,12 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="714" y="382" width="482" height="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509442391" />
-    <state x="452" y="127" width="743" height="741" key="CommitChangelistDialog2" timestamp="1587196746680">
+    <state x="452" y="127" width="743" height="741" key="CommitChangelistDialog2" timestamp="1587306664496">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="636" y="146" width="681" height="795" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586721576920" />
     <state x="704" y="1107" width="743" height="741" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791272428" />
-    <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587196746680" />
+    <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587306664496" />
     <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl" timestamp="1587199861785">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -610,12 +594,12 @@
     <state x="304" y="37" width="947" height="737" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512048874" />
     <state x="468" y="1107" width="1024" height="741" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189049147" />
     <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586696914631" />
-    <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1586791297823">
-      <screen x="252" y="1080" width="1366" height="768" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587306677651">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512660034" />
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
-    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586704423561" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587306677651" />
     <state x="506" y="315" width="353" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586535758534">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
