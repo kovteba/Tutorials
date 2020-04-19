@@ -1,6 +1,5 @@
 ## Exception
-![](https://github.com/kovteba/Tutorials/blob/master/core/img/exception.png)
-![](/home/dima/Documents/IT/Tutorials/core/img/exception.png)
+![](img/exception.png)
 
 __Исключение__ - это нештатная ситуация, ошибка во время выполнения программы. Самый простой пример - деление на ноль. 
 Можно вручную отслеживать возникновение подобных ошибок, а можно воспользоваться специальным механизмом исключений, 
