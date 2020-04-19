@@ -17,8 +17,7 @@ __Сервлет__ является интерфейсом, реализация
 
 Текущая спецификация - Servlet 3.1 описана в JSR-340 и принята в 2013 году.
 
-![Explain](/home/dima/Documents/IT/Tutorials/servlet/img/servlet.png)
-![Explain](https://github.com/kovteba/Tutorials/blob/master/servlet/img/servlet.png)
+![Explain](img/servlet.png)
 
 ## В чем заключаются преимущества технологии сервлетов над CGI (Common Gateway Interface)?
 + Сервлеты предоставляют лучшую производительность обработки запросов и более эффективное использование памяти за счет 

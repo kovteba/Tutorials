@@ -2,4 +2,6 @@
 + [Colletcion](collection)
 + [Java core](core)
     + [Exception](core/src/main/java/kovteba/exception)
-+ [JDBC API](jdbc)
++ [JDBC](jdbc)
++ [Servlet](servlet)
++ [WEB](web)
