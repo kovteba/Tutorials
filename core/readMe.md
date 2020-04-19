@@ -53,8 +53,7 @@ Sun Microsystems Java platform в 1995 году. Этот и год и счит�
 + Boolean (boolean)
 + String
 
-![](https://github.com/kovteba/Tutorials/blob/master/core/img/cast-type.png)  
-![](/home/dima/Documents/IT/Tutorials/core/img/cast-type.png)  
+![Cast](img/cast-type.png)  
 
 ## Byte 
 - `8 bit.	min: -128 max: 127`
