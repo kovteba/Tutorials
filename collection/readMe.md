@@ -20,7 +20,7 @@
 в версии `Java 8` появились дополнительные методы для работы с лямбдами, а также методы, которые зачастую 
 реализовались в логике приложения (`getOrDefault(Object key, V defaultValue)`, `putIfAbsent(K key, V value)`).
 
-![](/home/dima/Documents/IT/Tutorials/collection/img/Screenshot from 2020-04-10 13-33-40.png)
+![BigONotation](img/BigONotation.png)
 
 ## **Интерфейс "Collection" расширяют интерфейсы:**
 + __Interface List__ Реализации:

@@ -274,8 +274,7 @@ System.out.println("s1 equals s3 ? "+(s1.equals(s3))); //true
 Можно также попробовать устаревший `@deprecated` метод `getText()`. 
 
 ### Что такое «пул строк»?
-![](https://github.com/kovteba/Tutorials/blob/master/core/img/String_Pool.png)  
-![](/home/dima/Documents/IT/Tutorials/core/img/String_Pool.png)  
+![String Pool](img/String_Pool.png)  
 __Пул строк__ – это набор строк хранящийся в `Heap`.  
 + Пул строк возможен благодаря неизменяемости строк в Java и реализации идеи интернирования строк;
 + Пул строк помогает экономить память, но по этой же причине создание строки занимает больше времени;
@@ -358,8 +357,7 @@ public static void main(Strinп... args) {}
 + `!=`: Не равно;
 + `?:`: Тернарный (троичный) условный оператор.
 
-![](https://github.com/kovteba/Tutorials/blob/master/core/img/Logic.png)
-![](/home/dima/Documents/IT/Tutorials/core/img/Logic.png)
+![Logic](img/Logic.png)
 
 ## Что такое тернарный оператор выбора?
 Тернарный условный оператор `?:` - оператор, которым можно заменить некоторые конструкции операторов `if-then-else`.
@@ -978,10 +976,8 @@ __Assert__ (Утверждение) — это специальная конст
 
 ## Что такое _Heap_ и _Stack_ память в Java? Какая разница между ними?
 
-![model heap](/home/dima/Documents/IT/Tutorials/core/img/memory_model.jpg)
-![model heap](https://github.com/kovteba/Tutorials/blob/master/core/img/memory_model.jpg)
-![Explain](/home/dima/Documents/IT/Tutorials/core/img/explain_memory_model.png)
-![Explain](https://github.com/kovteba/Tutorials/blob/master/core/img/explain_memory_model.png)
+![model heap](img/memory_model.jpg)
+![Explain](img/explain_memory_model.png)
 
 __Heap (куча)__ используется `Java Runtime` для выделения памяти под объекты и классы. Создание нового объекта также 
 происходит в куче. Это же является областью работы сборщика мусора. Любой объект, созданный в куче, имеет глобальный 
@@ -1134,10 +1130,8 @@ Java HotSpot VM предоставляет разработчикам на вы�
 __Последовательный сборщик мусора__ - был одним из первых сборщиков мусора в HotSpot VM. Во время работы этого сборщика 
 приложения приостанавливается и продолжает работать только после прекращение сборки мусора. 
 
-![model heap](/home/dima/Documents/IT/Tutorials/core/img/memory_model.jpg)
-![model heap](https://github.com/kovteba/Tutorials/blob/master/core/img/memory_model.jpg)
-![Explain](/home/dima/Documents/IT/Tutorials/core/img/explain_memory_model.png)
-![Explain](https://github.com/kovteba/Tutorials/blob/master/core/img/explain_memory_model.png)
+![model heap](img/memory_model.jpg)
+![Explain](img/explain_memory_model.png)
 
 Память приложения делится на три пространства:
 + _Young generation_. Объекты создаются именно в этом участке памяти.
