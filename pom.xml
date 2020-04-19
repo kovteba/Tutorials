@@ -13,7 +13,7 @@
         <module>stream</module>
         <module>jdbc</module>
         <module>core</module>
-        <module>collection</module>
+        <module>java-collections-framework</module>
         <module>web</module>
         <module>my-sql</module>
         <module>postgresql</module>

@@ -7,25 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classlinkedlist/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classstack/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classvector/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacequeue/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfaceset/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacemap/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/classarraydeque/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/classpriorityqueue/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classhashset/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classlinkedhashset/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classtreeset/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/collection/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/classdesign/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/classdesign/Main12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/classdesign/Outher$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/classdesign/Outher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/collection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/java-collections-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/img/BigONotation.png" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/img/BigONotation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classlinkedlist/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classlinkedlist/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classstack/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classstack/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/classvector/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classvector/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacelist/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfacequeue/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/interfaceset/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacecollection/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/src/main/java/kovteba/interfacemap/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +209,7 @@
       <workItem from="1587157102821" duration="646000" />
       <workItem from="1587188786530" duration="9353000" />
       <workItem from="1587231419855" duration="15000" />
-      <workItem from="1587286462507" duration="20355000" />
+      <workItem from="1587286462507" duration="21904000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1584960517802</created>
@@ -506,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587310485772</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update">
+      <created>1587311924042</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1587311924042</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,12 +616,12 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="714" y="382" width="482" height="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509442391" />
-    <state x="452" y="127" width="743" height="741" key="CommitChangelistDialog2" timestamp="1587310485511">
+    <state x="452" y="127" width="743" height="741" key="CommitChangelistDialog2" timestamp="1587311923879">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="636" y="146" width="681" height="795" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586721576920" />
     <state x="704" y="1107" width="743" height="741" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791272428" />
-    <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587310485511" />
+    <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587311923879" />
     <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl" timestamp="1587199861785">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -664,20 +677,20 @@
     </state>
     <state x="854" y="412" width="347" height="263" key="MultipleFileMergeDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586511438140" />
     <state x="608" y="310" width="357" height="256" key="MultipleFileMergeDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586536053818" />
-    <state x="468" y="1107" width="900" height="741" key="SettingsEditor" timestamp="1587189049147">
-      <screen x="252" y="1080" width="1366" height="768" />
+    <state x="293" y="27" width="900" height="741" key="SettingsEditor" timestamp="1587312938421">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="703" y="0" width="947" height="1080" key="SettingsEditor/0.0.1920.1848@0.0.1920.1848" timestamp="1586454839260" />
     <state x="295" y="27" width="900" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1587157133682" />
     <state x="304" y="37" width="947" height="737" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512048874" />
     <state x="468" y="1107" width="1024" height="741" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189049147" />
-    <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586696914631" />
-    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587310493030">
+    <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587312938421" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587311931185">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512660034" />
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
-    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587310493030" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587311931185" />
     <state x="506" y="315" width="353" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586535758534">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -695,6 +708,10 @@
     <state x="128" y="64" width="1148" height="473" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1586461518274" />
     <state x="397" y="1185" width="1157" height="592" key="new project wizard/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189040394" />
     <state x="145" y="128" width="1148" height="473" key="new project wizard/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586701101830" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1587313382183">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587313382183" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586529375488">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

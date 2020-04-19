@@ -4,6 +4,14 @@
         + [Class LinkedList](src/main/java/kovteba/interfacecollection/interfacelist/classlinkedlist)
         + [Class Stack](src/main/java/kovteba/interfacecollection/interfacelist/classstack)
         + [Class Vector](src/main/java/kovteba/interfacecollection/interfacelist/classvector)
+    + [Interface Set](src/main/java/kovteba/interfacecollection/interfaceset)
+        + [Class HashSet](src/main/java/kovteba/interfacecollection/interfaceset/classhashset)
+        + [Class LinkedHashSet](src/main/java/kovteba/interfacecollection/interfaceset/classlinkedhashset)
+        + [Class TreeSet](src/main/java/kovteba/interfacecollection/interfaceset/classtreeset)
+    + [Interface Queue](src/main/java/kovteba/interfacecollection/interfacequeue)
+        + [Class ArrayDeque](src/main/java/kovteba/interfacecollection/interfacequeue/classarraydeque)
+        + [Class PriorityQueue](src/main/java/kovteba/interfacecollection/interfacequeue/classpriorityqueue)
++ [Interface Map](src/main/java/kovteba/interfacemap)
         
         
 # Java Collection Framework
@@ -46,74 +54,17 @@
     + __PriorityQueue__ 
     + __ArrayDeque__ 
     
-
-    
-
-
-
-
-
-
-
-
-
-
-
-## Interface Set 
-- представляет набор уникальных элементов
-- описывает неупорядоченную коллекцию
-
-### Class HashSet
-- использует HashMap для хранения данных
-- порядок элементов не гарантируется при добавлении.
-- Class HashSet представляет хеш-таблицу. Он наследует свой функционал от`Class AbstractSet`, а также реализует `Interface Set`.
-- Class HashSet не добавляет новых методов, реализуя лишь те, что объявлены в родительских классах и применяемых интерфейсах.
-
-Хеш-таблица представляет такую структуру данных, в которой все объекты имеют уникальный ключ или хеш-код. 
-Данный ключ позволяет уникально идентифицировать объект в таблице.
-
-Для создания объекта __HashSet__ можно воспользоваться одним из следующих конструкторов:
-- __HashSet()__: создает пустой список
-- __HashSet(Collection<? extends E> col)__: создает хеш-таблицу, в которую добавляет все элементы коллекции `col`
-- __HashSet(int capacity)__: параметр `capacity` указывает начальную емкость таблицы, которая по умолчанию равна `16`
-- __HashSet(int capacity, float koef)__: параметр `koef` или коэффициент заполнения, значение которого должно быть 
-    в пределах от 0.0 до 1.0, указывает, насколько должна быть заполнена емкость объектами прежде чем произойдет 
-    ее расширение. Например, коэффициент 0.75 указывает, что при заполнении емкости на 3/4 произойдет ее расширение.
-
-### Class LinkedHashSet
-- Класс __LinkedHashSet__ расширяет __HashSet__, не добавляя никаких новых методов.
-- __LinkedHashSet__ поддерживает связный список элементов набора в том порядке, в котором они вставлялись. 
-Это позволяет организовать упорядоченную итерацию вставки в набор.
-
-### Class TreeSet
-- предоставляет возможность управлять порядком элементов в коллекции при помощи объекта `Comparator`, либо сохраняет 
-    элементы с использованием __«natural ordering»__.
-
-
-
-
-
-## Interface Queue 
-- предназначена для хранения элементов с предопределённым способом вставки и извлечения __FIFO (first-in-first-out)__
-
-### Class PriorityQueue
-- предоставляет возможность управлять порядком элементов в коллекции при помощи объекта `Comparator`, 
-    либо сохраняет элементы с использованием __«natural ordering»__.
-
-### Class ArrayDeque
-- реализация `Interface Deque`, который расширяет `Interface Queue` методами, позволяющими реализовать конструкцию 
-    вида __LIFO (last-in-first-out)__.
-
-
-
-
-
 ## Interface "Map" реализован классами:
 + __Hashtable__
 + __HashMap__
 + __LinkedHashMap__
 + __TreeMap__ 
 + __WeakHashMap__
+    
+
+
+
+
 
 ### Class Hashtable 
 Реализация такой структуры данных, как хэш-таблица. Она не позволяет использовать `null` в качестве значения или 

@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
         <module name="algorithms" />
+        <module name="java-collections-framework" />
         <module name="my-sql" />
         <module name="stream" />
         <module name="core" />
         <module name="servlet" />
         <module name="postgresql" />
         <module name="jdbc" />
-        <module name="collection" />
         <module name="internationalization" />
       </profile>
     </annotationProcessing>
