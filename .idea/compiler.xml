@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
+        <module name="design-patterns" />
         <module name="algorithms" />
         <module name="java-collections-framework" />
         <module name="my-sql" />
@@ -15,6 +16,7 @@
         <module name="servlet" />
         <module name="postgresql" />
         <module name="jdbc" />
+        <module name="concurrency" />
         <module name="internationalization" />
       </profile>
     </annotationProcessing>

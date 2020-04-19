@@ -20,6 +20,8 @@
         <module>servlet</module>
         <module>internationalization</module>
         <module>algorithms</module>
+        <module>concurrency</module>
+        <module>design-patterns</module>
     </modules>
 
     <build>
