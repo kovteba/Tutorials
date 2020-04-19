@@ -270,3 +270,16 @@ class Main {
 }
 ```
 __RESULT:__ compile error
+
+## Test12
+```java
+public static void main(String[] args) {
+    boolean b = false;
+    if (b == false)
+        if (b = false)
+            System.out.println("1");
+        else
+            System.out.println("2");
+}
+```
+__RESULT:__ 2
