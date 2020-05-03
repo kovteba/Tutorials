@@ -5,11 +5,215 @@
       <artifact name="internationalization:Web exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/img/Priority.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/img/javadoc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/img/shellclasses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/enumexample/Seasons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/enumexample/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/img/explain_memory_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/img/memory_model.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/img/Anonimusclass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/img/innerclass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/img/nested-class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/img/staicnested.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/img/interface-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-persistence-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-persistence-api/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/internationalization_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/internationalization_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorials.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/algorithms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/concurrency.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/img/Logic.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/Logic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/img/cast-type.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/cast-type.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/img/explain_memory_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/explain_memory_model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/img/memory_model.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/memory_model.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img/exception.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img/exception.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/string/AllStringCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/string/AllStringCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/string/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/string/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/string/WorkWithString.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/string/WorkWithString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/string/img/String_Pool.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/string/img/String_Pool.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/string/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/string/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/design-patterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/internationalization.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/example/I18NSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/example/I18NSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/controller/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/controller/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nDE.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nDE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nFR.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nFR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nUS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_de_DE.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_de_DE.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_fr_FR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_fr_FR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/src/main/webapp/templates/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/src/main/webapp/templates/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_de_DE.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_de_DE.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_fr_FR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/MessagesBundle_fr_FR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/kovteba/example/I18NSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/example/I18NSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/controller/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/controller/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nDE.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nDE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nFR.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nFR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nUS.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/kovteba/jspservlet/i18n/i18nUS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_de_DE.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_de_DE.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_fr_FR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/MessagesBundle_fr_FR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/example/I18NSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/example/I18NSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/NextPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/NextPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/PreviousPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/PreviousPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/controller/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nDE.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nDE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nFR.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nFR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nUS.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/kovteba/jspservlet/i18n/i18nUS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/ru.png" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/ru.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/ua.png" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/ua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/usa.png" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/img/usa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/nextPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/nextPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/previousPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/templates/previousPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/logs/access_log.2020-04-13" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/logs/access_log.2020-04-13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/nextPage_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/nextPage_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/nextPage_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/nextPage_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/previousPage_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/previousPage_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/previousPage_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/internationalization/target/tomcat/work/Tomcat/localhost/internationalization/org/apache/jsp/templates/previousPage_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/img/BigONotation.png" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/img/BigONotation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/java-collections-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/java-collections-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/img/Array_copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/img/Array_copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/img/rerecocd_value.png" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/img/rerecocd_value.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classlinkedlist/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classlinkedlist/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classstack/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classstack/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classvector/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classvector/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/classpriorityqueue/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/classpriorityqueue/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/interfacedeque/classarraydeque/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/interfacedeque/classarraydeque/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/interfacedeque/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/interfacedeque/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classhashset/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classhashset/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classlinkedhashset/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classlinkedhashset/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classtreeset/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/classtreeset/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfaceset/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classhashmap/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classhashmap/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classhashtable/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classhashtable/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classlinkedhashmap/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classlinkedhashmap/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classtreemap/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classtreemap/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classweakhashmap/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/classweakhashmap/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/src/main/java/connection/ConnectToDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/src/main/java/connection/ConnectToDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/src/main/java/connection/ConnectToDBFileProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/src/main/java/connection/ConnectToDBFileProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/src/main/resources/config.db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/src/main/resources/config.db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/src/test/java/connection/ConnectToDBFilePropertiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/src/test/java/connection/ConnectToDBFilePropertiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/src/test/java/connection/ConnectToDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/src/test/java/connection/ConnectToDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/META-INF/jdbc.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/target/classes/META-INF/jdbc.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/config.db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/target/classes/config.db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/connection/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/target/classes/connection/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/connection/ConnectToDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/target/classes/connection/ConnectToDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/connection/ConnectToDBFileProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/target/classes/connection/ConnectToDBFileProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/test-classes/connection/ConnectToDBFilePropertiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/target/test-classes/connection/ConnectToDBFilePropertiesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/test-classes/connection/ConnectToDBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/target/test-classes/connection/ConnectToDBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-sql/my-sql.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql/postgresql.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/img/servlet.png" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/img/servlet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stream/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/stream/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/src/main/java/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/src/main/java/Exapmle1.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/Exapmle1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +226,7 @@
         <option value="HTML File" />
         <option value="Jsp File" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +254,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A-Level/JavaHub" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37483615" />
@@ -72,29 +277,16 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacelist/classarraylist/img" />
-      <recent name="$PROJECT_DIR$/collection/src/main/java/interfacecollection/interfacelist/classvector" />
-      <recent name="$PROJECT_DIR$/collection/src/main/java/interfacecollection/interfacelist/classstack" />
-      <recent name="$PROJECT_DIR$/collection/src/main/java/interfacecollection/interfacelist/classlinkedlist" />
-      <recent name="$PROJECT_DIR$/collection/src/main/java/interfacecollection/interfacelist/classarraylist" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/img" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/img" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba" />
+      <recent name="$PROJECT_DIR$/core/img" />
+      <recent name="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/img" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.classdesign.Main" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kovteba.classdesign.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.classdesign.Main12" />
+  <component name="RunManager" selected="Application.Test42">
+    <configuration name="Test24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test24" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test1" />
+    <configuration name="Test25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test25" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +311,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test2" />
+    <configuration name="Test31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test31" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +324,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test3" />
+    <configuration name="Test36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test36" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test42" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
@@ -146,19 +351,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main12" />
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.Test3" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test24" />
+      <item itemvalue="Application.Test25" />
+      <item itemvalue="Application.Test31" />
+      <item itemvalue="Application.Test36" />
+      <item itemvalue="Application.Test42" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Main12" />
+        <item itemvalue="Application.Test42" />
+        <item itemvalue="Application.Test36" />
+        <item itemvalue="Application.Test31" />
+        <item itemvalue="Application.Test25" />
+        <item itemvalue="Application.Test24" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +392,14 @@
       <workItem from="1587157102821" duration="646000" />
       <workItem from="1587188786530" duration="9353000" />
       <workItem from="1587231419855" duration="15000" />
-      <workItem from="1587286462507" duration="34759000" />
+      <workItem from="1587286462507" duration="35030000" />
+      <workItem from="1587369206870" duration="4454000" />
+      <workItem from="1587449489143" duration="7419000" />
+      <workItem from="1587460392378" duration="7952000" />
+      <workItem from="1588139680050" duration="1012000" />
+      <workItem from="1588349140715" duration="3997000" />
+      <workItem from="1588398645557" duration="25040000" />
+      <workItem from="1588482940260" duration="25241000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1584960517802</created>
@@ -518,11 +730,30 @@
       <option name="project" value="LOCAL" />
       <updated>1587327944280</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update">
+      <created>1587333137576</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1587333137576</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modificate readMe.md core" />
@@ -581,10 +812,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="730" y="347" width="449" height="393" key="#com.intellij.fileTypes.FileTypeChooser/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509282800" />
-    <state x="743" y="1189" width="374" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1586787163032">
-      <screen x="252" y="1080" width="1366" height="768" />
+    <state x="491" y="132" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1588437813429">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="743" y="1189" width="374" height="584" key="#com.intellij.ide.util.MemberChooser/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586787163032" />
+    <state x="491" y="132" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1588437813429" />
+    <state x="743" y="1189" width="374" height="584" key="#com.intellij.ide.util.MemberChooser/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587455870787" />
     <state x="491" y="132" key="#com.intellij.ide.util.MemberChooser/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586708193960" />
     <state x="531" y="121" width="479" height="647" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1586717126906">
       <screen x="0" y="27" width="1366" height="741" />
@@ -602,10 +834,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="501" y="328" width="865" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587327541398" />
-    <state x="769" y="1224" width="322" height="514" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587289475419">
-      <screen x="252" y="1080" width="1366" height="768" />
+    <state x="517" y="27" width="567" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588519264779">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="769" y="1224" width="322" height="514" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587289475419" />
+    <state x="517" y="27" width="567" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519264779" />
     <state x="416" y="172" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587196239115">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -615,52 +848,61 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="714" y="382" width="482" height="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509442391" />
-    <state x="452" y="127" width="743" height="741" key="CommitChangelistDialog2" timestamp="1587327944161">
+    <state x="452" y="127" width="743" height="741" key="CommitChangelistDialog2" timestamp="1587333137465">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="636" y="146" width="681" height="795" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586721576920" />
     <state x="704" y="1107" width="743" height="741" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791272428" />
-    <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587327944161" />
-    <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl" timestamp="1587199861785">
+    <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333137465" />
+    <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl" timestamp="1588508774417">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="1223" y="298" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1848@0.0.1920.1848" timestamp="1586453773387" />
-    <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1586717153368" />
+    <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1588438190650" />
     <state x="1223" y="174" width="424" height="652" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586599037719" />
-    <state x="1122" y="1203" width="424" height="513" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791371444" />
-    <state x="769" y="146" width="597" height="469" key="FileChooserDialogImpl/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587199861785" />
+    <state x="1122" y="1203" width="424" height="513" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1588141516528" />
+    <state x="769" y="146" width="597" height="469" key="FileChooserDialogImpl/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587370843365" />
+    <state x="769" y="146" key="FileChooserDialogImpl/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588508774417" />
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog" timestamp="1584960621610">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
-    <state width="1324" height="247" key="GridCell.Tab.0.bottom" timestamp="1587311285837">
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1588519199479">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="247" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1586718118851" />
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1588446344653" />
     <state width="1878" height="325" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640659" />
-    <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587293900654" />
-    <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587311285837" />
-    <state width="1324" height="247" key="GridCell.Tab.0.center" timestamp="1587311285836">
+    <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
+    <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199479" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1588519199479">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="247" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1586718118850" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1588446344652" />
     <state width="1878" height="325" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640658" />
-    <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587293900654" />
-    <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587311285836" />
-    <state width="1324" height="247" key="GridCell.Tab.0.left" timestamp="1587311285836">
+    <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
+    <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199479" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1588519199478">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="247" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1586718118850" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1588446344651" />
     <state width="1878" height="325" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640658" />
-    <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587293900654" />
-    <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587311285836" />
-    <state width="1324" height="247" key="GridCell.Tab.0.right" timestamp="1587311285837">
+    <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
+    <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199478" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1588519199479">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1324" height="247" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1586718118850" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1588446344653" />
     <state width="1878" height="325" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640659" />
-    <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587293900654" />
-    <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587311285837" />
+    <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
+    <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199479" />
     <state width="154" height="322" key="HiddenNamespacesPopup" timestamp="1587190493550">
       <screen x="252" y="1080" width="1366" height="768" />
     </state>
@@ -676,44 +918,46 @@
     </state>
     <state x="854" y="412" width="347" height="263" key="MultipleFileMergeDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586511438140" />
     <state x="608" y="310" width="357" height="256" key="MultipleFileMergeDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586536053818" />
-    <state x="293" y="27" width="900" height="741" key="SettingsEditor" timestamp="1587324781932">
+    <state x="293" y="27" width="900" height="741" key="SettingsEditor" timestamp="1587371859234">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="703" y="0" width="947" height="1080" key="SettingsEditor/0.0.1920.1848@0.0.1920.1848" timestamp="1586454839260" />
     <state x="295" y="27" width="900" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1587157133682" />
     <state x="304" y="37" width="947" height="737" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512048874" />
     <state x="468" y="1107" width="1024" height="741" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189049147" />
-    <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587324781932" />
-    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587327954608">
+    <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587371859234" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587333146531">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512660034" />
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
-    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587327954608" />
-    <state x="506" y="315" width="353" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586535758534">
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333146531" />
+    <state x="506" y="315" width="336" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588519185415">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="506" y="315" width="353" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586535758534" />
+    <state x="506" y="315" width="336" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519185415" />
     <state x="457" y="153" width="442" height="511" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587196173417">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="642" y="183" width="442" height="511" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584959739282" />
     <state x="709" y="1210" width="442" height="542" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1584959411465" />
     <state x="457" y="153" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587196173417" />
-    <state x="145" y="128" width="1148" height="473" key="new project wizard" timestamp="1587324776742">
+    <state x="145" y="128" width="1148" height="473" key="new project wizard" timestamp="1587371853946">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="180" y="92" width="1627" height="869" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586454713943" />
     <state x="128" y="64" width="1148" height="473" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1586461518274" />
     <state x="397" y="1185" width="1157" height="592" key="new project wizard/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189040394" />
-    <state x="145" y="128" width="1148" height="473" key="new project wizard/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587324776742" />
+    <state x="145" y="128" width="1148" height="473" key="new project wizard/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587371853946" />
     <state x="347" y="174" key="run.anything.popup" timestamp="1587313382183">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="174" key="run.anything.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587313382183" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586529375488">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588411605436">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1588411605436" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586529375488" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

@@ -1,3 +1,5 @@
+# Java Collection Framework
+
 + [Interface Collection](src/main/java/kovteba/interfacecollection)
     + [Interface List](src/main/java/kovteba/interfacecollection/interfacelist)
         + [Class ArrayList](src/main/java/kovteba/interfacecollection/interfacelist/classarraylist)
@@ -9,7 +11,8 @@
         + [Class LinkedHashSet](src/main/java/kovteba/interfacecollection/interfaceset/classlinkedhashset)
         + [Class TreeSet](src/main/java/kovteba/interfacecollection/interfaceset/classtreeset)
     + [Interface Queue](src/main/java/kovteba/interfacecollection/interfacequeue)
-        + [Class ArrayDeque](src/main/java/kovteba/interfacecollection/interfacequeue/interfacedeque/classarraydeque)
+        + [Interface Deque](src/main/java/kovteba/interfacecollection/interfacequeue/interfacedeque)
+            + [Class ArrayDeque](src/main/java/kovteba/interfacecollection/interfacequeue/interfacedeque/classarraydeque)
         + [Class PriorityQueue](src/main/java/kovteba/interfacecollection/interfacequeue/classpriorityqueue)
 + [Interface Map](src/main/java/kovteba/interfacemap)
     + [Class HashMap](src/main/java/kovteba/interfacemap/classhashmap)
@@ -18,8 +21,12 @@
     + [Class TreeMap](src/main/java/kovteba/interfacemap/classtreemap)
     + [Class WeakHashMap](src/main/java/kovteba/interfacemap/classweakhashmap)
 
-        
-# Java Collection Framework
+## Java Collection Framework
+
+__Java Collection Framework__ — иерархия интерфейсов и их реализаций, которая является частью `JDK` и позволяет 
+разработчику пользоваться большим количесвом структур данных из «коробки».        
+
+
 - __java.util.Collections__ - набор статических методов для работы с коллекциями.
 - __java.util.Collection__ - один из основных интерфейсов Java Collections Framework.
 

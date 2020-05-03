@@ -22,6 +22,7 @@
         <module>algorithms</module>
         <module>concurrency</module>
         <module>design-patterns</module>
+        <module>java-persistence-api</module>
     </modules>
 
     <build>
