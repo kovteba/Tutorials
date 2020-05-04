@@ -12,10 +12,10 @@
         <module name="my-sql" />
         <module name="internationalization" />
         <module name="java-persistence-api" />
-        <module name="collection" />
         <module name="algorithms" />
         <module name="core" />
         <module name="jdbc" />
+        <module name="io-api" />
         <module name="postgresql" />
         <module name="web" />
         <module name="servlet" />

@@ -23,6 +23,7 @@
         <module>concurrency</module>
         <module>design-patterns</module>
         <module>java-persistence-api</module>
+        <module>io-api</module>
     </modules>
 
     <build>

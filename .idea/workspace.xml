@@ -25,9 +25,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/io-api/img/io-api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-api/io-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-api/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/string/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/string/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacecollection/interfacequeue/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +79,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A-Level/JavaHub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SoftServe/java-online-marathon" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37483615" />
@@ -80,22 +91,22 @@
       <recent name="connection" />
       <recent name="java.kovteba" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/io-api/img" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/img" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/img" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba" />
+      <recent name="$PROJECT_DIR$/core/img" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img" />
       <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/string/img" />
       <recent name="$PROJECT_DIR$/internationalization/src/main" />
       <recent name="$PROJECT_DIR$/internationalization/src" />
       <recent name="$PROJECT_DIR$/internationalization/src/main/webapp" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/nestedclass/img" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/img" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba" />
-      <recent name="$PROJECT_DIR$/core/img" />
-      <recent name="$PROJECT_DIR$/java-collections-framework/src/main/java/kovteba/interfacemap/img" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Test42">
@@ -213,14 +224,8 @@
       <workItem from="1588139680050" duration="1012000" />
       <workItem from="1588349140715" duration="3997000" />
       <workItem from="1588398645557" duration="25040000" />
-      <workItem from="1588482940260" duration="30381000" />
-    </task>
-    <task id="LOCAL-00001" summary="Init commit">
-      <created>1584960517802</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1584960517802</updated>
+      <workItem from="1588482940260" duration="30553000" />
+      <workItem from="1588571259190" duration="14681000" />
     </task>
     <task id="LOCAL-00002" summary="Add collection.markdown">
       <created>1586510164355</created>
@@ -558,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588528716603</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="update">
+      <created>1588533631622</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1588533631623</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,20 +687,21 @@
     <state x="636" y="146" width="681" height="795" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586721576920" />
     <state x="704" y="1107" width="743" height="741" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791272428" />
     <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333137465" />
-    <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl" timestamp="1588508774417">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588587245672">
+      <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="1223" y="298" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1848@0.0.1920.1848" timestamp="1586453773387" />
     <state x="769" y="146" width="424" height="513" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1588438190650" />
     <state x="1223" y="174" width="424" height="652" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586599037719" />
     <state x="1122" y="1203" width="424" height="513" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1588141516528" />
     <state x="769" y="146" width="597" height="469" key="FileChooserDialogImpl/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587370843365" />
+    <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588587245672" />
     <state x="769" y="146" key="FileChooserDialogImpl/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588508774417" />
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog" timestamp="1584960621610">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
-    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1588519199479">
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom" timestamp="1588533755774">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1588446344653" />
@@ -696,8 +709,8 @@
     <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
-    <state width="1324" height="176" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199479" />
-    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1588519199479">
+    <state width="1324" height="176" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588533755774" />
+    <state width="1324" height="176" key="GridCell.Tab.0.center" timestamp="1588533755773">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1588446344652" />
@@ -705,8 +718,8 @@
     <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
     <state width="1324" height="176" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
-    <state width="1324" height="176" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199479" />
-    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1588519199478">
+    <state width="1324" height="176" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588533755773" />
+    <state width="1324" height="176" key="GridCell.Tab.0.left" timestamp="1588533755773">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1588446344651" />
@@ -714,8 +727,8 @@
     <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
     <state width="1324" height="176" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
-    <state width="1324" height="176" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199478" />
-    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1588519199479">
+    <state width="1324" height="176" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588533755773" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right" timestamp="1588533755773">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1588446344653" />
@@ -723,7 +736,7 @@
     <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
     <state width="1324" height="176" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588484836440" />
-    <state width="1324" height="176" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519199479" />
+    <state width="1324" height="176" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588533755773" />
     <state width="154" height="322" key="HiddenNamespacesPopup" timestamp="1587190493550">
       <screen x="252" y="1080" width="1366" height="768" />
     </state>
@@ -739,21 +752,22 @@
     </state>
     <state x="854" y="412" width="347" height="263" key="MultipleFileMergeDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586511438140" />
     <state x="608" y="310" width="357" height="256" key="MultipleFileMergeDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586536053818" />
-    <state x="293" y="27" width="900" height="741" key="SettingsEditor" timestamp="1587371859234">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="550" y="1107" width="900" height="741" key="SettingsEditor" timestamp="1588583827286">
+      <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="703" y="0" width="947" height="1080" key="SettingsEditor/0.0.1920.1848@0.0.1920.1848" timestamp="1586454839260" />
     <state x="295" y="27" width="900" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1587157133682" />
     <state x="304" y="37" width="947" height="737" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512048874" />
     <state x="468" y="1107" width="1024" height="741" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189049147" />
     <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587371859234" />
-    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588528727544">
+    <state x="550" y="1107" width="900" height="741" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588583827286" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1588533643977">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512660034" />
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333146531" />
-    <state x="395" y="216" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588528727544" />
+    <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588533643977" />
     <state x="506" y="315" width="336" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588519185415">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -765,13 +779,14 @@
     <state x="642" y="183" width="442" height="511" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584959739282" />
     <state x="709" y="1210" width="442" height="542" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1584959411465" />
     <state x="457" y="153" key="com.intellij.testIntegration.createTest.CreateTestDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587196173417" />
-    <state x="145" y="128" width="1148" height="473" key="new project wizard" timestamp="1587371853946">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="402" y="1185" width="1148" height="473" key="new project wizard" timestamp="1588583819393">
+      <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="180" y="92" width="1627" height="869" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586454713943" />
     <state x="128" y="64" width="1148" height="473" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1586461518274" />
     <state x="397" y="1185" width="1157" height="592" key="new project wizard/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189040394" />
     <state x="145" y="128" width="1148" height="473" key="new project wizard/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587371853946" />
+    <state x="402" y="1185" key="new project wizard/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588583819393" />
     <state x="347" y="174" key="run.anything.popup" timestamp="1587313382183">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
