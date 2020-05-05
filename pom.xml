@@ -17,7 +17,6 @@
         <module>web</module>
         <module>my-sql</module>
         <module>postgresql</module>
-        <module>servlet</module>
         <module>internationalization</module>
         <module>algorithms</module>
         <module>concurrency</module>

@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <servlet>
-        <servlet-name>index</servlet-name>
-        <servlet-class>kovteba.jspservlet.controller.WelcomeServlet</servlet-class>
+    <kovteba.servlet>
+        <kovteba.servlet-name>index</kovteba.servlet-name>
+        <kovteba.servlet-class>kovteba.jspservlet.controller.WelcomeServlet</kovteba.servlet-class>
         <load-on-startup>1</load-on-startup>
-    </servlet>
+    </kovteba.servlet>
 
-    <servlet-mapping>
-        <servlet-name>index</servlet-name>
+    <kovteba.servlet-mapping>
+        <kovteba.servlet-name>index</kovteba.servlet-name>
         <url-pattern></url-pattern>
-    </servlet-mapping>
+    </kovteba.servlet-mapping>
 
 </web-app>
