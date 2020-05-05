@@ -9,19 +9,20 @@
         <module name="design-patterns" />
         <module name="java-collections-framework" />
         <module name="stream" />
-        <module name="my-sql" />
         <module name="io-api" />
         <module name="java-persistence-api" />
         <module name="internationalization" />
         <module name="algorithms" />
         <module name="core" />
         <module name="jdbc" />
-        <module name="postgresql" />
+        <module name="relational-db" />
         <module name="web" />
         <module name="concurrency" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="my-sql" target="8" />
+      <module name="postgresql" target="8" />
       <module name="servlet" target="8" />
     </bytecodeTargetLevel>
   </component>

@@ -15,14 +15,13 @@
         <module>core</module>
         <module>java-collections-framework</module>
         <module>web</module>
-        <module>my-sql</module>
-        <module>postgresql</module>
         <module>internationalization</module>
         <module>algorithms</module>
         <module>concurrency</module>
         <module>design-patterns</module>
         <module>java-persistence-api</module>
         <module>io-api</module>
+        <module>relational-db</module>
     </modules>
 
     <build>
