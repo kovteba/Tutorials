@@ -5,7 +5,7 @@
 - [Проверка состояния](#Проверка-состояния)
 - [Запуск MySQL server](#Запуск-MySQL-server)
 - [Остановка MySQL server](#Остановка-MySQL-server)
-- [MySQl Versoin](#MySQl Version)
+- [MySQl Versoin](#MySQl-Version)
 - [Создание пользователя](#Создание-пользователя)
 - [](#)
 
