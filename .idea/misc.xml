@@ -17,6 +17,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/io-api/pom.xml" />
+        <option value="$PROJECT_DIR$/java-collections-framework/pom.xml" />
         <option value="$PROJECT_DIR$/my-sql/pom.xml" />
         <option value="$PROJECT_DIR$/postgresql/pom.xml" />
       </set>

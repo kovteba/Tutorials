@@ -7,11 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
-        <module name="relational-db" />
-        <module name="io-api" />
+        <module name="data-base" />
         <module name="stream" />
         <module name="core" />
-        <module name="java-collections-framework" />
         <module name="algorithms" />
         <module name="design-patterns" />
         <module name="jdbc" />
@@ -21,6 +19,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="concurrency" target="8" />
+      <module name="io-api" target="8" />
+      <module name="java-collections-framework" target="8" />
       <module name="my-sql" target="8" />
       <module name="postgresql" target="8" />
       <module name="servlet" target="8" />
