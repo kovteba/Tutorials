@@ -7,15 +7,15 @@
 
 ## Типы данных
 ![Cast](img/cast-type.png)  
-+ Byte (byte) : `8bit` : `min: -128 max: 127` 
-+ Short (short) : `16bit` : `min: -32768 max: 32767`
-+ Character (char) : `16bit`book
-+ Integer (int) : `32bit` : `min: -2147483648 max: 2147483647`
-+ Long (long) : `64bit` : `min -9223372036854775808L max 9223372036854775807L`
-+ Float (float) : `32bit` : `min: 1.4e-45f max: 3.4e+38f`
-+ Double (double) : `64nit` : `min: 4.9e-324 max: 1.7e+308`
-+ Boolean (boolean)
-+ String
++ [Byte (byte)](byte) : `8bit` : `min: -128 max: 127` 
++ [Short (short)](short) : `16bit` : `min: -32768 max: 32767`
++ [Character (char)](character) : `16bit`book
++ [Integer (int)](integer) : `32bit` : `min: -2147483648 max: 2147483647`
++ [Long (long)](long) : `64bit` : `min -9223372036854775808L max 9223372036854775807L`
++ [Float (float)](float) : `32bit` : `min: 1.4e-45f max: 3.4e+38f`
++ [Double (double)](double) : `64nit` : `min: 4.9e-324 max: 1.7e+308`
++ [Boolean (boolean)](boolean)
++ [String](string)
 
 ## Классы оболочки
 ![Cast](img/shellclasses.png)  
