@@ -6,21 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="design-patterns" />
-        <module name="java-collections-framework" />
-        <module name="stream" />
+        <module name="web" />
+        <module name="relational-db" />
         <module name="io-api" />
+        <module name="stream" />
+        <module name="core" />
+        <module name="java-collections-framework" />
+        <module name="algorithms" />
+        <module name="design-patterns" />
+        <module name="jdbc" />
         <module name="java-persistence-api" />
         <module name="internationalization" />
-        <module name="algorithms" />
-        <module name="core" />
-        <module name="jdbc" />
-        <module name="relational-db" />
-        <module name="web" />
-        <module name="concurrency" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="concurrency" target="8" />
       <module name="my-sql" target="8" />
       <module name="postgresql" target="8" />
       <module name="servlet" target="8" />

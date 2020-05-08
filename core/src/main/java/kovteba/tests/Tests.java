@@ -3,8 +3,10 @@ package kovteba.tests;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author Kovteba
@@ -298,6 +300,41 @@ class Test42 {
 }
 
 
+
+class Test43 {
+    public static void main(String[] args) {
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+}
+
+class Test44 {
+    public static void main(String[] args) {
+        Set<String> setList = new HashSet<>();
+        setList.add("1");
+        setList.add("2");
+        setList.add("3");
+
+        String s = "1";
+
+        System.out.println(setList.stream().filter(e -> e.equals(s)).findFirst().get());
+
+        System.out.println();
+        List<String> list = new LinkedList<>();
+    }
+}
 
 
 

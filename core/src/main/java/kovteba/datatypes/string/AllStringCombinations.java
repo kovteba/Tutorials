@@ -1,4 +1,4 @@
-package kovteba.string;
+package kovteba.datatypes.string;
 
 import java.util.HashSet;
 import java.util.Set;

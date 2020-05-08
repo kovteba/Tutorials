@@ -1,4 +1,4 @@
-package kovteba.enumexample;
+package kovteba.classtypes.enums;
 
 import java.util.Arrays;
 import java.util.EnumSet;
