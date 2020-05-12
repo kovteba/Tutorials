@@ -42,6 +42,7 @@
 - [Потоковое голодание](#Потоковое-голодание)
 - [Чем отличаются методы interrupt, interrupted, isInterrupted?](#Чем-отличаются-методы-interrupt,-interrupted,-isInterrupted?)
 - [](#)
+- [Examples](#Examples)
 
 ## Понятие процесс
 __Процесс__ — это совокупность кода и данных, разделяющих общее виртуальное адресное пространство. Процессы 
@@ -556,3 +557,7 @@ __Дальше тезисы:__
 - Так что условие выполнения, которого ожидает тред, проверяется в цикле while, а не в if
 - Примитив-аналог — Condition
 
+
+## Examples
+- [Simple Thread.start()](ThreadExample.java)
+- [Join method](ThreadExampleJoin.java)
