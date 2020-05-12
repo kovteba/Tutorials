@@ -35,3 +35,11 @@
 + [Java Persistence API](java-persistence-api)
 
 
+
+
+
+
+
+## Sources
+- [jsehelper blogspot](https://jsehelper.blogspot.com/)
+- [javastudy](http://javastudy.ru/)
