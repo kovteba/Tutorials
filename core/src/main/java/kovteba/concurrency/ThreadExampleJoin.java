@@ -32,11 +32,47 @@ class ThreadExampleJoin extends Thread {
 
 /*
    RESULT:
-   Main thread started...
-   ThreadExampleJoin started...
-   ThreadExampleJoin fiished...
-   Main thread finished...
+      Main thread started...
+      ThreadExampleJoin started...
+      ThreadExampleJoin fiished...
+      Main thread finished...
 
    EXPLAIN:
-   Метод join заставляет ожидать main поток завершение потока на котором вызван этот метод
+      Метод join заставляет ожидать main поток завершение потока на котором вызван этот метод
 */
+
+class Accountant extends Thread {
+
+   int x, y;
+   static int result = 0;
+   static Accountant accountant = null;
+
+   public Accountant(int x, int y) {
+      this.x = x;
+      this.y = y;
+   }
+
+   public static int sum(int x, int y) {
+      accountant = new Accountant(x, y);
+      accountant.start();
+      System.out.println("Parallel evaluation: op1 " + x + ", op2 " + y);
+      return result;
+   }
+
+   @Override
+   public synchronized void start() {
+      try {
+         accountant.join();
+      } catch (InterruptedException e) {
+         e.printStackTrace();
+      }
+      result = x + y;
+   }
+
+   static class Main {
+      public static void main(String[] args) {
+         System.out.println(Accountant.sum(3, 4));
+      }
+   }
+}
+

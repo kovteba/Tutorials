@@ -25,15 +25,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/ThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/ThreadExampleJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/algorithms-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/ExchangerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/RunnableFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/SemaphoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/StoreCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/StoreReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/StoreWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img/threads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/design-patterns-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/internationalization-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-persistence-api/target/java-persistence-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-persistence-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-persistence-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-persistence-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/Example2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/Exapmle1$myIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/Exapmle1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/stream-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/ThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/ThreadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/ThreadExampleJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/ThreadExampleJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/string/AllStringCombinations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/string/Password.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/kovteba/string/WorkWithString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/META-INF/jdbc.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/config.db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/connection/Connect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/connection/ConnectToDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/classes/connection/ConnectToDBFileProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/test-classes/connection/ConnectToDBFilePropertiesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc/target/test-classes/connection/ConnectToDBTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +113,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SoftServe/java-online-marathon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37483615" />
@@ -89,16 +125,6 @@
       <recent name="connection" />
       <recent name="java.kovteba" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/src/main/java/kovteba" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/io" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/io" />
       <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/img" />
@@ -106,14 +132,24 @@
       <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img" />
       <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/string/img" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img" />
+      <recent name="$PROJECT_DIR$/web/src/main/java/kovteba" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/io" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadExample$Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.Main" />
+  <component name="RunManager" selected="Application.StoreWaitNotifyApp">
+    <configuration name="ExchangerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.ExchangerExample" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.concurrency.*" />
+          <option name="PATTERN" value="kovteba.concurrency.ProducerStoreCondition" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,6 +162,32 @@
       <module name="core" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="kovteba.concurrency.ProducerStoreCondition" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.SemaphoreExample" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.concurrency.ProducerStoreCondition" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreReentrantLockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.StoreReentrantLockApp" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
           <option name="PATTERN" value="kovteba.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -134,34 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.generics.Tests" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kovteba.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadExample$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.ThreadExample$Main" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kovteba.concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadExampleJoin$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.ThreadExampleJoin$Main" />
+    <configuration name="StoreWaitNotifyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.StoreWaitNotifyApp" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
@@ -174,19 +210,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tests" />
       <item itemvalue="Application.Program" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ThreadExample$Main" />
-      <item itemvalue="Application.ThreadExampleJoin$Main" />
+      <item itemvalue="Application.SemaphoreExample" />
+      <item itemvalue="Application.ExchangerExample" />
+      <item itemvalue="Application.StoreReentrantLockApp" />
+      <item itemvalue="Application.StoreWaitNotifyApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadExample$Main" />
-        <item itemvalue="Application.ThreadExampleJoin$Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StoreWaitNotifyApp" />
+        <item itemvalue="Application.SemaphoreExample" />
+        <item itemvalue="Application.StoreReentrantLockApp" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Tests" />
+        <item itemvalue="Application.ExchangerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -232,14 +268,7 @@
       <workItem from="1588922261749" duration="29455000" />
       <workItem from="1589006856344" duration="1431000" />
       <workItem from="1589286959080" duration="9481000" />
-      <workItem from="1589297831136" duration="1874000" />
-    </task>
-    <task id="LOCAL-00016" summary="add web directory">
-      <created>1586634627322</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1586634627322</updated>
+      <workItem from="1589297831136" duration="16995000" />
     </task>
     <task id="LOCAL-00017" summary="update project">
       <created>1586634663958</created>
@@ -577,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589297293039</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="update">
+      <created>1589299717017</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1589299717019</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,11 +717,11 @@
     </state>
     <state x="501" y="328" width="865" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587327541398" />
     <state x="704" y="439" width="693" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588948784712" />
-    <state x="517" y="27" width="567" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588519264779">
+    <state x="517" y="27" width="567" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589317780062">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="769" y="1224" width="322" height="514" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587289475419" />
-    <state x="517" y="27" width="567" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588519264779" />
+    <state x="517" y="27" width="567" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589317780062" />
     <state x="416" y="172" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587196239115">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -716,46 +752,46 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1589299520752">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1324" height="161" key="GridCell.Tab.0.bottom" timestamp="1589318226481">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1588858130979" />
     <state width="1878" height="325" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640659" />
     <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589299520752" />
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589303234389" />
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588931707764" />
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588705296071" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1589299520745">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1324" height="161" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589318226481" />
+    <state width="1324" height="161" key="GridCell.Tab.0.center" timestamp="1589318226480">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1588858130976" />
     <state width="1878" height="325" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640658" />
     <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589299520745" />
+    <state width="1878" height="287" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589303234389" />
     <state width="1324" height="176" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588931707763" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588705296070" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1589299520745">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1324" height="161" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589318226480" />
+    <state width="1324" height="161" key="GridCell.Tab.0.left" timestamp="1589318226479">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1588858130975" />
     <state width="1878" height="325" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640658" />
     <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589299520745" />
+    <state width="1878" height="287" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589303234388" />
     <state width="1324" height="176" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588931707763" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588705296070" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1589299520746">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1324" height="161" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589318226479" />
+    <state width="1324" height="161" key="GridCell.Tab.0.right" timestamp="1589318226480">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1588858130977" />
     <state width="1878" height="325" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960640659" />
     <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589299520746" />
+    <state width="1878" height="287" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589303234389" />
     <state width="1324" height="176" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588931707763" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588705296071" />
+    <state width="1324" height="161" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589318226480" />
     <state width="154" height="322" key="HiddenNamespacesPopup" timestamp="1587190493550">
       <screen x="252" y="1080" width="1366" height="768" />
     </state>
@@ -785,14 +821,14 @@
     <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587371859234" />
     <state x="412" y="37" width="1024" height="852" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589006907689" />
     <state x="550" y="1107" width="900" height="741" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588583827286" />
-    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1589297326251">
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1589299747915">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1588858224532" />
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586512660034" />
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333146531" />
-    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589297326251" />
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589299747915" />
     <state x="652" y="1276" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1588591835485" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1588711870894" />
     <state x="506" y="315" width="336" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588519185415">
