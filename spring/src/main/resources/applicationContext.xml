@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+<!--    example 1 constructor-->
+<!--    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.example1constructor.ClassicalMusic"/>-->
+<!--    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.example1constructor.MusicPlayer">-->
+<!--        <constructor-arg index="0" ref="classicMusicBean"/>-->
+<!--        <constructor-arg index="1" value="120"/>-->
+<!--    </bean>-->
+
+<!--    example 2 setter-->
+<!--    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.example2setter.ClassicalMusic"/>-->
+<!--    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.example2setter.MusicPlayer">-->
+<!--        <property name="volume" value="130"/>-->
+<!--        <property name="music" ref="classicMusicBean"/>-->
+<!--    </bean>-->
+
+    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.example3addlist.ClassicalMusic"/>
+    <bean id="rockMusicBean" class="kovteba.dependencyinjectionbeans.example3addlist.RockMusic"/>
+
+    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.example3addlist.MusicPlayer">
+        <property name="musicList">
+            <list value-type="kovteba.dependencyinjectionbeans.example3addlist.Music">
+                <ref bean="classicMusicBean"/>
+                <ref bean="rockMusicBean"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>
