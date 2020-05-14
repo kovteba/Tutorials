@@ -30,6 +30,8 @@
     
 + [Stream](stream)
 + [Algoritms](algorithms)
+    + [Bubble Sort](algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java)
+    
 + [Internationalozation](internationalization)
 + [Design Patterns](design-patterns)
 + [Java Persistence API](java-persistence-api)

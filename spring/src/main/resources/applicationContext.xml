@@ -24,6 +24,7 @@
 <!--        <property name="music" ref="classicMusicBean"/>-->
 <!--    </bean>-->
 
+<!--    example 3 add list-->
     <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.example3addlist.ClassicalMusic"/>
     <bean id="rockMusicBean" class="kovteba.dependencyinjectionbeans.example3addlist.RockMusic"/>
 

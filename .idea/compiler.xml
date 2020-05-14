@@ -7,20 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
-        <module name="algorithms" />
-        <module name="data-base" />
-        <module name="spring" />
-        <module name="core" />
-        <module name="stream" />
         <module name="design-patterns" />
-        <module name="jdbc" />
+        <module name="algorithms" />
+        <module name="core" />
+        <module name="spring" />
+        <module name="data-base" />
         <module name="java-persistence-api" />
+        <module name="jdbc" />
+        <module name="stream" />
         <module name="internationalization" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="concurrency" target="8" />
-      <module name="data-base" target="8" />
       <module name="io-api" target="8" />
       <module name="java-collections-framework" target="8" />
       <module name="my-sql" target="8" />
