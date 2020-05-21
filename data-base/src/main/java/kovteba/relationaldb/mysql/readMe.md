@@ -7,6 +7,13 @@
 - [Остановка MySQL server](#Остановка-MySQL-server)
 - [MySQl Versoin](#MySQl-Version)
 - [Создание пользователя](#Создание-пользователя)
+- [Переименования таблицы](#Переименования-таблицы)
+- [Добавить столбец](#Добавить-столбец)
+- [Delete column](#Delete-column)
+- [Add row](#Add-row)
+- [Update row](#Update-row)
+- [Delete row](#Delete-row)
+- [LIMIT](#LIMIT)
 - [](#)
 
 ## Установка MySQL Server
@@ -67,3 +74,45 @@ mysql --version
 ```
 CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
 ```
+
+## Переименования таблицы
+```mysql
+ALTER TABLE oldname RENAME newname
+```
+## Добавить столбец
+```mysql
+ALTER TABLE nameTable ADD nameColumn typeColumn;
+```
+
+## Delete column
+```mysql
+ALTER TABLE nameTable DROP nameColumn;
+```
+
+## Add row
+```mysql
+INSERT INTO nameTable (value, .....) values(value,...);
+```
+
+## Update row
+```mysql
+UPDATE nameTable SET nameField = 'value', ... WHERE id=value;
+```
+
+## Delete row
+```mysql
+DELETE FROM nameTable WHERE id=value;
+```
+
+## LIMIT
+```mysql
+SELECT * FROM nameTable WHERE id > 5 LIMIT 10
+```
+Данным запросом мы получим 10 первых записей. Все остальные отпадут. 
+```mysql
+SELECT * FROM nameTable WHERE id > 5 LIMIT 10, 20
+```
+начиная с 10-го номера включительно в количестве 20-ти штук.
+
+
+

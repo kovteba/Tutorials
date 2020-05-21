@@ -16,6 +16,7 @@
     + [Relation Data Base](data-base/src/main/java/kovteba/relationaldb)
         - [My-Sql](data-base/src/main/java/kovteba/relationaldb/mysql)
         - [PostgreSQL](data-base/src/main/java/kovteba/relationaldb/postgresql)
+        - [PRACTICE](data-base/src/main/java/kovteba/practice)
     + [Non-Relation Data Base](data-base/src/main/java/kovteba/nonrelationaldb)
     
     
@@ -31,6 +32,7 @@
 + [Stream](stream)
 + [Algoritms](algorithms)
     + [Bubble Sort](algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java)
+    + [InsertSort](algorithms/src/main/java/kovteba/insertsort/InsertSort.java)
     
 + [Internationalozation](internationalization)
 + [Design Patterns](design-patterns)
