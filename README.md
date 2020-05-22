@@ -33,6 +33,10 @@
 + [Algoritms](algorithms)
     + [Bubble Sort](algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java)
     + [InsertSort](algorithms/src/main/java/kovteba/insertsort/InsertSort.java)
+    + [Merge Sort](algorithms/src/main/java/kovteba/mergesort/MergeSort.java)
+    + [Fibonacci](algorithms/src/main/java/kovteba/fibonaccinumber/FibonacciNumber.java)
+    + [Palindrome](algorithms/src/main/java/kovteba/palindrome/Palindrome.java)
+    
     
 + [Internationalozation](internationalization)
 + [Design Patterns](design-patterns)
@@ -47,3 +51,4 @@
 ## Sources
 - [jsehelper blogspot](https://jsehelper.blogspot.com/)
 - [javastudy](http://javastudy.ru/)
+- [AlexWrls](https://github.com/AlexWrls/JavaQuestions/tree/808fa35114895397d158b39f7d6c95da5dcd1bff)
