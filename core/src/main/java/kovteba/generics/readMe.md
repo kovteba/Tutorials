@@ -16,6 +16,8 @@
 - [Heap Pollution](#Heap-Pollution)
 - [Reflection](#Reflection)
 - [Type Inference](#Type-Inference)
+- [Generics after compille](#Generics-after-compille)
+- [Extends](#Extends)
 - [](#)
 
 ## Ковариантность
@@ -82,7 +84,7 @@ List<? extends Number> может содержать объекты, класс 
 List<? super Number> может содержать объекты, класс которых Number или у которых Number является 
 наследником (супертип от Number).
 
-## The Get and Put Principle или PECS (Producer Extends Consumer Super)
+ ## The Get and Put Principle или PECS (Producer Extends Consumer Super)
 Особенность wildcard с верхней и нижней границей дает дополнительные фичи, связанные с безопасным использованием типов. 
 Из одного типа переменных можно только читать, в другой — только вписывать (исключением является возможность 
 записать null для extends и прочитать Object для super). Чтобы было легче запомнить, когда какой wildcard использовать, 
@@ -471,7 +473,92 @@ public static void main(String[] args) {
 }
 ```
 
+## Generics after compille
+```java
+class ClassName <T> {
+   T t;
+}
+//Превратиться в ...
+class ClassName {
+   Object t;
+}
+```
 
+## Extends
+```java
+class Parent{}
+class GenParent<T> extends Parent {}
+class Child1 extends GenParent {}
+class Child2 extends GenParent<String> {}
+class Child3<T> extends GenParent<T> {}
+class Child4<T, X, Y> extends GenParent<Y> {}
+class Child5<T, X, Y> extends GenParent {}
+class Child6<T, X, Y> extends Child5<Integer, X, String> {}
 
+interface GenInterface<T> {
+   T getT();
+}
+
+class One implements GenInterface{
+   @Override
+   public Object getT() {
+      return null;
+   }
+}
+
+class Two implements GenInterface<String>{
+   @Override
+   public String getT() {
+      return null;
+   }
+}
+
+class Three<T> implements GenInterface<T>{
+   @Override
+   public T getT() {
+      return null;
+   }
+}
+```
+
+## Diamond
+```java
+List<String> list = new ArrayList<>();
+```
+Это особый синтаксис, который добавили в Java SE 7, и называется он "the diamond", что в переводе означает алмаз. 
+Почему? Можно провести аналогию формы алмаза и формы фигурных скобок: `<>`   
+Также Diamond синтаксис связан с понятием __Type Inference__, или же выведение типов. Ведь компилятор, видя справа `<>` 
+смотрит на левую часть, где расположено объявление типа переменной, в которую присваивается значение. И по этой 
+части понимает, каким типом типизируется значение справа.
+На самом деле, если в левой части указан дженерик, а справа не указан, компилятор сможет вывести тип:  
+```java
+import java.util.*;
+public class HelloWorld{
+	public static void main(String []args) {
+		List<String> list = new ArrayList();
+		list.add("Hello World");
+		String data = list.get(0);
+		System.out.println(data);
+	}
+}
+```
+Однако это будет смешиванием нового стиля с дженериками и старого стиля без них. И это крайне нежелательно. 
+При компиляции кода выше мы получим сообщение: `Note: HelloWorld.java uses unchecked or unsafe operations`. На 
+самом деле кажется непонятным, зачем вообще нужен тут diamond добавлять. Но вот пример:   
+```java
+import java.util.*;
+public class HelloWorld{
+	public static void main(String []args) {
+		List<String> list = Arrays.asList("Hello", "World");
+		List<Integer> data = new ArrayList(list);
+		Integer intNumber = data.get(0);
+		System.out.println(data);
+	}
+}
+```
+Как мы помним, у ArrayList есть и второй конструктор, который принимает на вход коллекцию.
+
+И вот тут-то и кроется коварство. Без diamond синтаксиса компилятор не понимает, что его обманывают, а вот с 
+diamond — понимает.
 
 

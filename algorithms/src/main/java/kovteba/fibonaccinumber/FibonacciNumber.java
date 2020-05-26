@@ -8,19 +8,18 @@ public class FibonacciNumber {
       int[] arr = printFib(100);
       System.out.println(Arrays.toString(arr));
 
-      System.out.println(fib(3));
    }
 
-   public static int fib(int N) {
+   public static int fib(int n) {
       int sum = 1;
-      if (N == 0) return 0;
-      if (N == 1) return sum;
+      if (n == 0) return 0;
+      if (n == 1) return sum;
 
-      int[] arr = new int[N];
+      int[] arr = new int[n];
       arr[0] = 0;
       arr[1] = 1;
 
-      for (int i = 2; i < N; i++) {
+      for (int i = 2; i < n; i++) {
          arr[i] = arr[i - 1] + arr[i - 2];
          sum += arr[i];
       }

@@ -7,14 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
+        <module name="java-persistence-api" />
         <module name="algorithms" />
         <module name="data-base" />
         <module name="spring" />
         <module name="core" />
-        <module name="stream" />
         <module name="design-patterns" />
         <module name="jdbc" />
-        <module name="java-persistence-api" />
+        <module name="stream" />
         <module name="internationalization" />
       </profile>
     </annotationProcessing>

@@ -52,6 +52,7 @@
 
 
 + [Spring](spring)
+    + [Dependency Injection](spring/src/main/java/kovteba/dependencyinjectionbeans)
 
 
 

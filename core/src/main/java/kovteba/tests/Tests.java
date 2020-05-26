@@ -3,10 +3,7 @@ package kovteba.tests;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author Kovteba
@@ -23,6 +20,36 @@ public class Tests {
     }
 }
 
+// Generics
+class Test1 {
+    public void test1() {
+        List<Integer> ints = new ArrayList<Integer>();
+        ints.add(1);
+        ints.add(2);
+        List<? extends Number> nums = ints;
+//         nums.add(3.14); // compile-time error
+    }
+}
+
+class Test2<T> {
+    public <T> T test2(List<? super T> list) {
+//         return list.get(0); // compile-time error
+        return null;
+    }
+}
+
+ class Test3 {
+//    @SuppressWarnings("unchecked")
+    public static void test3(){
+        ArrayList<String> strings = new ArrayList<>();
+        ArrayList arrayList = new ArrayList();
+        arrayList = strings; // Ok
+        strings = arrayList; // Unchecked assignment
+        arrayList.add(1); //unchecked call
+    }
+}
+
+// all
 class Test20 {
     class MedicalStaff {
     }

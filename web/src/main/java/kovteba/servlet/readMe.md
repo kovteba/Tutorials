@@ -48,6 +48,7 @@
 - [Как организовать подключение к базе данных, обеспечить журналирование в сервлете?](#Как-организовать-подключение-к-базе-данных,-обеспечить-журналирование-в-сервлете?)
 - [Какие основные особенности появились в спецификации Servlet 3?](#Основные-особенности-появились-в-спецификации-Servlet3?)
 - [Какие способы аутентификации доступны сервлету?](#Какие-способы-аутентификации-доступны-сервлету?)
+- [Отправка запросов к сервдет из JAVA](#Отправка-запросов-к-сервдет-из-JAVA)
 - [](#)
     
 ## Что такое «сервлет»?
@@ -696,6 +697,24 @@ property-файл или XML-конфигурация) , а далее эта и
         <form-error-page>/error.html</form-error-page>
     </form-login-config>
 </login-config>
+```
+
+## Отправка запросов к сервдет из JAVA
+```java
+import java.net.URL;
+import java.net.URLConnection;
+    public static void main(String[] args) {
+        for (int i = 0; i < 100; i++) {
+            new Thread(() -> {
+                try {
+                    URLConnection urlConnection = new URL("http://localhost:9090/..../").openConnection();
+                    urlConnection.getInputStream();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }).start();
+        }
+    }
 ```
 
 
