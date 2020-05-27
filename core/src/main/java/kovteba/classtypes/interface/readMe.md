@@ -6,6 +6,7 @@
 - [Почему нельзя объявить метод интерфейса с модификатором final?](#Почему-нельзя-объявить-метод-интерфейса-с-модификатором-final?)
 - [Понятие «интерфейс». Какие модификаторы по умолчанию имеют поля и методы интерфейсов?](#Понятие-«интерфейс».-Какие-модификаторы-по-умолчанию-имеют-поля-и-методы-интерфейсов?)
 - [Static method in interface](#Static-method-in-interface)
+- [Default method in interface](#Default-method-in-interface)
 - [](#)
 
 ## Назначение интерфейса
@@ -59,10 +60,45 @@ public interface IShapeAction <T extends AbstractShape> {
 
 ## Static method in interface
 Да, у нас может быть статический метод в интерфейсе из Java 8.
+Которые не переопределяется.
 ```java
 interface MyInterface {
    void Test();
    //static void Test1(); <- error "Add method body" так как метод принадлежит интерфейсу
    static void Test1() {} //<- right
+}
+```
+Static-методы в интерфейсе - это по существу то же самое, что static-методы в абстрактном классе.
+- Статические методы в интерфейсе являются частью интерфейса, мы не можем использовать его для объектов класса 
+    реализации.
+- Статические методы в интерфейсе хороши для обеспечения вспомогательных методов, например, проверки на `null`, 
+    сортировки коллекций и т.д.
+- Статические методы в интерфейсе помогают обеспечивать безопасность, не позволяя классам, которые реализуют интерфейс, 
+    переопределить их.
+- Мы не можем определить статические методы для методов класса Object, потому что получим ошибку компиляции.
+
+__Вызов static method:__   
+```java
+class TestClass implements MyInterface{
+   public void Test() {
+      MyInterface.Test1();
+   }
+}
+```
+
+## Default method in interface
+Начиная с Java 8 в интерфейсах есть default методы с по умолчанию реализованной логикой. Которые не требуют 
+имплементации
+```java
+interface MyInterface {
+   default void Test1() {}
+}
+```
+__Вызов default method:__  
+```java
+class TestClass implements MyInterface{
+   public void Test() {
+      MyInterface.super.Test2();
+   }
 }
 ```

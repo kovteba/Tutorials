@@ -1,3 +1,10 @@
+import java.time.*;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjuster;
+import java.time.temporal.TemporalAdjusters;
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class Test {
 
 
@@ -20,14 +27,13 @@ public class Test {
 //      System.out.println(i == j);
 
 
-      System.out.println(Integer.valueOf(42) == Integer.valueOf(42));//true
-      System.out.println(Integer.valueOf(42).equals(42L));//false
-      System.out.println(new Integer(42) == new Integer(42));//false
-      System.out.println(Long.valueOf(42L).equals(42));//false
-      System.out.println(Long.valueOf(42L).equals(new Long(42L)));//true
 
 
-
+//      System.out.println(Integer.valueOf(42) == Integer.valueOf(42));//true
+//      System.out.println(Integer.valueOf(42).equals(42L));//false
+//      System.out.println(new Integer(42) == new Integer(42));//false
+//      System.out.println(Long.valueOf(42L).equals(42));//false
+//      System.out.println(Long.valueOf(42L).equals(new Long(42L)));//true
 //      System.out.println(Integer.valueOf(42).equals(42L));
 //      System.out.println(Integer.valueOf(42) == Integer.valueOf(42));
 //      System.out.println(Long.valueOf(42L).equals(new Long(42L)));
@@ -38,6 +44,22 @@ public class Test {
 //      int[] arr = new int[]{2, 1, 4, 1, 2, 3, 4, 5, 6, 7, 3, 1};
 //      int[] arr1 = new int[]{2, 1, 4, 1, 2, 3, 4, 5, 6, 7, 7, 7, 7, 7, 7, 3, 1, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8};
 //      calculateAndPrint(arr1);
+   }
+
+   class User{
+      private String name;
+
+      public User(String name) {
+         this.name = name;
+      }
+
+      public String getName() {
+         return name;
+      }
+
+      public void setName(String name) {
+         this.name = name;
+      }
    }
 
    static int reverse(int n) {
@@ -93,7 +115,7 @@ public class Test {
       return newHead;
    }
 
-   class Node{
+   class Node {
       private int data;
       private Node next;
 
@@ -121,7 +143,7 @@ public class Test {
          if (objects[i] instanceof Apple) {
             countApple++;
          }
-         if (objects[i] instanceof Banana){
+         if (objects[i] instanceof Banana) {
             countBanana++;
          }
       }
@@ -139,9 +161,21 @@ public class Test {
 }
 
 interface MyInterface {
-   void Test();
+
+
+//   void Test();
 
    static void Test1() {
 
+   }
+
+   default void Test2() {
+      System.out.println("!");
+   }
+}
+
+class TestClass implements MyInterface {
+   public void Test() {
+      MyInterface.super.Test2();
    }
 }
