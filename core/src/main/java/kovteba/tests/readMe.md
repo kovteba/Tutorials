@@ -865,11 +865,398 @@ __RESULT:__ 5
         }
     }
 ```
+## Test44 Какой новый модификатор для методов в интерфейсах был добавлен в Java 9?  
+- private
+- static
+- abstract
+- final
+
+Answer: private
+
+## Test45 Связь между классами Sample и Info называется
+```java
+class Sample1 {
+   private Info info;
+
+   public Info getInfo() {
+      return info;
+   }
+
+   public void setInfo(Info info) {
+      this.info = info;
+   }
+}
+class Info{ }
+```
+- Композиция
+- Агрегация 
+- Наследование
+
+Answer: Композиция
+
+
+## Test46 
+```java
+class Test46 {
+    public static void main(String[] args) {
+        int[] arr = new int[10];
+        System.out.println(args[0]);
+    }
+}
+```
+Answer: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        	at kovteba.tests.Test46.main(Tests.java:365)
+
+## Test47
+```java
+class Test47 {
+    public static void main(String[] args) {
+        int i1, i2, i3 = 10;
+        System.out.println(i1 + " " + i2 + " " + i3);
+    }
+}
+```
+Answer:   
+        Error:(372, 28) java: variable i1 might not have been initialized  
+        Error:(372, 28) java: variable i2 might not have been initialized
+
+## Test49
+```java
+class Test49 {
+    public static void main(String[] args) {
+        String s1 = new String("Test");
+        String s2 = new String("Test");
+        if (s1 == s2){
+            System.out.println("same");
+        }
+        if (s1.equals(s2)){
+            System.out.println("Equals");
+        }
+    }
+}
+```
+Answer: Equals
+
+## Test50
+```java
+class Test50 {
+    public static void main(String[] args) {
+        int i = 1;
+        i += new Date();// <-- Error
+        System.out.println(i);
+    }
+}
+```
+Answer: Error:(404, 11) java: bad operand types for binary operator '+'
+          first type:  int
+          second type: java.util.Date
+          
+## Test51
+```java
+class Test51 {
+    public static void main(String[] args) {
+        System.out.println(Integer.compare(1, -2));
+    }
+}
+```
+Answer: 1
+
 ## Test
+```java
+class Test52 {
+    public static void main(String[] args) {
+        System.out.println(get());
+    }
+    public static boolean get(){
+        return true || get();
+    }
+}
+```
+Answer: true
+
+## Test54
+```java
+class Test53 {
+    public static void main(String[] args) {
+        Stack stack = new Stack();
+        stack.push("abc");
+        stack.push("abcd");
+        System.out.println(stack.pop());
+        System.out.println(stack.size());
+    }
+}
+```
+Answer: abcd
+        1
+
+## Test54
+```java
+class Test54 {
+    public static void main(String[] args) {
+        int ch = System.in.read();// <-- Error
+        System.out.println(ch);
+    }
+}
+```
+Answer: Error:(436, 32) java: unreported exception java.io.IOException; must be caught or declared to be thrown
+
+## Test55
+```java
+class Test55 {
+    public static void main(String[] args) {
+        String text = "ABC";
+        String subString = "";
+        System.out.println(text.contains(subString));
+    }
+}
+```
+Answer: true
+
+## Test56
+```java
+class Test56 {
+    public static void main(String[] args) {
+        int i = 1;
+        {
+            i = 2;
+        }
+        System.out.println(i);
+    }
+}
+```
+Answer: 2
+
+## Test57
+```java
+class Test57 {
+    private Object data;
+    public Test57(Object data){
+        this.data = data;
+    }
+    public List<String> stringList(){
+        return Arrays.asList(String.valueOf(data));
+    }
+    public static void main(String[] args) {
+        Test57 test57 = new Test57("1");
+        for (String s : test57.stringList()){
+            System.out.println(s);
+        }
+    }
+}
+```
+Answer: 1
+
+## Test58
+```java
+class Test58 {
+    public static void main(String[] args) {
+        Map<String, String> map = new HashMap<>();
+        map.put("1", null);
+        System.out.println(map.get("1"));
+    }
+}
+```
+Answer: null
+
+## Test59
+```java
+class Test59 {
+    Example example;
+}
+class Example{}
+```
+Answer: Агрегация
+
+## Test60
+```java
+class Test60 {
+    public static void main(String[] args) {
+        
+    }
+    public static <T extends Date> void run(List<T> items){
+        System.out.println("String");
+    }
+    public static <T extends Object> void run(List<T> items){
+        System.out.println("Object");
+    }
+}
+```
+Answer: Error:(493, 43) java: name clash: <T>run(java.util.List<T>) and <T>run(java.util.List<T>) have the same erasure
+
+## Test61
+```java
+class Test61 {
+    public static void main(String[] args) {
+        System.out.println(invert(true));
+        System.out.println(invert(false));
+    }
+    public static boolean invert(boolean flag){
+        return flag ? false : true;
+    }
+}
+```
+Answer: invert true -> false, false -> true
+
+## Test62 Что вернет выражение 1.0/0.0?
+Answer:  генерации исключения `ArithmeticException` не произойдет, будет возвращено значение `Double.INFINITY`.
+
+## Test63
+```java
+class Test63{
+    public static void main(String[] args) {
+      Integer i1 = 127;
+      Integer i2 = 127;
+      System.out.println(i1 == i2);
+      i1 -= 1;
+      System.out.println(i1 + " " + i2);
+
+      Integer i3 = 128;
+      Integer i4 = 128;
+      System.out.println(i3 == i4);
+    }
+}
+```
+Answer:  
+        true  
+        126 127  
+        false  
+Explain: Автобокс кэширует от -128 до 127. Это указано в JLS ( 5.1.7 ).
+
+## Test64
+```java
+class Test64 {
+   static int a = 1111;
+   public static void main(String[] args) {
+      System.out.println(a--);
+      System.out.println(--a);
+      System.out.println(a-- - --a);
+      System.out.println(a++ + ++a);
+   }
+}
+```
+Answer:  
+        1111  
+        1109  
+        2  
+        2216  
+
+## Test65
+```java
+class Test65 {
+   public static void main(String[] args) {
+      String s1 = "H";
+      String s2 = s1;
+      System.out.println(s1 == s2);
+      s2 += "1";
+      System.out.println(s1 == s2);
+   }
+}
+```
+Answer:   
+        true  
+        false  
+
+## Test76
+```java
+class Test67 {
+   public static void main(String[] args) {
+      System.out.println(Integer.valueOf(42) == Integer.valueOf(42));//true
+      System.out.println(Integer.valueOf(42).equals(42L));//false
+      System.out.println(new Integer(42) == new Integer(42));//false
+      System.out.println(Long.valueOf(42L).equals(42));//false
+      System.out.println(Long.valueOf(42L).equals(new Long(42L)));//true
+      System.out.println(Integer.valueOf(42).equals(42L));//false
+      System.out.println(Integer.valueOf(42) == Integer.valueOf(42));//true
+      System.out.println(Long.valueOf(42L).equals(new Long(42L)));//true
+      System.out.println(new Integer(42) == new Integer(42));//false
+      System.out.println(Long.valueOf(42L).equals(42L));//true
+   }
+}
+```
+Answer:   
+        true  
+        false  
+        false  
+        false  
+        true  
+        false  
+        true  
+        true  
+        false  
+        true  
+
+## Test68
+```java
+class Test68 {
+   private static int value = 2;
+   static {
+//      this.value = 1; <-- Error
+        value = 1; // <-- right
+   }
+
+   public static void main(String[] args) {
+      System.out.println(value);
+   }
+}
+```
+Answer:   Error:(571, 7) java: non-static variable this cannot be referenced from a static context
+
+## Test69
+```java
+class Test69 {
+   public static void main(String[] args) {
+      byte a = 1;
+      byte b = ++a;
+      byte c = -a;    // 3
+      System.out.print(a);
+      System.out.print(b);
+      System.out.print(c);
+   }
+}
+```
+Answer:  Error:(583, 16) java: incompatible types: possible lossy conversion from int to byte
+
 ## Test
+```java
 
+```
+Answer: 
 
+## Test
+```java
 
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
 
 
 

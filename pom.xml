@@ -18,6 +18,8 @@
         <module>algorithms</module>
         <module>design-patterns</module>
         <module>java-persistence-api</module>
+        <module>examples</module>
+        <module>javascript</module>
     </modules>
 
     <build>

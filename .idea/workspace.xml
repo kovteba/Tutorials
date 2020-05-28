@@ -25,21 +25,238 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/stream/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/bubblesort/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/duplicatesnumber/DuplicatesNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/fibonaccinumber/FibonacciNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/findmissingnumber/FindMissingNumberInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Huffman$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Huffman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/HuffmanTree$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/HuffmanTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/ReadAndWriteClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/Huffman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/HuffmanNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/MyComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/insertsort/InsertSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/mergesort/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/palindrome/Palindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/polishnotation/RPN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/classtypes/enums/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/classtypes/enums/Seasons$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/classtypes/enums/Seasons$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/classtypes/enums/Seasons$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/classtypes/enums/Seasons$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/classtypes/enums/Seasons.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/Accountant$Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/Accountant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/CommonResourceSemaphoreExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/CommonResourceStoreReentrantLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ConsumerStoreCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ConsumerStoreWaitNotify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/CountThreadSemaphoreExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/CountThreadStoreReentrantLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ExchangerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/GetThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ProducerStoreCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ProducerStoreWaitNotify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/PutThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/RunnableFunctionalInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/SemaphoreExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/StoreCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/StoreConditionApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/StoreReentrantLockApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/StoreWaitNotify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/StoreWaitNotifyApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ThreadExample$Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ThreadExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ThreadExampleJoin$Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/concurrency/ThreadExampleJoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/datatypes/string/AllStringCombinations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/datatypes/string/Password.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/datatypes/string/WorkWithString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Child1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Child2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Child3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Child4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Child5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Child6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Corola.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/GenClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/GenInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/GenParent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/One.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Three.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Toyota.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/generics/Two.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test20$Doctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test20$HeadDoctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test20$MedicalStaff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test20$Nurse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test23.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test26$Numbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test26.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test28$Quest43.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test28$Quest431.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test28.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test29$Quest51$Quest52.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test29$Quest51$Quest53.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test29$Quest51.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test29.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test30$Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test30$Quest61.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test30.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test31$Numbers$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test31$Numbers$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test31$Numbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test31$Quest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test31.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test32$Outer$Inner1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test32$Outer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test32$Quest3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test32.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test35$Quest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test35$Quest10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test35$Quest100.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test41.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test42.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test43.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test44.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test46.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test47.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test48.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test49.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test50.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test51.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test52.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test53.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test54.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test55.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test56.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test57.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test58.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test59.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test60.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test61.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test63.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test64.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test65.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test66.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test67.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test68.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Test69.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/kovteba/tests/Tests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/img/mvc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/img/mvvm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/img/presenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/application/ConfigureApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/MacOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/Checkbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/MacOSCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/WindowsCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/GUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/MacOSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/WindowsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/CarManualBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Manual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/GPSNavigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/Transmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/TripComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/director/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/AppleDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/CherryDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/Donut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/VanillaDonut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/factory/DonutFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/prototype/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/META-INF/design-patterns.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/application/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/application/ConfigureApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/button/Button.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/button/MacOSButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/button/WindowsButton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/checkbox/Checkbox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/checkbox/MacOSCheckbox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/checkbox/WindowsCheckbox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/factories/GUIFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/factories/MacOSFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/abstractfactory/factories/WindowsFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/builders/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/builders/CarBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/builders/CarManualBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/cars/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/cars/Manual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/cars/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/components/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/components/GPSNavigator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/components/Transmission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/components/TripComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/builder/director/Director.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/factorymethod/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/factorymethod/donuts/AppleDonut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/factorymethod/donuts/CherryDonut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/factorymethod/donuts/Donut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/factorymethod/donuts/VanillaDonut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/target/classes/kovteba/creationalpatterns/factorymethod/factory/DonutFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/examples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/compareuserbyname/CompareUserByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internationalization/target/tomcat/logs/access_log.2020-05-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/javascript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Tutorials.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MyInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test$Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test$Banana.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/TestClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/interface/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/interface/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/mysql/1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/mysql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/mysql/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-persistence-api/src/main/java/kovteba/hibernate/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-persistence-api/src/main/java/kovteba/hibernate/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/integer/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/integer/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kovteba/TestQue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/kovteba/jsp/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/kovteba/jsp/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +271,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Kotlin Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -84,7 +302,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Spring Data JPA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37483615" />
@@ -114,13 +332,13 @@
       <recent name="$PROJECT_DIR$/spring/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="DuplicatesNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.duplicatesnumber.DuplicatesNumber" />
-      <module name="algorithms" />
+  <component name="RunManager" selected="Application.Test69">
+    <configuration name="Test65" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test65" />
+      <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.duplicatesnumber.*" />
+          <option name="PATTERN" value="kovteba.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +346,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.fibonaccinumber.FibonacciNumber" />
-      <module name="algorithms" />
+    <configuration name="Test66" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test66" />
+      <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.fibonaccinumber.*" />
+          <option name="PATTERN" value="kovteba.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMissingNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.findmissingnumber.FindMissingNumberInArray" />
-      <module name="algorithms" />
+    <configuration name="Test67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test67" />
+      <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.findmissingnumber.*" />
+          <option name="PATTERN" value="kovteba.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.polishnotation.RPN" />
-      <module name="algorithms" />
+    <configuration name="Test68" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test68" />
+      <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.polishnotation.*" />
+          <option name="PATTERN" value="kovteba.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,9 +385,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Tutorials" />
+    <configuration name="Test69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test69" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,20 +406,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FibonacciNumber" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.RPN" />
-      <item itemvalue="Application.FindMissingNumberInArray" />
-      <item itemvalue="Application.DuplicatesNumber" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.Test65" />
+      <item itemvalue="Application.Test66" />
+      <item itemvalue="Application.Test67" />
+      <item itemvalue="Application.Test68" />
+      <item itemvalue="Application.Test69" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DuplicatesNumber" />
-        <item itemvalue="Application.FindMissingNumberInArray" />
-        <item itemvalue="Application.RPN" />
-        <item itemvalue="Application.FibonacciNumber" />
+        <item itemvalue="Application.Test69" />
+        <item itemvalue="Application.Test68" />
+        <item itemvalue="Application.Test67" />
+        <item itemvalue="Application.Test66" />
+        <item itemvalue="Application.Test65" />
       </list>
     </recent_temporary>
   </component>
@@ -259,14 +483,9 @@
       <workItem from="1590391325291" duration="25000" />
       <workItem from="1590391723692" duration="27327000" />
       <workItem from="1590478215972" duration="20877000" />
-      <workItem from="1590560387117" duration="10627000" />
-    </task>
-    <task id="LOCAL-00032" summary="Add ConnectToDBFileProperties">
-      <created>1587196146099</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1587196146099</updated>
+      <workItem from="1590560387117" duration="10952000" />
+      <workItem from="1590576826405" duration="19721000" />
+      <workItem from="1590649214578" duration="14677000" />
     </task>
     <task id="LOCAL-00033" summary="Add test connect">
       <created>1587196695675</created>
@@ -604,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590526975599</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="update">
+      <created>1590576718707</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1590576718708</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,14 +911,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="730" y="347" width="449" height="393" key="#com.intellij.fileTypes.FileTypeChooser/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509282800" />
-    <state x="748" y="1189" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1590567858000">
+    <state x="748" y="1189" width="446" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1590655182364">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="491" y="132" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1588437813429" />
     <state x="743" y="1189" width="374" height="584" key="#com.intellij.ide.util.MemberChooser/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587455870787" />
     <state x="491" y="132" key="#com.intellij.ide.util.MemberChooser/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586708193960" />
     <state x="690" y="153" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589468124135" />
-    <state x="748" y="1189" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590567858000" />
+    <state x="748" y="1189" width="446" height="582" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590655182364" />
     <state x="491" y="132" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590523406500" />
     <state x="531" y="121" width="479" height="647" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1586717126906">
       <screen x="0" y="27" width="1366" height="741" />
@@ -706,12 +932,12 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="398" y="308" width="371" height="206" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586696887419" />
-    <state x="758" y="1392" width="582" height="138" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590158796518">
+    <state x="758" y="1392" width="747" height="148" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590593443505">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="501" y="328" width="865" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587327541398" />
     <state x="704" y="439" width="693" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588948784712" />
-    <state x="758" y="1392" width="582" height="138" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590158796518" />
+    <state x="758" y="1392" width="747" height="148" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590593443505" />
     <state x="727" y="0" width="567" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589467448585">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -737,7 +963,7 @@
     <state x="636" y="146" width="681" height="795" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586721576920" />
     <state x="704" y="1107" width="743" height="741" key="CommitChangelistDialog2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791272428" />
     <state x="452" y="127" width="681" height="546" key="CommitChangelistDialog2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333137465" />
-    <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590482381424">
+    <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl" timestamp="1590577827697">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="1223" y="298" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1848@0.0.1920.1848" timestamp="1588859348743" />
@@ -746,13 +972,13 @@
     <state x="1122" y="1203" width="424" height="513" key="FileChooserDialogImpl/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1588141516528" />
     <state x="769" y="146" width="597" height="469" key="FileChooserDialogImpl/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587370843365" />
     <state x="1081" y="173" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589288939313" />
-    <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590482381424" />
+    <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590577827697" />
     <state x="769" y="146" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589546405800" />
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog" timestamp="1584960621610">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
-    <state width="462" height="587" key="GridCell.Tab.0.bottom" timestamp="1590570729272">
+    <state width="356" height="387" key="GridCell.Tab.0.bottom" timestamp="1590668383691">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1588858130979" />
@@ -760,9 +986,9 @@
     <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.bottom/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
     <state width="1878" height="264" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589468646087" />
-    <state width="462" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590570729272" />
+    <state width="356" height="387" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590668383691" />
     <state width="521" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590429390512" />
-    <state width="462" height="587" key="GridCell.Tab.0.center" timestamp="1590570729271">
+    <state width="356" height="387" key="GridCell.Tab.0.center" timestamp="1590668383691">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1588858130976" />
@@ -770,9 +996,9 @@
     <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.center/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
     <state width="1878" height="264" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589468646087" />
-    <state width="462" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590570729271" />
+    <state width="356" height="387" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590668383691" />
     <state width="521" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590429390512" />
-    <state width="462" height="587" key="GridCell.Tab.0.left" timestamp="1590570729271">
+    <state width="356" height="387" key="GridCell.Tab.0.left" timestamp="1590668383691">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1588858130975" />
@@ -780,9 +1006,9 @@
     <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.left/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159166" />
     <state width="1878" height="264" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589468646087" />
-    <state width="462" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590570729271" />
+    <state width="356" height="387" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590668383691" />
     <state width="521" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590429390511" />
-    <state width="462" height="587" key="GridCell.Tab.0.right" timestamp="1590570729272">
+    <state width="356" height="387" key="GridCell.Tab.0.right" timestamp="1590668383691">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state width="1324" height="176" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1588858130977" />
@@ -790,7 +1016,7 @@
     <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587459642145" />
     <state width="1324" height="247" key="GridCell.Tab.0.right/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333159167" />
     <state width="1878" height="264" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589468646087" />
-    <state width="462" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590570729272" />
+    <state width="356" height="387" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590668383691" />
     <state width="521" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590429390512" />
     <state width="699" height="587" key="GridCell.Tab.1.bottom" timestamp="1590439148562">
       <screen x="257" y="1080" width="1366" height="768" />
@@ -834,7 +1060,7 @@
     </state>
     <state x="854" y="412" width="347" height="263" key="MultipleFileMergeDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586511438140" />
     <state x="608" y="310" width="357" height="256" key="MultipleFileMergeDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586536053818" />
-    <state x="550" y="1107" width="1024" height="852" key="SettingsEditor" timestamp="1590482250660">
+    <state x="550" y="1107" width="1024" height="852" key="SettingsEditor" timestamp="1590588350986">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="703" y="0" width="947" height="1080" key="SettingsEditor/0.0.1920.1848@0.0.1920.1848" timestamp="1586454839260" />
@@ -843,8 +1069,8 @@
     <state x="468" y="1107" width="1024" height="741" key="SettingsEditor/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189049147" />
     <state x="293" y="27" width="900" height="741" key="SettingsEditor/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587371859234" />
     <state x="412" y="37" width="1024" height="852" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589006907689" />
-    <state x="550" y="1107" width="900" height="741" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590482250660" />
-    <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590526986174">
+    <state x="550" y="1107" width="900" height="741" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590588350986" />
+    <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1590576730897">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1588858224532" />
@@ -852,7 +1078,7 @@
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333146531" />
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589473103415" />
-    <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590526986174" />
+    <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590576730897" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589491262618" />
     <state x="842" y="1393" width="247" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1589816796948">
       <screen x="257" y="1080" width="1366" height="768" />
@@ -882,7 +1108,11 @@
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="343" y="1107" width="770" height="741" maximized="true" key="dock-window-2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588950749483" />
-    <state x="402" y="1185" width="1157" height="592" key="new project wizard" timestamp="1590482419044">
+    <state x="257" y="261" width="582" height="819" key="find.popup" timestamp="1590577874388">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="257" y="261" width="582" height="819" key="find.popup/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590577874388" />
+    <state x="402" y="1185" width="1157" height="592" key="new project wizard" timestamp="1590588346736">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="180" y="92" width="1627" height="869" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586454713943" />
@@ -890,19 +1120,19 @@
     <state x="397" y="1185" width="1157" height="592" key="new project wizard/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587189040394" />
     <state x="145" y="128" width="1148" height="473" key="new project wizard/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587371853946" />
     <state x="204" y="148" key="new project wizard/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588693794968" />
-    <state x="402" y="1185" width="1157" height="592" key="new project wizard/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590482419044" />
+    <state x="402" y="1185" width="1157" height="592" key="new project wizard/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590588346736" />
     <state x="488" y="214" key="run.anything.popup" timestamp="1588691738038">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="347" y="174" key="run.anything.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587313382183" />
     <state x="488" y="214" key="run.anything.popup/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588691738038" />
-    <state x="603" y="1144" width="672" height="703" key="search.everywhere.popup" timestamp="1590575926221">
+    <state x="603" y="1144" width="672" height="703" key="search.everywhere.popup" timestamp="1590588812230">
       <screen x="257" y="1080" width="1366" height="768" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1588411605436" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586529375488" />
     <state x="486" y="90" width="945" height="989" key="search.everywhere.popup/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588694505535" />
-    <state x="603" y="1144" width="672" height="703" key="search.everywhere.popup/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590575926221" />
+    <state x="603" y="1144" width="672" height="703" key="search.everywhere.popup/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590588812230" />
     <state x="346" y="89" width="673" height="679" key="search.everywhere.popup/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590523532416" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
