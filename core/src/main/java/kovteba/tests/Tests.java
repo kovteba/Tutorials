@@ -610,25 +610,36 @@ class Test71 implements A, B {
 //      System.out.println(Test71.text);
    }
 }
-interface A { String text = "a"; }
-interface B { String text = "b"; }
+
+interface A {
+   String text = "a";
+}
+
+interface B {
+   String text = "b";
+}
 
 class Test72 {
    class A {
       String str = "ab";
+
       A() {
          printLength();
       }
+
       void printLength() {
          System.out.println(str.length());
       }
    }
+
    class B extends A {
       String str = "abc";
+
       void printLength() {
          System.out.println(str.length());
       }
    }
+
    public static void main(String[] args) {
       new Test72().new B();
    }
@@ -636,7 +647,8 @@ class Test72 {
 
 class Test73 {
    public static void main(String[] args) {
-      if(System.out.printf("Hello world") == null){}
+      if (System.out.printf("Hello world") == null) {
+      }
    }
 }
 
@@ -660,10 +672,107 @@ class Test74 {
    }
 }
 
+class Test76 {
+   public static class B {
 
+      B b = new B();
 
+      public int show() {
+         return (true ? null : 0);
+      }
+   }
 
+   public static void main(String[] args) {
 
+      B b = new B();
+      b.show();
+   }
+}
+
+class Test77 {
+   public static void show() {
+      System.out.println("Static method called");
+   }
+
+   public static void main(String[] args) {
+      Test77 obj = null;
+      obj.show();
+   }
+}
+
+class Test78 {
+   static int a = 1111;
+
+   static {
+      a = a-- - --a;
+   }
+
+   {
+      a = a++ + ++a;
+   }
+
+   public static void main(String[] args) {
+      System.out.println(a);
+   }
+}
+
+class Test79 {
+   int GetValue() {
+      return (true ? null : 0);
+   }
+
+   public static void main(String[] args) {
+      Test79 obj = new Test79();
+      obj.GetValue();
+   }
+}
+
+class Test80A {
+   void method(int i) {
+   }
+}
+
+class Test80B extends Test80A {
+   //   @Override
+   void method(Integer i) {
+
+   }
+}
+
+class Test81 {
+   public static void main(String[] args) {
+      Integer i = new Integer(null);
+//      String s = new String(null);
+   }
+}
+
+class Test82 {
+   static int method1(int i) {
+      return method2(i *= 11);
+   }
+
+   static int method2(int i) {
+      return method3(i /= 11);
+   }
+
+   static int method3(int i) {
+      return method4(i -= 11);
+   }
+
+   static int method4(int i) {
+      return i += 11;
+   }
+
+   public static void main(String[] args) {
+      System.out.println(method1(11));
+   }
+}
+
+class Test83 {
+   public static void main(String[] args) {
+//      System.out.println(null);
+   }
+}
 
 
 

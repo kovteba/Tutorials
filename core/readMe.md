@@ -34,6 +34,29 @@
     - [Жизненный цикл аннотации](#Жизненный-цикл-аннотации)
     - [К каким элементам можно применять аннотации](#К-каким-элементам-можно-применять-аннотации)
     - [Своя аннотация](#Своя-аннотация)
+- [Java 8](#Java-8)
+    - [Lambda](#Lambda)
+    - [Functional interface](#Functional-interface)
+    - [Stream API](#Steam-API)
+    - [Optional](#Optional)
+    - [Nashorn](#Nashorn)
+    - [jjs](#jjs)
+    - [LocalDateTime](#LocalDateTime)
+    - [ZonedDateTime](#ZonedDateTime)
+    - [Examples](#Examples)
+        - [Current date](#Current-date)
+        - [Plus one week](#Plus-one-week)
+        - [Plus one month](#Plus-one-month)
+        - [Plus one year](#Plus-one-year)
+        - [Plus ten years](#Plus-ten-years)
+        - [Next Tuesday](#Next-Tuesday)
+        - [Get second saturday in this month](#Get-second-saturday-in-this-month)
+        - [Current date in millisec](#Current-date-in-millisec)
+        - [Current date in millisec by localTime](#Current-date-in-millisec-by-localTime)
+    - [Class Java 8 для декодирования, кодирования данных](#Class-Java-8-для-декодирования,-кодирования-данных)
+    - [](#)
+- [Java 9](#Java-9)
+    - [Модули (проект Jigsaw)](#Модули-(проект-Jigsaw))
 
 
 ## Other questions    
@@ -85,29 +108,6 @@
 - [OpenJDK](#OpenJDK)
 - [Документирование кода](#Документирование-кода)
 - [ClassPath](#ClassPath)
-- [Java 8](#Java-8)
-    - [Lambda](#Lambda)
-    - [Functional interface](#Functional-interface)
-    - [Stream API](#Steam-API)
-    - [Optional](#Optional)
-    - [Nashorn](#Nashorn)
-    - [jjs](#jjs)
-    - [LocalDateTime](#LocalDateTime)
-    - [ZonedDateTime](#ZonedDateTime)
-    - [Examples](#Examples)
-        - [Current date](#Current-date)
-        - [Plus one week](#Plus-one-week)
-        - [Plus one month](#Plus-one-month)
-        - [Plus one year](#Plus-one-year)
-        - [Plus ten years](#Plus-ten-years)
-        - [Next Tuesday](#Next-Tuesday)
-        - [Get second saturday in this month](#Get-second-saturday-in-this-month)
-        - [Current date in millisec](#Current-date-in-millisec)
-        - [Current date in millisec by localTime](#Current-date-in-millisec-by-localTime)
-    - [Class Java 8 для декодирования, кодирования данных](#Class-Java-8-для-декодирования,-кодирования-данных)
-    - [](#)
-- [Java 9](#Java-9)
-    - [Модули (проект Jigsaw)](#Модули-(проект-Jigsaw))
 - [Атомарность](#Атомарность)
 - [](#)
 - [-----](#-----)
@@ -626,6 +626,167 @@ public @interface About{
 - @interface - указывает на то, что это аннотация
 - default - говорит про то, что метод по умолчанию будет возвращать определённое значение.
 Аннотация готова теперь ею можно пользоваться, также аннотацию можно сконфигурировать.
+
+## Java 8
+## Lambda
+[__Лямбда-выражение__](src/main/java/kovteba/lambda) или просто __лямбда__ в Java — упрощённая запись анонимного 
+класса, реализующего функциональный интерфейс.
+
+## Functional interface
+[__Функциональный интерфейс__](src/main/java/kovteba/functionalinterface) в Java — интерфейс, в котором объявлен 
+только один абстрактный метод. Однако, методов по умолчанию (default) такой интерфейс может содержать сколько 
+угодно, что можно видеть на примере `java.util.function.Function`. Функциональный интерфейс может быть отмечен 
+аннотацией `@FunctionalInterface`, но это не обязательное условие, так как JVM считает функциональным любой 
+интерфейс с одним абстрактным методом.
+
+## Steam API
+Начиная с _JDK 8_ в Java появился новый API - [__Stream API__](src/main/java/kovteba/streamapi). Его задача - 
+упростить работу с наборами данных, в частности, упростить операции фильтрации, сортировки и другие манипуляции 
+с данными. Вся основная функциональность данного API сосредоточена в пакете java.util.stream.
+
+## Optional
+`Optional` - это контейнер объекта, он может содержать значение или некоторый тип `Т`, или просто быть `null`. 
+Он предоставляет много полезных методов избавляющие от добавления повторяющихся i`f null/notNull` проверок, что 
+позволяет нам сфокусироваться на том, что мы хотим сделать.
+Метод `isPresent()` возвращает `true` если экземпляр Optional содержит не `null` значение и `false` в противном случае. 
+Метод `orElseGet()` содержит запасной механизм результата, если Optional содержит `null`, принимая функции для 
+генерации значения по умолчанию. Метод map() преобразует текущее значение Optional и возвращает новый экземпляр 
+Optional. Метод orElse() похож на orElseGet(), но вместо функции он принимает значение по умолчанию.
+```java
+List<Integer> list = Arrays.asList(null, 1, 12, 14);
+Optional<Integer> optional = Optional.ofNullable(list.get(1));
+optional.ifPresent(System.out::println);
+```
+```java
+List<Integer> list = Arrays.asList(null, 1, 12, 14);
+Optional<Integer> optional = Optional.ofNullable(list.get(1));
+if (optional.isPresent()){
+ System.out.println(optional.get());
+}
+```
+
+## Nashorn
+__Nashorn__ - это движок JavaScript, разрабатываемый полностью на Java компанией Oracle.  Он призван дать возможность 
+встраивать код JavaScript в приложения Java. В сравнении с Rhino, который поддерживается Mozilla  Foundation, Nashorn 
+обеспечивает от 2 до 10 раз более высокую производительность, так как он непосредственно компилирует код в памяти и 
+передает байт-код виртуальной машине Java. Nashorn умеет компилировать код JavaScript и генерировать классы Java, 
+которые загружаются специальным загрузчиком. Возможен вызов кода Java прямо из JavaScript.
+
+## jjs
+Nashorn поставляется с cmd-утилитой jjs, которая позволяет исполнять JavaScript прямо в консоли. jjs принимает список 
+JavaScript файлов исходного кода и запускает их. Чтобы запустить файл давайте передадим его как аргумент в jjs:
+jjs fileName.js
+
+## LocalDateTime
+LocalDateTime объединяет вместе LocaleDate и LocalTime и содержит дату и время, но без часового пояса в календарной 
+системе ISO-8601. Время хранится с точностью до наносекунды, так что в LocalTime можно хранить, например, величину 
+"13:45.30.123456789". Есть множество удобных методов, таких как plusMinutes, plusHours, isAfter, toSecondOfDay и т.д.
+
+## ZonedDateTime
+__ZonedDateTime__ - аналог java.util.Calendar. Это самый мощный класс с полной информацией о временном контексте, 
+включает временную зону. Он содержит дату и время в календарной системе ISO-8601.
+
+## Examples
+### Current date
+```java
+LocalDate today = ZonedDateTime.now().toLocalDate();
+```
+
+### Plus one week
+```java
+LocalDate today = ZonedDateTime.now().toLocalDate();
+LocalDate plusOneWeek = today.plus(1, ChronoUnit.WEEKS);
+```
+
+### Plus one month
+```java
+LocalDate today = ZonedDateTime.now().toLocalDate();
+LocalDate plusOneMonth = today.plus(1, ChronoUnit.MONTHS);
+```
+
+### Plus one year
+```java
+LocalDate today = ZonedDateTime.now().toLocalDate();
+LocalDate plusOneYear = today.plus(1, ChronoUnit.YEARS);
+```
+
+### Plus ten years
+```java
+LocalDate today = ZonedDateTime.now().toLocalDate();
+LocalDate plusTenYears = today.plus(1, ChronoUnit.DECADES);
+```
+
+### Next Tuesday
+```java
+LocalDate today = ZonedDateTime.now().toLocalDate();
+LocalDate nextTuesday = today.with(TemporalAdjusters.next(DayOfWeek.TUESDAY));
+```
+
+### Get second saturday in this month
+```java
+LocalDate today = ZonedDateTime.now().toLocalDate();
+LocalDate firstInYear = LocalDate.of(today.getYear(), today.getMonth(), 1);
+LocalDate secondsSaturday = firstInYear.with(TemporalAdjusters.nextOrSame(DayOfWeek.SATURDAY)).with(TemporalAdjusters.next(DayOfWeek.SATURDAY));
+```
+
+### Current date in millisec
+```java
+Date currentDate = new Date();
+Instant now = currentDate.toInstant();
+```
+### Current date in millisec by localTime
+```java
+Date currentDate = new Date();
+Instant now = currentDate.toInstant();
+ZoneId currentZone = ZoneId.systemDefault();
+LocalDateTime localDateTime = LocalDateTime.ofInstant(now, currentZone);
+```
+
+## Class Java 8 для декодирования, кодирования данных
+В _Java 8_ для этого появился класс `public static class Base64.Decoder` - этот класс реализует декодер для 
+декодирования байт данных, используя схему кодирования __Base64__ как указано в _RFC 4648_ и _RFC 2045_, класс 
+безопасен для использования несколькими параллельными потоками.
+
+В _Java 8_ для этого появился класс `public static class Base64.Encoder` - этот класс реализует  кодер для 
+кодирования байт данных, используя схему кодирования Base64 как указано в _RFC 4648_ и _RFC 2045_, класс 
+безопасен для использования несколькими параллельными потоками.
+
+__Создать декодеровщик__:   
+Используя метод getDecoder() класса Base64 он возвращает декодировщик Base64.Decoder, который декодирует данные с 
+помощью схемы кодирования base64.
+
+__Создать кодировщик__:   
+Используя метод getEncoder() класса Base64 он возвращает кодировщик Base64.Encoder, который кодирует данные с 
+помощью схемы кодирования base64.
+
+## Java 9
+## Модули (проект Jigsaw)
+В __Java 9__ появился долгожданный Project Jigsaw, или же просто модули. Они позволяют сделать приложение меньше в 
+обьеме, более инкапсулированным и совершенным.   
+Для того чтобы модуль был полноценным, ему нужно добавить `module-info.java`, при чем создан он должен быть строго в 
+папке `src`. Содержимое файла, в нашем случае, будет выглядеть так 
+```xml
+module nodulName {
+    exports packageName;
+    exports packageName.nextLevelPackageName;
+    .....
+}
+```
+Ключевое слово exports используется, чтобы указать какие пакеты из модуля могут использоваться в других модулях.
+```xml
+module human {
+    requires knowledge.base;
+}
+```
+Ключевое слово requires используется, чтобы указать какие модули нужны для работы данного модуля.
+```java
+import modulName.packageName;
+```
+
+
+
+
+
 
 
 
@@ -1281,162 +1442,7 @@ OpenJDK — проект по созданию полностью совмест
 __ClassPath__ - это переменная окружения, которую виртуальная машина Java (JVM) использует для определения 
 местоположения всех классов, используемых программой.
 
-## Java 8
 
-## Lambda
-[__Лямбда-выражение__](src/main/java/kovteba/lambda) или просто __лямбда__ в Java — упрощённая запись анонимного 
-класса, реализующего функциональный интерфейс.
-
-## Functional interface
-[__Функциональный интерфейс__](src/main/java/kovteba/functionalinterface) в Java — интерфейс, в котором объявлен 
-только один абстрактный метод. Однако, методов по умолчанию (default) такой интерфейс может содержать сколько 
-угодно, что можно видеть на примере `java.util.function.Function`. Функциональный интерфейс может быть отмечен 
-аннотацией `@FunctionalInterface`, но это не обязательное условие, так как JVM считает функциональным любой 
-интерфейс с одним абстрактным методом.
-
-## Steam API
-Начиная с _JDK 8_ в Java появился новый API - [__Stream API__](src/main/java/kovteba/streamapi). Его задача - 
-упростить работу с наборами данных, в частности, упростить операции фильтрации, сортировки и другие манипуляции 
-с данными. Вся основная функциональность данного API сосредоточена в пакете java.util.stream.
-
-## Optional
-`Optional` - это контейнер объекта, он может содержать значение или некоторый тип `Т`, или просто быть `null`. 
-Он предоставляет много полезных методов избавляющие от добавления повторяющихся i`f null/notNull` проверок, что 
-позволяет нам сфокусироваться на том, что мы хотим сделать.
-Метод `isPresent()` возвращает `true` если экземпляр Optional содержит не `null` значение и `false` в противном случае. 
-Метод `orElseGet()` содержит запасной механизм результата, если Optional содержит `null`, принимая функции для 
-генерации значения по умолчанию. Метод map() преобразует текущее значение Optional и возвращает новый экземпляр 
-Optional. Метод orElse() похож на orElseGet(), но вместо функции он принимает значение по умолчанию.
-```java
-List<Integer> list = Arrays.asList(null, 1, 12, 14);
-Optional<Integer> optional = Optional.ofNullable(list.get(1));
-optional.ifPresent(System.out::println);
-```
-```java
-List<Integer> list = Arrays.asList(null, 1, 12, 14);
-Optional<Integer> optional = Optional.ofNullable(list.get(1));
-if (optional.isPresent()){
- System.out.println(optional.get());
-}
-```
-
-## Nashorn
-__Nashorn__ - это движок JavaScript, разрабатываемый полностью на Java компанией Oracle.  Он призван дать возможность 
-встраивать код JavaScript в приложения Java. В сравнении с Rhino, который поддерживается Mozilla  Foundation, Nashorn 
-обеспечивает от 2 до 10 раз более высокую производительность, так как он непосредственно компилирует код в памяти и 
-передает байт-код виртуальной машине Java. Nashorn умеет компилировать код JavaScript и генерировать классы Java, 
-которые загружаются специальным загрузчиком. Возможен вызов кода Java прямо из JavaScript.
-
-## jjs
-Nashorn поставляется с cmd-утилитой jjs, которая позволяет исполнять JavaScript прямо в консоли. jjs принимает список 
-JavaScript файлов исходного кода и запускает их. Чтобы запустить файл давайте передадим его как аргумент в jjs:
-jjs fileName.js
-
-## LocalDateTime
-LocalDateTime объединяет вместе LocaleDate и LocalTime и содержит дату и время, но без часового пояса в календарной 
-системе ISO-8601. Время хранится с точностью до наносекунды, так что в LocalTime можно хранить, например, величину 
-"13:45.30.123456789". Есть множество удобных методов, таких как plusMinutes, plusHours, isAfter, toSecondOfDay и т.д.
-
-## ZonedDateTime
-__ZonedDateTime__ - аналог java.util.Calendar. Это самый мощный класс с полной информацией о временном контексте, 
-включает временную зону. Он содержит дату и время в календарной системе ISO-8601.
-
-## Examples
-### Current date
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-```
-
-### Plus one week
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusOneWeek = today.plus(1, ChronoUnit.WEEKS);
-```
-
-### Plus one month
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusOneMonth = today.plus(1, ChronoUnit.MONTHS);
-```
-
-### Plus one year
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusOneYear = today.plus(1, ChronoUnit.YEARS);
-```
-
-### Plus ten years
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusTenYears = today.plus(1, ChronoUnit.DECADES);
-```
-
-### Next Tuesday
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate nextTuesday = today.with(TemporalAdjusters.next(DayOfWeek.TUESDAY));
-```
-
-### Get second saturday in this month
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate firstInYear = LocalDate.of(today.getYear(), today.getMonth(), 1);
-LocalDate secondsSaturday = firstInYear.with(TemporalAdjusters.nextOrSame(DayOfWeek.SATURDAY)).with(TemporalAdjusters.next(DayOfWeek.SATURDAY));
-```
-
-### Current date in millisec
-```java
-Date currentDate = new Date();
-Instant now = currentDate.toInstant();
-```
-### Current date in millisec by localTime
-```java
-Date currentDate = new Date();
-Instant now = currentDate.toInstant();
-ZoneId currentZone = ZoneId.systemDefault();
-LocalDateTime localDateTime = LocalDateTime.ofInstant(now, currentZone);
-```
-
-## Class Java 8 для декодирования, кодирования данных
-В _Java 8_ для этого появился класс `public static class Base64.Decoder` - этот класс реализует декодер для 
-декодирования байт данных, используя схему кодирования __Base64__ как указано в _RFC 4648_ и _RFC 2045_, класс 
-безопасен для использования несколькими параллельными потоками.
-
-В _Java 8_ для этого появился класс `public static class Base64.Encoder` - этот класс реализует  кодер для 
-кодирования байт данных, используя схему кодирования Base64 как указано в _RFC 4648_ и _RFC 2045_, класс 
-безопасен для использования несколькими параллельными потоками.
-
-__Создать декодеровщик__:   
-Используя метод getDecoder() класса Base64 он возвращает декодировщик Base64.Decoder, который декодирует данные с 
-помощью схемы кодирования base64.
-
-__Создать кодировщик__:   
-Используя метод getEncoder() класса Base64 он возвращает кодировщик Base64.Encoder, который кодирует данные с 
-помощью схемы кодирования base64.
-
-## Java 9
-## Модули (проект Jigsaw)
-В __Java 9__ появился долгожданный Project Jigsaw, или же просто модули. Они позволяют сделать приложение меньше в 
-обьеме, более инкапсулированным и совершенным.   
-Для того чтобы модуль был полноценным, ему нужно добавить `module-info.java`, при чем создан он должен быть строго в 
-папке `src`. Содержимое файла, в нашем случае, будет выглядеть так 
-```xml
-module nodulName {
-    exports packageName;
-    exports packageName.nextLevelPackageName;
-    .....
-}
-```
-Ключевое слово exports используется, чтобы указать какие пакеты из модуля могут использоваться в других модулях.
-```xml
-module human {
-    requires knowledge.base;
-}
-```
-Ключевое слово requires используется, чтобы указать какие модули нужны для работы данного модуля.
-```java
-import modulName.packageName;
-```
 
 ## Атомарность
 Атомарность -  означает выполнение операции целиком непрерывно (либо невыполнение ее вовсе).  

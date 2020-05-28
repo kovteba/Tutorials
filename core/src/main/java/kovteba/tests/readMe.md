@@ -1341,7 +1341,7 @@ Answer:
         12
         13
 
-## Test
+## Test75
 ```java
 int v1=1; long v2=2; v1=v1+v2;  
 int v1=1; long v2=2; v1+=v2;  
@@ -1351,53 +1351,145 @@ Answer:
         Соответственно в первой строке будет ошибка компиляции так как long шире чем int, а вторая строка успешно 
         выполнится.
 
-## Test
+## Test76
 ```java
+class Test76 {
+   public static class B {
 
+      B b = new B();
+
+      public int show(){
+         return (true ? null : 0);
+      }
+   }
+   public static void main(String[] args)  {
+
+      B b = new B();
+      b.show();
+   }
+}
 ```
-Answer: 
+Answer:   
+        - Каждый раз, когда мы создаем объект какого-либо класса, первым вызывается конструктор и выделяется память 
+            для всех нестатических переменных.
+        - Здесь B b = new B(); объекту класса B присваивается новый объект того же класса.
+        - Запись B b = new B(); приводит к рекурсивному исполнению конструктора, что создает бесконечные объекты. 
+            Именно поэтому во время выполнения этого кода будет возбуждено исключение java.lang.StackOverFlowError 
+            в потоке "main".
+        - Распространенной причиной появления такого рода исключений является плохая рекурсия. Обычно это 
+            происходит из-за неправильного условия завершения.
 
-## Test
+## Test77
 ```java
-
+class Test77 {
+   public static void show(){
+      System.out.println("Static method called");
+   }
+   public static void main(String[] args)  {
+      Test77 obj = null;
+      obj.show();
+   }
+}
 ```
-Answer: 
+Answer:    
+        Мы можем вызвать статические методы, используя переменную, ссылающуюся на null. Дело в том, что статические 
+        методы находятся на уровне класса. Именно поэтому мы можем вызывать статические функции как при помощи самого 
+        класса, так и при помощи переменной, равной null.
 
-## Test
+## Test78
 ```java
-
+class Test78{
+   static int a = 1111;
+   static
+   {
+      a = a-- - --a;
+   }
+   {
+      a = a++ + ++a;
+   }
+   public static void main(String[] args)  {
+      System.out.println(a);
+   }
+}
 ```
-Answer: 
+Answer: 2
 
-## Test
+## Test79
 ```java
-
+class Test79 {
+   int GetValue()
+   {
+      return (true ? null : 0);
+   }
+   public static void main(String[] args)  {
+      Test79 obj = new Test79();
+      obj.GetValue();
+   }
+}
 ```
-Answer: 
+Answer: java.lang.NullPointerException
 
-## Test
+## Test80
 ```java
+class Test80A
+{
+   void method(int i) { }
+}
+class Test80B extends Test80A {
+   @Override
+   void method(Integer i)
+   {
 
+   }
+}
 ```
-Answer: 
+Answer: Compile time Error:The method method(Integer) of type B must override or implement a supertype method
 
-## Test
+## Test81
 ```java
-
+class Test81 {
+   public static void main(String [] args) {
+      Integer i = new Integer(null);
+      String s = new String(null);
+   }
+}
 ```
-Answer: 
+Answer: Compile time Error at line number 9:The constructor String(String) is ambiguous
 
-## Test
+## Test82
 ```java
-
+class Test82 {
+   static int method1(int i) {
+      return method2(i *= 11);
+   }
+   static int method2(int i) {
+      return method3(i /= 11);
+   }
+   static int method3(int i) {
+      return method4(i -= 11);
+   }
+   static int method4(int i) {
+      return i += 11;
+   }
+   public static void main(String [] args) {
+      System.out.println(method1(11));
+   }
+}
 ```
-Answer: 
+Answer: 11
 
-## Test
+## Test83
 ```java
-
+class Test83 {
+   public static void main(String[] args) {
+//      System.out.println(null);
+   }
+}
 ```
-Answer: 
+Answer:   
+        Происходит, разумеется, ошибка компиляции. У метода println есть несколько вариаций. Он может принимать 
+        String, Object или char[]. При передаче в эту функцию аргумента null компилятор не может определиться, 
+        к какому из трех методов обращаться.
 
 ## Test
 ```java
