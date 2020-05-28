@@ -16,7 +16,6 @@
         <module name="core" />
         <module name="design-patterns" />
         <module name="jdbc" />
-        <module name="stream" />
         <module name="data-base" />
       </profile>
     </annotationProcessing>
@@ -27,6 +26,7 @@
       <module name="my-sql" target="8" />
       <module name="postgresql" target="8" />
       <module name="servlet" target="8" />
+      <module name="stream" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

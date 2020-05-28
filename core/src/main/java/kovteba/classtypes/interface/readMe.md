@@ -7,6 +7,7 @@
 - [Понятие «интерфейс». Какие модификаторы по умолчанию имеют поля и методы интерфейсов?](#Понятие-«интерфейс».-Какие-модификаторы-по-умолчанию-имеют-поля-и-методы-интерфейсов?)
 - [Static method in interface](#Static-method-in-interface)
 - [Default method in interface](#Default-method-in-interface)
+- [Private method in interface](#Private-method-in-interface)
 - [](#)
 
 ## Назначение интерфейса
@@ -102,3 +103,6 @@ class TestClass implements MyInterface{
    }
 }
 ```
+
+## Private method in interface
+C __Java 9__ доступен для методов модификатор private

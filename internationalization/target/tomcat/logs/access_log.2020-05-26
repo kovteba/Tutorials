@@ -1,9 +1,0 @@
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:36:20 +0300] "GET / HTTP/1.1" 404 - http-bio-9090-exec-1 0
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:55 +0300] "GET /internationalization/ HTTP/1.1" 200 454 http-bio-9090-exec-1 229
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:55 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-3 0
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:57 +0300] "POST /internationalization/fr HTTP/1.1" 302 - http-bio-9090-exec-4 7
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:58 +0300] "GET /internationalization/ HTTP/1.1" 200 465 http-bio-9090-exec-5 9
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:58 +0300] "POST /internationalization/us HTTP/1.1" 302 - http-bio-9090-exec-6 4
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:58 +0300] "GET /internationalization/ HTTP/1.1" 200 454 http-bio-9090-exec-7 12
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:59 +0300] "POST /internationalization/de HTTP/1.1" 302 - http-bio-9090-exec-8 6
-0:0:0:0:0:0:0:1 - - [26/May/2020:12:37:59 +0300] "GET /internationalization/ HTTP/1.1" 200 454 http-bio-9090-exec-9 25

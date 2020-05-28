@@ -10,6 +10,7 @@
     + [Garbage Collector](core/src/main/java/kovteba/garbagecollector)
     + [Generics](core/src/main/java/kovteba/generics)
     + [IO-API](core/src/main/java/kovteba/io)
+    + [Stream API](core/src/main/java/kovteba/streamapi)
     + [Tests](core/src/main/java/kovteba/tests)
     
     

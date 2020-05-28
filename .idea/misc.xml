@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/java-collections-framework/pom.xml" />
         <option value="$PROJECT_DIR$/my-sql/pom.xml" />
         <option value="$PROJECT_DIR$/postgresql/pom.xml" />
+        <option value="$PROJECT_DIR$/stream/pom.xml" />
       </set>
     </option>
   </component>

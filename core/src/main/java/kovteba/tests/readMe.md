@@ -1216,6 +1216,153 @@ class Test69 {
 ```
 Answer:  Error:(583, 16) java: incompatible types: possible lossy conversion from int to byte
 
+## Test70
+```java
+class Test70 {
+   public static void main(String[] args) {
+      Map map = new TestMap();
+      for (Object o : map.keySet()) {
+         System.out.println(o);
+      }
+   }
+
+   static class TestMap extends HashMap {
+      @Override
+      public Set keySet() {
+         return null;
+      }
+   }
+}
+```
+Answer: будет NullPointerException. цикл развернется в такую конструкцию:
+```java
+for(Iterator<object> i = map.keySet().iterator(); i.hasNext(); ) { 
+    String item = i.next(); 
+    System.out.println(item); 
+} 
+```
+
+## Test71
+```java
+class Test71 implements A, B {
+   public static void main(String[] args) {
+      System.out.println(Test71.text);// <-- Error
+   }
+}
+interface A { String text = "a"; }
+
+interface B { String text = "b"; }
+```
+Answer:   
+        На самом деле переменная text имеет неоднозначное значение. Об этом говорит ошибка компиляции 
+        "The field Implementor.text is ambiguous". То есть переменная text имеет сразу два значения, 
+        взятые у обоих интерфейсов.
+
+## Test72
+```java
+class Test72 {
+   class A {
+      String str = "ab";
+      A() {
+         printLength();
+      }
+      void printLength() {
+         System.out.println(str.length());
+      }
+   }
+   class B extends A {
+      String str = "abc";
+      void printLength() {
+         System.out.println(str.length());
+      }
+   }
+   public static void main(String[] args) {
+      new Test72().new B();
+   }
+} 
+```
+Answer:   
+        В результате выполнения данного кода возникнет NullPointerException, так как, создавая объект класса B, 
+        сначала вызывается конструктор супер класса (родителя). В конструкторе родителя происходит вызов метода 
+        printLength(), который переопределен в подклассе (наследнике), внутри этого метода идет обращение к 
+        переменной str наследника, которая еще не проинициализирована и равна null, так как конструктор родителя 
+        еще не закончил свою работу, отсюда и исключение.
+
+## Test73 Измените код так, чтобы он вернул hello world на консоль.
+```java
+public class NullReferenceTest { 
+   //..... 
+    public static void main(String[] args) { 
+        NullReferenceTest nullReferenceTest = null; 
+        System.out.println(nullReferenceTest./*<some descriptor>*/); 
+    } 
+} 
+```
+Answer:  
+        Через null ссылку можно обратиться к статике, следовательно могут быть такие варианты:   
+        - Добавить в класс NullReferenceTest статическое поле string со значение "hello world"   
+        - Добавить статический метод  
+
+## Test73 Без точки с запятой
+```java
+class Test73 {
+   public static void main(String[] args) {
+      if(System.out.printf("Hello world") == null){}
+   }
+}
+```
+Answer: 
+
+## Test74
+```java
+class Test74 {
+   public static void main(String[] args) {
+      int i = 5;
+      i = i++;
+      System.out.println(i);
+
+      i = 5;
+      i = i++ + i++;// 5 + 6
+      System.out.println(i);
+
+      i = 5;
+      i = i++ + ++i;//5 + 7
+      System.out.println(i);
+
+      i = 5;
+      i = ++i + ++i;// 6 + 7
+      System.out.println(i);
+   }
+}
+```
+Answer:   
+        5
+        11
+        12
+        13
+
+## Test
+```java
+int v1=1; long v2=2; v1=v1+v2;  
+int v1=1; long v2=2; v1+=v2;  
+```
+Answer:   
+        При сокращённых операциях в java производится приведение типов. То есть v1+=v2 аналогична v1=(int)(v1+v2) 
+        Соответственно в первой строке будет ошибка компиляции так как long шире чем int, а вторая строка успешно 
+        выполнится.
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
 ## Test
 ```java
 

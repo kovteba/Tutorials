@@ -522,6 +522,7 @@ class Test63 {
 
 class Test64 {
    static int a = 1111;
+
    public static void main(String[] args) {
       System.out.println(a--);
       System.out.println(--a);
@@ -567,6 +568,7 @@ class Test67 {
 
 class Test68 {
    private static int value = 2;
+
    static {
       value = 1;
    }
@@ -587,7 +589,76 @@ class Test69 {
    }
 }
 
+class Test70 {
+   public static void main(String[] args) {
+      Map map = new TestMap();
+      for (Object o : map.keySet()) {
+         System.out.println(o);
+      }
+   }
 
+   static class TestMap extends HashMap {
+      @Override
+      public Set keySet() {
+         return null;
+      }
+   }
+}
+
+class Test71 implements A, B {
+   public static void main(String[] args) {
+//      System.out.println(Test71.text);
+   }
+}
+interface A { String text = "a"; }
+interface B { String text = "b"; }
+
+class Test72 {
+   class A {
+      String str = "ab";
+      A() {
+         printLength();
+      }
+      void printLength() {
+         System.out.println(str.length());
+      }
+   }
+   class B extends A {
+      String str = "abc";
+      void printLength() {
+         System.out.println(str.length());
+      }
+   }
+   public static void main(String[] args) {
+      new Test72().new B();
+   }
+}
+
+class Test73 {
+   public static void main(String[] args) {
+      if(System.out.printf("Hello world") == null){}
+   }
+}
+
+class Test74 {
+   public static void main(String[] args) {
+      int i = 5;
+      i = i++;
+      System.out.println(i);
+
+      i = 5;
+      i = i++ + i++;// 5 + 6
+      System.out.println(i);
+
+      i = 5;
+      i = i++ + ++i;//5 + 7
+      System.out.println(i);
+
+      i = 5;
+      i = ++i + ++i;// 6 + 7
+      System.out.println(i);
+   }
+}
 
 
 
