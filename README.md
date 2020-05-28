@@ -1,6 +1,5 @@
 # Tutorials
 
-
 + [Java core](core)
     + [Data types](core/src/main/java/kovteba/datatypes)
         + [Byte (byte)](core/src/main/java/kovteba/datatypes/byte) 
@@ -51,50 +50,40 @@
     + [IO-API](core/src/main/java/kovteba/io)
     + [Stream API](core/src/main/java/kovteba/streamapi)
     + [Tests](core/src/main/java/kovteba/tests)
-    
-    
+--- 
 + [Design Patterns](design-patterns)
-    
-    
+---    
 + [JDBC](jdbc)
-
-
+---
 + [Database](data-base)
     + [Relation Data Base](data-base/src/main/java/kovteba/relationaldb)
         - [My-Sql](data-base/src/main/java/kovteba/relationaldb/mysql)
         - [PostgreSQL](data-base/src/main/java/kovteba/relationaldb/postgresql)
         - [PRACTICE](data-base/src/main/java/kovteba/practice)
     + [Non-Relation Data Base](data-base/src/main/java/kovteba/nonrelationaldb)
-    
-    
+---    
 + [WEB](web)
     + [Servlet](web/src/main/java/kovteba/servlet)
     + [JSP](web/src/main/java/kovteba/jsp)
     + [REST](web/src/main/java/kovteba/rest)
-    
-    
+---    
 + [Algoritms](algorithms)
     + [Bubble Sort](algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java)
     + [InsertSort](algorithms/src/main/java/kovteba/insertsort/InsertSort.java)
     + [Merge Sort](algorithms/src/main/java/kovteba/mergesort/MergeSort.java)
     + [Fibonacci](algorithms/src/main/java/kovteba/fibonaccinumber/FibonacciNumber.java)
     + [Palindrome](algorithms/src/main/java/kovteba/palindrome/Palindrome.java)
-    
-    
+---    
 + [Internationalozation](internationalization)
-
-
+---
 + [Java Persistence API](java-persistence-api)
     + [HIBERNATE](java-persistence-api/src/main/java/kovteba/hibernate)
-
-
+---
 + [Spring](spring)
     + [Dependency Injection](spring/src/main/java/kovteba/dependencyinjectionbeans)
-
-
-
+---
 + [EXAMPLES](examples)
-
+---
 
 
 
