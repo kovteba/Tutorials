@@ -774,6 +774,16 @@ class Test83 {
    }
 }
 
+class Test85 {
+   public static void main(String[] args) {
+      List<String> list = Arrays.asList("Hello", "World");
+      List<Integer> data = new ArrayList(list);
+//      for (Integer i : data){ // <--  ClassCastException
+//         System.out.println(i);
+//      }
+   }
+}
+
 
 
 

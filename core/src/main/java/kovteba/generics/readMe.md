@@ -85,8 +85,8 @@ List<? super Integer> ints = nums;
 Запись вида `? extends ...` или `? super ...` — называется __wildcard__ или символом подстановки, с верхней 
 границей `extends` или с нижней границей `super`.   
 List<? extends Number> может содержать объекты, класс которых является Number или наследуется от Number.   
-List<? super Number> может содержать объекты, класс которых Number или у которых Number является 
-наследником (супертип от Number).
+List<? super Integer> может содержать объекты, класс которых Integer или у которых Integer является 
+наследником (супертип от Integer).
 
  ## The Get and Put Principle или PECS (Producer Extends Consumer Super)
 Особенность wildcard с верхней и нижней границей дает дополнительные фичи, связанные с безопасным использованием типов. 

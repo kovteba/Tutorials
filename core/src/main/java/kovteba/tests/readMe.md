@@ -1491,11 +1491,87 @@ Answer:
         String, Object или char[]. При передаче в эту функцию аргумента null компилятор не может определиться, 
         к какому из трех методов обращаться.
 
+## Test84
+```java
+class Test84 {
+   public static void main(String[] args) {
+        String s1 = "ASDFG";
+        String s2 = null;
+        System.out.println(s1.concat(s2)); // NullPointerException
+        System.out.println(s1 + s2); // ASDFGnull
+   }
+}
+```
+Answer: 
+
+## Test85  ???????????????
+```java
+class Test85 {
+   public static void main(String[] args) {
+      List<String> list = Arrays.asList("Hello", "World");
+      List<Integer> data = new ArrayList(list);
+      for (Integer i : data){ // <--  ClassCastException
+         System.out.println(i);
+      }
+   }
+}
+```
+Answer: 
+
 ## Test
 ```java
 
 ```
 Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
 
 
 

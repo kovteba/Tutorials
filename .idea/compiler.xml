@@ -8,26 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
         <module name="javascript" />
-        <module name="java-persistence-api" />
-        <module name="algorithms" />
-        <module name="examples" />
-        <module name="spring" />
-        <module name="internationalization" />
-        <module name="core" />
         <module name="design-patterns" />
-        <module name="jdbc" />
+        <module name="algorithms" />
         <module name="data-base" />
+        <module name="spring" />
+        <module name="core" />
+        <module name="java-persistence-api" />
+        <module name="jdbc" />
+        <module name="examples" />
+        <module name="internationalization" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="concurrency" target="8" />
-      <module name="io-api" target="8" />
-      <module name="java-collections-framework" target="8" />
-      <module name="my-sql" target="8" />
-      <module name="postgresql" target="8" />
-      <module name="servlet" target="8" />
-      <module name="stream" target="8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
