@@ -16,13 +16,13 @@
 - [Java Collection Framework](#Java-Collection-Framework)
 - [Class Object. Objects methods](#Class-Object.-Objects-methods)
     - [HashCode](#HashCode)
-        -[Назначение HashCode](#Назначение-HashCode)
-        -[Контракт HashCode](#Контракт-HashCode)
-        -[Правила переопределения HashCode](#Правила-переопределения-HashCode)
+        - [Назначение HashCode](#Назначение-HashCode)
+        - [Контракт HashCode](#Контракт-HashCode)
+        - [Правила переопределения HashCode](#Правила-переопределения-HashCode)
     - [Equals](#Equals)
-        -[Назначение Equals](#Назначение-Equals)
-        -[Контракт Equals](#Контракт-Equals)
-        -[Правила переопределения Equals](#Правила-переопределения-Equals)
+        - [Назначение Equals](#Назначение-Equals)
+        - [Контракт Equals](#Контракт-Equals)
+        - [Правила переопределения Equals](#Правила-переопределения-Equals)
     - [Реализация hashCode() и equals() в Object](#Реализация-hashCode()-и-equals()-в-Object)
     - [Equals() без hashCode()](#Equals()-без-hashCode())
 - [Блоки инициализации](#Блоки-инициализации)
@@ -115,7 +115,6 @@
 ## Введение
 Язык программирования Java был разработан компанией и был представлен как ключевой компонент 
 Sun Microsystems Java platform в 1995 году. Этот и год и считается годом выпуска Java 1.0.
-На данный момент (Февраль 2015 года) крайней версией является Java SE 8.
 С развитием Java были созданы её различные типы:
 
 - J2SE – ключевой функционал языка Java.
