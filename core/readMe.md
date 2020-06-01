@@ -10,13 +10,6 @@
 - [Структура заголовка объекта](#Структура-заголовка-объекта)
 - [SOLID](#SOLID)
 - [Приоритеты операторов](#Приоритеты-операторов)
-- [Типы данных](#Типы-данных)
-- [Generics](#Generics)
-- [Exception](#Exception)
-- [Class types](#Class-types)
-- [Garbage Collector](#Garbage-Collector)
-- [Concurrency](#Concurrency)
-- [Java Collection Framework](#Java-Collection-Framework)
 - [Class Object. Objects methods](#Class-Object.-Objects-methods)
     - [HashCode](#HashCode)
         - [Назначение HashCode](#Назначение-HashCode)
@@ -28,6 +21,13 @@
         - [Правила переопределения Equals](#Правила-переопределения-Equals)
     - [Реализация hashCode() и equals() в Object](#Реализация-hashCode()-и-equals()-в-Object)
     - [Equals() без hashCode()](#Equals()-без-hashCode())
+- [Типы данных](#Типы-данных)
+- [Generics](#Generics)
+- [Exception](#Exception)
+- [Class types](#Class-types)
+- [Garbage Collector](#Garbage-Collector)
+- [Concurrency](#Concurrency)
+- [Java Collection Framework](#Java-Collection-Framework)
 - [Блоки инициализации](#Блоки-инициализации)
 - [Порядок вызова конструкторов и блоков инициализации с учётом иерархии классов](#Порядок-вызова-конструкторов-и-блоков-инициализации-с-учётом-иерархии-классов)
 - [Что произойдёт, если в блоке инициализации возникнет исключительная ситуация?](#Что-произойдёт,-если-в-блоке-инициализации-возникнет-исключительная-ситуация?)
@@ -281,68 +281,7 @@ __Принцип инверсии зависимостей (The Dependency Inver
 
 ## Приоритеты операторов
 ![Cast](img/Priority.png) 
-
-## Типы данных
-![Cast](img/cast-type.png)  
-+ [Data types](src/main/java/kovteba/datatypes):
-    + [Byte (byte)](src/main/java/kovteba/datatypes/byte) : `8bit` : `min: -128 max: 127` 
-    + [Short (short)](src/main/java/kovteba/datatypes/short) : `16bit` : `min: -32768 max: 32767`
-    + [Character (char)](src/main/java/kovteba/datatypes/character) : `16bit`book
-    + [Integer (int)](src/main/java/kovteba/datatypes/integer) : `32bit` : `min: -2147483648 max: 2147483647`
-    + [Long (long)](src/main/java/kovteba/datatypes/long) : `64bit` : `min -9223372036854775808L max 9223372036854775807L`
-    + [Float (float)](src/main/java/kovteba/datatypes/float) : `32bit` : `min: 1.4e-45f max: 3.4e+38f`
-    + [Double (double)](src/main/java/kovteba/datatypes/double) : `64nit` : `min: 4.9e-324 max: 1.7e+308`
-    + [Boolean (boolean)](src/main/java/kovteba/datatypes/boolean)
-    + [String](src/main/java/kovteba/datatypes/string)
     
-## Generics
-[__Generics__](src/main/java/kovteba/generics) - это технический термин, обозначающий набор свойств языка позволяющих 
-определять и использовать обобщенные типы и методы.   
-Обобщенные типы или методы отличаются от обычных тем, что имеют типизированные параметры.  
-Примером использования обобщенных типов может служить _Java Collection Framework_.  
-Так, класс `LinkedList<E>` - типичный обобщенный тип. Он содержит параметр `E`, который представляет тип элементов, 
-которые будут храниться в коллекции. Создание объектов обобщенных типов происходит посредством замены 
-параметризированных типов реальными типами данных. Вместо того, чтобы просто использовать `LinkedList`, 
-ничего не говоря о типе элемента в списке, предлагается использовать точное указание типа `LinkedList<String>`, 
-`LinkedList<Integer>` и т.п.  
-
-## Exception
-[__Exception__](src/main/java/kovteba/exception) - это проблема(ошибка) возникающая во время выполнения программы. 
-Исключения могут возникать во многих случаях, например:  
-- Пользователь ввел некорректные данные.
-- Файл, к которому обращается программа, не найден.
-- Сетевое соединение с сервером было утеряно во время передачи данных. И т.д.
-Все исключения в Java являются объектами. Поэтому они могут порождаться не только автоматически при возникновении 
-исключительной ситуации, но и создаваться самим разработчиком.
-
-## Class types
-+ [__Class Types:__](src/main/java/kovteba/classtypes)
-    + [Top level class (Обычный класс).](src/main/java/kovteba/classtypes/toplevelclass)
-    + [Abstract class (Абстрактный класс).](src/main/java/kovteba/classtypes/abstractclass)
-    + [Final class (Финализированный класс).](src/main/java/kovteba/classtypes/finalclass)
-    + [Interfaces (Интерфейс).](src/main/java/kovteba/classtypes/interface)
-    + [Enum (Перечисление).](src/main/java/kovteba/classtypes/enums)
-    + [Nested class (Вложенный класс):](src/main/java/kovteba/classtypes/nestedclass)
-        + [Static nested class (Статический вложенный класс);](src/main/java/kovteba/classtypes/nestedclass#Static-nested-class)
-        + [Member inner class (Простой внутренний класс);](src/main/java/kovteba/classtypes/nestedclass#Member-inner-class)
-        + [Local inner class (Локальный класс);](src/main/java/kovteba/classtypes/nestedclass#Local-inner-class)
-        + [Anonymous inner class (Анонимный класс).](src/main/java/kovteba/classtypes/nestedclass#Anonymous-inner-class)
-    
-## Garbage Collector
-[Garbage Collector](src/main/java/kovteba/garbagecollector) - это программа, которая работает на виртуальной машине 
-Java, который избавляется от объектов, которые больше не используются Java-приложением. Это форма 
-автоматического управления памятью.
-
-## Concurrency
-[__Concurrency__](src/main/java/kovteba/concurrency) – это библиотека классов в Java, в которой собрали специальные 
-классы, оптимизированные для работы из нескольких нитей. Эти классы собраны в пакете java.util.concurrent. Их можно 
-схематично поделить по функциональному признаку следующим образом: 
-![concorrency](img/concurrency.png)
-
-## Java Collection Framework
-[__Java Collection Framework__](src/main/java/kovteba/collectionframework) — иерархия интерфейсов и их реализаций, 
-которая является частью `JDK` и позволяет разработчику пользоваться большим количесвом структур данных из «коробки».  
-
 ## Class Object. Objects methods
 `Object` это базовый класс для всех остальных объектов в Java. Любой класс наследуется от `Object` и, соответственно, 
 наследуют его методы:  
@@ -428,7 +367,68 @@ public native int hashCode();
 ## Equals() без hashCode()
 Классы и методы, которые используют правила этого контракта могут работать некорректно. Так для `HashMap` это 
 может привести к тому, что пара «ключ-значение», которая была в неё помещена при использовании нового экземпляра 
-ключа не будет в ней найдена. 
+ключа не будет в ней найдена.     
+
+## Типы данных
+![Cast](img/cast-type.png)  
++ [Data types](src/main/java/kovteba/datatypes):
+    + [Byte (byte)](src/main/java/kovteba/datatypes/byte) : `8bit` : `min: -128 max: 127` 
+    + [Short (short)](src/main/java/kovteba/datatypes/short) : `16bit` : `min: -32768 max: 32767`
+    + [Character (char)](src/main/java/kovteba/datatypes/character) : `16bit`book
+    + [Integer (int)](src/main/java/kovteba/datatypes/integer) : `32bit` : `min: -2147483648 max: 2147483647`
+    + [Long (long)](src/main/java/kovteba/datatypes/long) : `64bit` : `min -9223372036854775808L max 9223372036854775807L`
+    + [Float (float)](src/main/java/kovteba/datatypes/float) : `32bit` : `min: 1.4e-45f max: 3.4e+38f`
+    + [Double (double)](src/main/java/kovteba/datatypes/double) : `64nit` : `min: 4.9e-324 max: 1.7e+308`
+    + [Boolean (boolean)](src/main/java/kovteba/datatypes/boolean)
+    + [String](src/main/java/kovteba/datatypes/string)
+
+## Generics
+[__Generics__](src/main/java/kovteba/generics) - это технический термин, обозначающий набор свойств языка позволяющих 
+определять и использовать обобщенные типы и методы.   
+Обобщенные типы или методы отличаются от обычных тем, что имеют типизированные параметры.  
+Примером использования обобщенных типов может служить _Java Collection Framework_.  
+Так, класс `LinkedList<E>` - типичный обобщенный тип. Он содержит параметр `E`, который представляет тип элементов, 
+которые будут храниться в коллекции. Создание объектов обобщенных типов происходит посредством замены 
+параметризированных типов реальными типами данных. Вместо того, чтобы просто использовать `LinkedList`, 
+ничего не говоря о типе элемента в списке, предлагается использовать точное указание типа `LinkedList<String>`, 
+`LinkedList<Integer>` и т.п.  
+
+## Exception
+[__Exception__](src/main/java/kovteba/exception) - это проблема(ошибка) возникающая во время выполнения программы. 
+Исключения могут возникать во многих случаях, например:  
+- Пользователь ввел некорректные данные.
+- Файл, к которому обращается программа, не найден.
+- Сетевое соединение с сервером было утеряно во время передачи данных. И т.д.
+Все исключения в Java являются объектами. Поэтому они могут порождаться не только автоматически при возникновении 
+исключительной ситуации, но и создаваться самим разработчиком.
+
+## Class types
++ [__Class Types:__](src/main/java/kovteba/classtypes)
+    + [Top level class (Обычный класс).](src/main/java/kovteba/classtypes/toplevelclass)
+    + [Abstract class (Абстрактный класс).](src/main/java/kovteba/classtypes/abstractclass)
+    + [Final class (Финализированный класс).](src/main/java/kovteba/classtypes/finalclass)
+    + [Interfaces (Интерфейс).](src/main/java/kovteba/classtypes/interface)
+    + [Enum (Перечисление).](src/main/java/kovteba/classtypes/enums)
+    + [Nested class (Вложенный класс):](src/main/java/kovteba/classtypes/nestedclass)
+        + [Static nested class (Статический вложенный класс);](src/main/java/kovteba/classtypes/nestedclass#Static-nested-class)
+        + [Member inner class (Простой внутренний класс);](src/main/java/kovteba/classtypes/nestedclass#Member-inner-class)
+        + [Local inner class (Локальный класс);](src/main/java/kovteba/classtypes/nestedclass#Local-inner-class)
+        + [Anonymous inner class (Анонимный класс).](src/main/java/kovteba/classtypes/nestedclass#Anonymous-inner-class)
+    
+## Garbage Collector
+[Garbage Collector](src/main/java/kovteba/garbagecollector) - это программа, которая работает на виртуальной машине 
+Java, который избавляется от объектов, которые больше не используются Java-приложением. Это форма 
+автоматического управления памятью.
+
+## Concurrency
+[__Concurrency__](src/main/java/kovteba/concurrency) – это библиотека классов в Java, в которой собрали специальные 
+классы, оптимизированные для работы из нескольких нитей. Эти классы собраны в пакете java.util.concurrent. Их можно 
+схематично поделить по функциональному признаку следующим образом: 
+![concorrency](img/concurrency.png)
+
+## Java Collection Framework
+[__Java Collection Framework__](src/main/java/kovteba/collectionframework) — иерархия интерфейсов и их реализаций, 
+которая является частью `JDK` и позволяет разработчику пользоваться большим количесвом структур данных из «коробки».  
 
 ## Блоки инициализации
 Блоки инициализации представляют собой код, заключенный в фигурные скобки и размещаемый внутри класса вне объявления 
