@@ -1,5 +1,13 @@
 # ENUM
 
+- [К Enum можно применять методы](#К-Enum-можно-применять-методы)
+- [Методы equals(), hashcode(), toString(), finalize() и clone()](#Методы-equals(),-hashcode(),-toString(),-finalize()-и-clone())
+- [Зачем же Enum реализовывает интерфейс Comparable?](#Зачем-же-Enum-реализовывает-интерфейс-Comparable?)
+- [Enum реализовывает интерфейс Serializable](#Enum-реализовывает-интерфейс-Serializable)
+- [Абстрактные методы в перечислениях](#Абстрактные-методы-в-перечислениях)
+- [Специальные коллекции для перечислений](#Специальные-коллекции-для-перечислений)
+- [Example](#Example)
+
 __Enum__ - это отдельная структура. Он может находится в отдельном файле, а может быть частью класса. Но при этом 
 `enum` не обязательно должен лежать в каком-либо классе. При таком подходе мы как бы создаем еще один класс, 
 только вместо слова "class" пишем "enum". Посмотрите - даже в IDE они выделены отдельно:
@@ -32,7 +40,7 @@ public enum Seasons {
 
 В `JumboEnumSet` также используется булевая логика, но вместе с массивом значений.
 
-## К Enum можно применять методы:     
+## К Enum можно применять методы
 + name() - возвращает имя
 + ordinal() - возвращает порядковый номер
 + equals()
@@ -136,6 +144,47 @@ public enum Seasons {
 Set<Country> countries = EnumSet.allOf(Sessions.class);
 ```
 
+## Example
+```java
+enum Numbers {
+   ONE("one"){
+      @Override
+      void abstractMethod() {
+         System.out.println("abstractMethod");
+      }
+      void oneMethod(){
+         System.out.println("one method");
+      }
+   },
+   TWO("two") {
+      @Override
+      void abstractMethod() {
+         System.out.println("abstractMethod");
+      }
+   },
+   THREE("three") {
+      @Override
+      void abstractMethod() {
+         System.out.println("abstractMethod");
+      }
+   };
+   private String value;
+   Numbers(String value) {
+      this.value = value;
+   }
+   public String getValue() { return value; }
+   
+   abstract void abstractMethod();
+}
+
+class EnumExample {
+   public static void main(String[] args) {
+      System.out.println(Numbers.ONE.getValue()); // one
+      System.out.println(Numbers.ONE.name()); // ONE
+      System.out.println(Numbers.ONE.ordinal()); // 0
+   }
+}
+```
 
 
 

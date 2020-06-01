@@ -22,6 +22,7 @@ class StoreWaitNotify {
          catch (InterruptedException e) {
          }
       }
+
       product--;
       System.out.println("Покупатель купил 1 товар");
       System.out.println("Товаров на складе: " + product);
@@ -50,6 +51,7 @@ class ProducerStoreWaitNotify implements Runnable{
    }
    public void run(){
       for (int i = 1; i < 6; i++) {
+         System.out.println(Thread.holdsLock(storeWaitNotify) + " LOCK <---");
          storeWaitNotify.put();
       }
    }

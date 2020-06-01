@@ -8,7 +8,8 @@
 - [Static method in interface](#Static-method-in-interface)
 - [Default method in interface](#Default-method-in-interface)
 - [Private method in interface](#Private-method-in-interface)
-- [](#)
+- [Example](#Example)
+- [Example FunctionalInterface](#Example-FunctionalInterface)
 
 ## Назначение интерфейса
 Назначение интерфейса — описание или спецификация функциональности, которую должен реализовывать каждый класс, 
@@ -106,3 +107,85 @@ class TestClass implements MyInterface{
 
 ## Private method in interface
 C __Java 9__ доступен для методов модификатор private
+
+## Example
+```java
+interface MyInterface {
+
+   int i = 2;
+
+   void method();
+
+   // Не переопределяется
+   static void staticMethod() {
+   }
+
+   // Не обязательно переопределять
+   default void defaultMethod() {
+      System.out.println("defaultMethod");
+   }
+
+   default void sum(int a, int b){
+      sumAll(a, b);
+   }
+   default void sum(int a, int b, int c){
+      sumAll(a, b, c);
+   }
+
+   private void sumAll(int... values){
+      int result = 0;
+      for(int n : values){
+         result += n;
+      }
+      System.out.println(result);
+   }
+}
+
+class TestClass implements MyInterface {
+
+   @Override
+   public void method() { throw new UnsupportedOperationException(); } // Обязательно переопределять
+
+   public void myTest() { MyInterface.staticMethod(); } // Вызов статического метода interface
+
+   public void myTestForDefault(){
+      // to do something
+      MyInterface.super.defaultMethod();
+   }
+
+   public static void main(String[] args) {
+      TestClass testClass = new TestClass();
+      testClass.method();
+      testClass.sum(1, 2);
+   }
+}
+```
+
+## Example FunctionalInterface
+```java
+class Test100 {
+   @FunctionalInterface
+   interface CarFilter<T> {
+      boolean test(T car);
+   }
+
+   static class Car {
+      int year;
+
+      public int getYear() {
+         return year;
+      }
+
+      public void setYear(int year) {
+         this.year = year;
+      }
+   }
+
+   public static void main(String[] args) {
+      CarFilter<Car> carFilter = car -> car.getYear() >= 2010;
+      Car car = new Car();
+      car.setYear(2009);
+      System.out.println(carFilter.test(car));
+   }
+}
+```

@@ -1,12 +1,14 @@
 package kovteba;
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.*;
+
+import static java.lang.Thread.currentThread;
+import static java.lang.Thread.enumerate;
 
 public class Test {
-   public static void main(String[] args) {
+   public static void main(String[] args) throws Exception {
 
 //      List<Integer> ints = Arrays.asList(1, 2, 3);
 ////      List<Number> nums = ints; // compile-time error. Проблема обнаружилась на этапе компиляции
@@ -24,30 +26,90 @@ public class Test {
 //      System.out.println(test1.getT());
 
 
-//      String s3 = "ABC";
-//      String s4 = "ABC";
 //      String s1 = new String("ABC").intern();
 //      String s2 = new String("ABC");
+//      System.out.println(s1 == s2); //false
+//      String s3 = "ABC";
+//      String s4 = "ABC";
 //      System.out.println(s1 == s2); //false
 //      System.out.println(s3 == s4); //true. Т.к. один набор литералов будет указывать на одну область памяти
 //      System.out.println(s1 == s4); //false. Т.к. один набор литералов будет указывать на одну область памяти
 //      System.out.println(s1.equals(s2));//true
 
 
+      List<String> linkedList = new LinkedList<>();
+      Map<String, String> stringStringMap = new HashMap<>();
+      stringStringMap.put(null, null);
+      stringStringMap.put(null, null);
 
+      Map<byte[], String> stringStringMap1 = new HashMap<>();
+      byte[] bytes = new byte[10];
+      bytes[0] = 0;
+      bytes[1] = 1;
+      bytes[2] = 2;
+      bytes[3] = 3;
+      stringStringMap1.put(bytes, "sdf");
+   }
+}
+
+
+
+
+class CallableClass implements Runnable{
+
+   public void interup(){
+      currentThread().interrupt();
    }
 
-   private static <T> void m1(T t) {
-      System.out.println(t);
+   @Override
+   public void run() {
+      System.out.println(currentThread().isInterrupted());
+      while (!currentThread().isInterrupted()){
+         System.out.println(currentThread().getName());
+      }
    }
+}
 
-   private static <T extends Number> void m2(List<T> t) {
-      System.out.println(t);
+class MyRunnable implements Runnable {
+   @Override
+   public void run() {
+      long millisOut = System.currentTimeMillis() + 1000;
+
+      while (!Thread.interrupted()){
+         System.out.println(currentThread().getName() + " MyThread");
+         try {
+            Thread.sleep(300);
+         } catch (InterruptedException e) {
+            System.out.println(currentThread().getName() + " is interrupted");
+            break;
+         }
+         if (millisOut <= System.currentTimeMillis()){
+            currentThread().interrupt();
+         }
+      }
    }
+}
 
 
 
+class Outer {
+   // Анонимный класс наследуется от класса Demo
+   static final Demo demo = new Demo() {
+      @Override
+      public void show() {
+//         super.show();
+         System.out.println("Метод внутреннего анонимного класса");
+      }
+   };
 
+   public static void main(String[] args) {
+      demo.show();
+   }
+}
+class Demo {
+   public void show() {
+      System.out.println("Метод суперкласса");
+   }
 }
 
 
@@ -57,6 +119,83 @@ public class Test {
 
 
 
+
+
+
+
+
+
+interface My {
+   default void print(){
+      new INF(){
+         void show(){
+
+         }
+      }.show();
+   }
+}
+
+class MyClass {
+
+   private final MyNonStaticInnerClass myNonStaticInnerClass;
+   private final MyStaticInnerClass myStaticInnerClass;
+
+   public MyClass() {
+      this.myNonStaticInnerClass = new MyNonStaticInnerClass();
+      myStaticInnerClass = new MyStaticInnerClass();
+   }
+
+   class MyNonStaticInnerClass{
+      public /*static*/ void method(){
+         System.out.println("non static");
+      }
+   }
+   static class MyStaticInnerClass{
+      public static void method(){
+         System.out.println("static");
+      }
+   }
+}
+class App{
+   public static void main(String[] args) {
+      MyClass myClass = new MyClass();
+      MyClass.MyNonStaticInnerClass myNonStaticInnerClass = myClass.new MyNonStaticInnerClass();
+
+      MyClass.MyNonStaticInnerClass myInnerClass = new MyClass().new MyNonStaticInnerClass();
+
+      MyClass.MyStaticInnerClass myStaticInnerClass = new MyClass.MyStaticInnerClass();
+   }
+}
+
+
+
+
+class InnerClass {
+   public static void main(String[] args) {
+      new INF(){
+         void print(){
+            System.out.println("ASFD");
+         }
+      }.print();
+
+      new INF(){
+         int i = 10;
+         void print(int i1, int i2){
+            System.out.println(i1 * i2);
+         }
+      }.print(12, 13);
+   }
+}
+
+abstract class INF{
+}
+
+
+
+
+interface Test34{
+   void testMethod(String i);
+}
 
 class Test1<T extends Number> {
    private T t;
@@ -71,59 +210,21 @@ class Test1<T extends Number> {
 }
 
 
-interface MyInterface {
-   void Test();
-
-   static void Test1() {
-   }
-
-   default void Test2() {
-      System.out.println("!");
-   }
-}
-
-class TestClass implements MyInterface {
-   @Override
-   public void Test() {
-
-   }
-
-   @Override
-   public void Test2() {
-
-   }
-//   public void Test() {
-//      MyInterface.super.Test2();
-//   }
 
 
-}
 
-class Test100 {
-   @FunctionalInterface
-   interface CarFilter<T> {
-      boolean test(T car);
-   }
 
-   static class Car {
-      int year;
 
-      public int getYear() {
-         return year;
-      }
 
-      public void setYear(int year) {
-         this.year = year;
-      }
-   }
 
-   public static void main(String[] args) {
-      CarFilter<Car> carFilter = car -> car.getYear() >= 2010;
-      Car car = new Car();
-      car.setYear(2009);
-      System.out.println(carFilter.test(car));
-   }
-}
+
+
+
+
+
+
+
+
 
 
 
