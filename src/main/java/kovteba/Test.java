@@ -49,6 +49,11 @@ public class Test {
       bytes[2] = 2;
       bytes[3] = 3;
       stringStringMap1.put(bytes, "sdf");
+
+      List<String> list = new ArrayList<>();
+
+
+
    }
 }
 
