@@ -61,3 +61,54 @@ __Создания неизменяемого класса:__
 - __Выполните клонирование изменяемых объектов при возврате из метода получения:__   
     Если вы вернете клон объекта из метода get, то вернется объект. При этом, ваш оригинальный объект останется 
     без изменений.
+    
+```java
+class ImmutableClass {
+   private String name;
+   private String value;
+
+   public ImmutableClass(String name, String value) {
+      this.name = name;
+      this.value = value;
+      System.out.println("New ImmutableClass created! Name " + this.name + " value " + this.value);
+   }
+
+   public ImmutableClass setName(String name) {
+      return new ImmutableClass(name, this.value);
+   }
+
+   public ImmutableClass setValue(String value) {
+      return new ImmutableClass(this.name, value);
+   }
+
+   public String getName() {
+      return name;
+   }
+
+   public String getValue() {
+      return value;
+   }
+
+   @Override
+   public boolean equals(Object o) {
+      if (this == o) return true;
+      if (o == null || getClass() != o.getClass()) return false;
+      ImmutableClass that = (ImmutableClass) o;
+      return Objects.equals(name, that.name) &&
+          Objects.equals(value, that.value);
+   }
+
+   @Override
+   public int hashCode() {
+      return Objects.hash(name, value);
+   }
+
+   @Override
+   public String toString() {
+      return "ImmutableCat{" +
+          "breed='" + name + '\'' +
+          ", eyeColor='" + value + '\'' +
+          '}';
+   }
+}
+```

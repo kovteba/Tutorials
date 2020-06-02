@@ -1,4 +1,6 @@
 # Servlets
+
+
 - [Что такое «сервлет»?](#Что-такое-«сервлет»?)
 - [Что такое «контейнер сервлетов»?](#Что-такое-«контейнер-сервлетов»?)
 - [Какова структура веб-проекта?](#Какова-структура-веб-проекта?)
@@ -50,6 +52,8 @@
 - [Какие способы аутентификации доступны сервлету?](#Какие-способы-аутентификации-доступны-сервлету?)
 - [Отправка запросов к сервдет из JAVA](#Отправка-запросов-к-сервдет-из-JAVA)
 - [](#)
+
+
     
 ## Что такое «сервлет»?
 __Сервлет__ является интерфейсом, реализация которого расширяет функциональные возможности сервера. Сервлет 
@@ -151,7 +155,7 @@ __Подключение фильтра `FilterName` к сервлету `Servle
 ```xml
   <filter-mapping>
         <filter-name>FilterName</filter-name>
-        <kovteba.servlet-name>ServletName</kovteba.servlet-name>
+        <servlet-name>ServletName</servlet-name>
   </filter-mapping>
 ```
 Для связи фильтра со страницами HTML или группой сервлетов необходимо использовать тег `<url-pattern>`:
@@ -165,7 +169,7 @@ __Подключение фильтра `FilterName` ко всем вызова�
 Порядок, в котором контейнер строит цепочку фильтров для запроса определяется следующими правилами:  
 + цепочка, определяемая `<url-pattern>`, выстраивается в том порядке, в котором встречаются соответствующие описания 
     фильтров в `web.xml`;
-+ последовательность сервлетов, определенных с помощью `<kovteba.servlet-name>`, также выполняется в той последовательности, 
++ последовательность сервлетов, определенных с помощью `<servlet-name>`, также выполняется в той последовательности, 
     в какой эти элементы встречаются в дескрипторе развёртывания `web.xml`.
 
 ## Зачем в сервлетах используются различные listener?
@@ -240,15 +244,15 @@ __Слушатели, разделённые по области видимос�
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <kovteba.servlet>
-        <kovteba.servlet-name>index</kovteba.servlet-name>
-        <kovteba.servlet-class>kovteba.jspservlet.controller.WelcomeServlet</kovteba.servlet-class>
+    <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>kovteba.jspservlet.controller.WelcomeServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
-    </kovteba.servlet>
-    <kovteba.servlet-mapping>
-        <kovteba.servlet-name>index</kovteba.servlet-name>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
         <url-pattern></url-pattern>
-    </kovteba.servlet-mapping>
+    </servlet-mapping>
 
 </web-app>
 ```
@@ -266,25 +270,25 @@ __Слушатели, разделённые по области видимос�
 Если целочисленное значение этого параметра отрицательно, то сервлет будет загружен при запросе клиента. В противном 
 случае - загрузится на старте приложения, при этом, чем число меньше, тем раньше в очереди на загрузку он окажется. 
 ```xml
-<kovteba.servlet>
-    <kovteba.servlet-name>ExampleServlet</kovteba.servlet-name>
-    <kovteba.servlet-class>xyz.company.ExampleServlet</kovteba.servlet-class>
+<servlet>
+    <servlet-name>ExampleServlet</servlet-name>
+    <servlet-class>xyz.company.ExampleServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
-</kovteba.servlet>
+</servlet>
 ```
 ## Что представляет собой ServletConfig?
 Интерфейс `javax.kovteba.servlet.ServletConfig` используется для передачи сервлету конфигурационной информации. Каждый сервлет 
 имеет свой собственный экземпляр объекта `ServletConfig`, создаваемый контейнером сервлетов.  
 Для установки параметров конфигурации используются параметры `init-param` в `web.xml`:
 ```xml
-<kovteba.servlet>
-    <kovteba.servlet-name>ExampleServlet</kovteba.servlet-name>
-    <kovteba.servlet-class>xyz.company.ExampleServlet</kovteba.servlet-class>
+<servlet>
+    <servlet-name>ExampleServlet</servlet-name>
+    <servlet-class>xyz.company.ExampleServlet</servlet-class>
     <init-param>
         <param-name>exampleParameter</param-name>
         <param-value>parameterValue</param-value>
     </init-param>
-</kovteba.servlet>
+</servlet>
 ```   
 или аннотации `@WebInitParam`:  
 ```java
@@ -301,7 +305,7 @@ public class ExampleServlet extends HttpServlet {
 Для получения `ServletConfig` сервлета используется метод `getServletConfig()`.
 
 ## Что представляет собой ServletContext?
-Уникальный (в рамках веб-приложения) объект `ServletContext` реализует интерфейс `javax.kovteba.servlet.ServletContext` и 
+Уникальный (в рамках веб-приложения) объект `ServletContext` реализует интерфейс `javax.servlet.ServletContext` и 
 предоставляет сервлетам доступ к параметрам этого веб-приложения.  Для предоставления доступа используется 
 элемент `<context-param>` в `web.xml`:  
 ```xml
@@ -385,12 +389,12 @@ IP адрес клиента можно получить вызвав `request.g
 Чтобы создать сервлет `ExampleServlet`, необходимо описать его в дескрипторе развёртывания:
 ```xml
 <servlet-mapping>
-    <kovteba.servlet-name>ExampleServlet</kovteba.servlet-name>
+    <servlet-name>ExampleServlet</servlet-name>
     <url-pattern>/example</url-pattern>
 </servlet-mapping>
 <servlet>
-    <kovteba.servlet-name>ExampleServlet</kovteba.servlet-name>
-    <kovteba.servlet-class>xyz.company.ExampleServlet</kovteba.servlet-class>
+    <servlet-name>ExampleServlet</servlet-name>
+    <servlet-class>xyz.company.ExampleServlet</servlet-class>
     <init-param>
         <param-name>config</param-name>
         <param-value>default</param-value>
@@ -434,6 +438,7 @@ __`forward()`__:
 + Клиент не знает о фактически обрабатываемом ресурсе и URL в строке остается прежним;
 + Выполняется быстрее метода `sendRedirect()`;
 + Определён в интерфейсе `RequestDispatcher`.  
+
 __`sendRedirect()`__: 
 + Выполняется на стороне клиента;
 + Клиенту возвращается ответ `302 (redirect)` и запрос перенаправляется на другой сервер;

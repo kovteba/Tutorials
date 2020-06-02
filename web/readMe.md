@@ -2,7 +2,7 @@
 - [Servlet](src/main/java/kovteba/servlet)
 - [JSP](src/main/java/kovteba/jsp)
 - [REST](src/main/java/kovteba/rest)
-
+----
 
 - [Что такое www?](#Что-такое-www?)
 - [Что такое w3c?](#Что-такое-w3c?)
