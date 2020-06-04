@@ -2,10 +2,14 @@ package kovteba.testspack;
 
 
 import java.util.*;
+import java.util.function.BiFunction;
 
 import static java.lang.Thread.currentThread;
 
 public class Test {
+   static int xStat = 2;
+   int nonStat = 23;
+
    public static void main(String[] args) throws Exception {
 
 
@@ -21,19 +25,54 @@ public class Test {
       change(integer);
       System.out.println(integer);
 
-      int iInt = (int) integer;
+      int iInt = integer;
+
+      List<String> list = new ArrayList<>();
 
 
+      BiFunction<String, String, Integer> compareFunc
+          = (firstStr, secondStr) -> Integer.compare(firstStr.length(), secondStr.length());
+
+
+      list.forEach(System.out::println);
+
+      int s = 0;
+
+      changeT(s);
    }
 
 
-   static void change(FinalClass finalClass){
+   static void change(FinalClass finalClass) {
       finalClass.setName("!!!!!!!!!!");
    }
-   static void change(Integer integer){
+
+   static void change(Integer integer) {
       integer += 12;
    }
+
+   static <T> void changeT(T t){
+      System.out.println(t);
+   }
+
+   static class TestStat {
+      int x = 0;
+      static int x1 = 0;
+
+      void print() {
+         System.out.println(x);
+//         xStat;
+//         new Test().nonStat;
+         System.out.println(x);
+         System.out.println(x1);
+
+      }
+
+      static void print1() {
+         System.out.println("123");
+      }
+   }
 }
+
 
 
 

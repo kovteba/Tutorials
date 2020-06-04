@@ -8,15 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
         <module name="javascript" />
+        <module name="java-persistence-api" />
         <module name="algorithms" />
-        <module name="examples" />
+        <module name="linux" />
         <module name="spring" />
+        <module name="internationalization" />
         <module name="core" />
-        <module name="data-base" />
         <module name="design-patterns" />
         <module name="jdbc" />
-        <module name="java-persistence-api" />
-        <module name="internationalization" />
+        <module name="examples" />
+        <module name="data-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

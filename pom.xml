@@ -21,6 +21,7 @@
         <module>examples</module>
         <module>javascript</module>
         <module>data-base</module>
+        <module>linux</module>
     </modules>
 
     <build>
