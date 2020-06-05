@@ -1,4 +1,9 @@
 # TESTS
+
+- [Practice](#Practice)
+- [Theory](#Theory)
+
+## Practice
 ## Test 1
 ```java
 class A {
@@ -1532,6 +1537,541 @@ System.out.println(s1.equals(s2));//true
 ```
 Answer: 
 
+## Test86
+```java
+class Test86 {
+   public static void main(String[] args) {
+      String s = null;
+      System.out.println(s.length());
+   }
+}
+
+```
+Answer: NullPointerException
+
+## Test87
+```java
+class Test87 {
+   public static void main(String[] args) {
+      String s = null;
+      System.out.println(System.identityHashCode(s));
+   }
+}
+```
+Answer: 0
+
+## Test88
+```java
+class Test88 {
+   public static void main(String[] args) {
+//      System.out.println(get()++);
+   }
+   static int get(){
+      return 1;
+   }
+}
+```
+Answer: Compille error
+
+## Test89
+```java
+class Test89 {
+   abstract class ClassName1 {abstract  void woof(){}}  // false
+   abstract class ClassName2 {abstract  void woof();}  // true
+   class ClassName3{abstract void woof();}  // false
+   abstract class ClassName4 { void woof(){}}  // true
+   abstract class ClassName5 { void woof();}  // false
+}
+```
+Answer: 
+
+## Test90
+```java
+class Test90 {
+   class A {
+      protected int i;
+
+      public A(int i) { this.i = i; }
+   }
+   class B extends A{   }
+}
+```
+Answer: 
+        Dont right
+        Add constructor to B class
+```java
+      public B(int i) {
+         super(i);
+      }
+```
+
+## Test91
+```java
+class Test91 {
+//   1
+   class A {
+      public A (){}
+      public A (int k){}
+   }
+
+//   2
+   class A {}
+
+//   3
+   class A {
+      public A (int k){}
+      public A (int k, int m){}
+   }
+
+//   4
+   class A {
+      public A (int k){}
+   }
+   
+   class B extends A {
+      public B(int p1, int p2) {
+         System.out.println(p1);
+         System.out.println(p2);
+      }
+      public B(int m) { super(m); }
+   }
+}
+```
+Answer: 1. Класс-потомок явно или неявно вызывает конструкторы класса-предка.
+
+
+## Test92
+```java
+class Test92 {
+   static class Super {
+      public int getNumber(int a){
+         return a;
+      }
+   }
+   static class TestClass extends Super {
+      public int getNumber(int a, int b){
+         return 5;
+      }
+   }
+   public static void main(String[] args) {
+      System.out.println(new TestClass().getNumber(4));
+   }
+}
+```
+Answer: 4
+
+## Test
+```java
+class Test93 {
+   static class Super {
+      public short getNumber(){
+         return 100;
+      }
+   }
+   static class TestClass extends Super {
+      public byte getNumber(){ // compile error
+         return 5;
+      }
+   }
+   public static void main(String[] args) {
+      Super s = new TestClass();
+      System.out.println(s.getNumber());
+   }
+}
+```
+Answer: commpile error, dont right change return type
+
+## Test94
+```java
+class Test94 {
+   class Class1{}
+   class Class2 extends Class1{}
+   abstract class Class3{
+      abstract Class1 method();
+   }
+   class Class4 extends Class3{
+      ??????
+   }
+   /*
+   1. Class2 method(){return null;} 
+   2. Class3 method(){return null;} 
+   3. Class1 method(){return null;} 
+   4. Class3 method(){return new Class2();} 
+   5. Class1 method(){return new Class2();} 
+   6. Class2 method(){return new Class1();} 
+   7. Class3 method(int t){return null;} 
+   7. Class2 method(){return new Class2();} 
+   */
+}
+```
+Answer: 5
+
+## Test95
+```java
+class Test95 {
+   static class A{
+      class B{}
+   }
+   public static void main(String[] args) {
+      //Create class B
+   }
+   /*
+   1.A.B b = new A().B();
+   2.A a = new A();
+     A.B b = a.new B();
+   3.B b = new A().new B();
+   4.B b = new B();
+   5.A.B b = new A().new B();
+   */
+}
+```
+Answer: 2, 5
+
+## Test96
+```java
+class Test96 {
+   public static void main(String[] args) {
+      int mult = 10;
+      class Local {
+         int multiplay(int n) {
+            return n * mult; // <- compile error
+         }
+      }
+      mult = 5;
+      int res = new Local().multiplay(mult);
+      System.out.println(res);
+   }
+}
+```
+Answer: compile error, локальные классы могут использовать только final переменные, либо те которые гарантированно не 
+изменят свое знаение
+
+## Test97
+```java
+abstract class Test97 {
+   protected String s;
+   public Test97(String s) {
+      this.s = s;
+   }
+   abstract void print();
+   public static void main(String[] args) {
+      Test97 test97 = new Test97() {
+         String s = "1";
+         @Override
+         void print() {
+            System.out.println(s);
+         }
+      };
+      test97.print();
+   }
+}
+```
+Answer: compile error, lose args in constructor
+
+## Test99
+```java
+class Test99 {
+   static void method(StringBuilder builder){
+      System.out.println(builder);
+      builder.append("2");
+      System.out.println(builder);
+   }
+   public static void main(String[] args) {
+      StringBuilder stringBuilder = new StringBuilder("1");
+      method(stringBuilder);
+      System.out.print(stringBuilder);
+   }
+}
+```
+Answer: 11212
+
+## Test100
+```java
+class Test100 {
+   public static void main(String[] args) {
+      char[] arr1 = new char[]{'J', 'a', 'v', 'a'};
+      String str1 = new String(arr1).intern();
+      String str2 = new String("Java").intern();
+      System.out.println(str1 == str2);
+   }
+}
+```
+Answer: true
+
+## Test101
+```java
+class Test101 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      String str = new String("Java");
+      System.out.println(str == builder);
+
+   }
+}
+```
+Answer: compile error
+
+## Test
+```java
+class Test102 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      String str1 = builder.toString();
+      String str2 = builder.toString();
+      String str3 = builder.substring(0);
+      String str4 = builder.toString();
+      String str5 = builder.substring(0);
+      System.out.println(str1);
+      System.out.println(str2);
+      System.out.println(str1 == str2);
+      System.out.println(str1 == str3);
+      System.out.println(str2 == str3);
+      System.out.println(str4 == str5);
+   }
+}
+```
+Answer: 
+        Java
+        Java
+        false
+        false
+        false
+        true
+Explain: `toString()`, `subString()` вызывают метод `newString()` который возвращает `new String()`
+
+## Test103
+```java
+class Test103 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      builder.setLength(3);
+      System.out.println(builder);
+   }
+}
+```
+Answer: Jav
+
+## Test104
+```java
+class Test104 {
+   public static void main(String[] args) {
+      String s = "Java";
+      s.substring(1);
+      System.out.println(s);
+   }
+}
+
+```
+Answer: Java
+
+## Test105
+```java
+class Test105 {
+   public static void main(String[] args) {
+      StringBuilder stringBuilder = new StringBuilder("Java");
+      StringBuffer stringBuffer = new StringBuffer("Java");
+      System.out.println(stringBuilder.hashCode() == stringBuffer.hashCode()); // false
+      System.out.println(stringBuilder.capacity() == stringBuffer.capacity()); // true
+   }
+}
+```
+Answer: 
+        false
+        true
+        
+## Test106
+```java
+class Test106 {
+   static void method(String s){
+      System.out.println("String " + s);
+   }
+   static void method(StringBuilder builder){
+      System.out.println("StringBuilder " + builder);
+   }
+   public static void main(String[] args) {
+      method("Java"); // output : String Java
+      method(null);  //  compile error
+      method(new Object());  //  compile error
+   }
+}
+``` 
+Answer: 
+
+## Test107
+```java
+class Test107 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      builder.insert(5, "-8");
+      System.out.println(builder);
+   }
+}
+``` 
+Answer: RunTime error (StringIndexOutOfBoundsException)
+
+## Test109
+```java
+class Test109 {
+   public static void main(String[] args) {
+      String str1 = "Hello";
+      String str2 = "World";
+      UnaryOperator<String> operator = s -> s.concat(str1);
+      System.out.println(operator.apply(str2));
+   }
+}
+``` 
+Answer: WorldHello
+
+## Test110
+```java
+class Test110 {
+   public void m() throws Exception{
+      throw new Exception();
+   }
+}
+class Test110t extends Test110{
+   public void m(){}
+   public static void main(String[] args) {
+      Test110 x = new Test110t();
+      x.m(); // compile error
+   }
+}
+``` 
+```java
+class Base {
+   public void m() throws Exception {
+      System.out.println("Test1");
+   }
+}
+class Test117 extends Base{
+   public void m() {
+      System.out.println("Test2");
+   }
+   public static void main(String[] args) {
+      Base base = new Test117();
+      base.m();
+   }
+}
+```
+Answer: compile error. Если обращаемся в методу базового класса то требуется добавить exception в сигнатуру
+
+## Test111
+```java
+class Test111 {
+   public static void method() throws Exception{
+      throw new Error("Error");
+   }
+   public static void main(String[] args) {
+      try{
+         method();
+      } catch (Exception e){
+         System.out.println("Exception");
+      }
+   }
+}
+``` 
+Answer: error : printed
+
+## Test112
+```java
+class Test112 {
+   static class A {
+      protected void m() throws Exception{}
+   }
+   static class B extends A { 
+      public void m(){} 
+   }
+   public static void main(String[] args) {
+      A a = new B();
+      a.m();
+   }
+}
+``` 
+Answer: compile error. требуется добавить exception в сигнатуру
+
+## Test
+```java
+class Test113 {
+   static class A {
+      protected void m() throws Exception{}
+   }
+   static class B extends A {
+      public void m(){}
+   }
+   public static void main(String[] args) {
+      A a = new B();
+      ((B)a).m();
+   }
+}
+``` 
+Answer: Run withiout errors
+
+## Test114
+```java
+class Test114 {
+   void m1() throws Exception {
+      throw new Exception();
+   }
+   void m2() throws RuntimeException {
+      throw new NullPointerException();
+   }
+   public static void main(String[] args) {
+      Test114 test114 = new Test114();
+      try {
+         test114.m1();
+      } catch (Exception e){
+         test114.m1(); // lose try block
+      } finally {
+         test114.m2();
+      }
+   }
+}
+``` 
+Answer: compile error. Lose try block for second method m1
+
+## Test115    Сколько обьектов будет создано, 1 не верно ????????????????   
+```java
+class Test115 {
+   public Test115() {
+      try {
+         throw new MyException();
+      } catch (Exception e){
+
+      }
+   }
+   public static void main(String[] args) {
+      Test115 test115 = new Test115();
+      Test115 test1151 = test115;
+   }
+}
+class MyException extends Exception {
+   private static final long serialUID = 1L;
+}
+```
+Answer: 
+
+## Test116
+```java
+class Test116 {
+   static class FirstEx extends Exception {
+      private static final long serialID = 1L;
+   }
+   static class SecondEx extends Exception {
+      private static final long serialID = 1L;
+   }
+   static void m1() throws FirstEx { throw new FirstEx(); }
+   static void m2() throws SecondEx { throw new SecondEx(); }
+   public static void main(String[] args) {
+      try {
+         m1();
+      } finally {
+         m2();
+      }
+   }
+}
+```
+Answer: Compile error, lose catch block
+
 ## Test
 ```java
 
@@ -1573,12 +2113,59 @@ Answer:
 
 ```
 Answer: 
+## Test
+```java
+
+```
+Answer: 
 
 ## Test
 ```java
 
 ```
 Answer: 
+
+
+
+
+
+## Theory
+### Какой базовый тип в Java NIO, который представляет собой соединение ввода/вывода?
+Answer: Channel
+
+### Какой тип данных в Java следует использовать для хранения данных из столбца таблицы типа varchar?
+Answer: String
+
+### Что такое статический конструктор в Java?
+Answer: В Java нет такого понятия
+
+### Какой новый тип для упрощения многопоточных операций появился в Java 8?
+Answer: 
+
+### Что не позволяет делать reflection в Java?
+Answer: Изменять код методов
+
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer: 
+### 
+Answer:
+
 
 
 

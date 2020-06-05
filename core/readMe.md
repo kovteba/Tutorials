@@ -73,6 +73,7 @@
         - [Current date in millisec](#Current-date-in-millisec)
         - [Current date in millisec by localTime](#Current-date-in-millisec-by-localTime)
     - [Class Java 8 для декодирования, кодирования данных](#Class-Java-8-для-декодирования,-кодирования-данных)
+    - [Effectively final](#Effectively-final)
 - [Java 9](#Java-9)
     - [Модули (проект Jigsaw)](#Модули-(проект-Jigsaw))
 - [RegEx](#RegEx)
@@ -1139,6 +1140,13 @@ __Создать декодеровщик__:
 __Создать кодировщик__:   
 Используя метод getEncoder() класса Base64 он возвращает кодировщик Base64.Encoder, который кодирует данные с 
 помощью схемы кодирования base64.
+
+## Effectively final
+С __java 8__ появилось понятие — `effectively final`. Применяется оно только к переменным (в том числе аргументам 
+методов). Суть в том, что не смотря на явное отсутствие ключевого слова `final`, значение переменной не изменяется 
+после инициализации. Другими словами, к такой переменной можно подставить слово `final` без ошибки компиляции. 
+`effectively final` переменные могут быть использованы внутри локальных классов (_Local Inner Classes_), 
+анонимных классов (_Anonymous Inner Classes_), стримах (_Stream API_).
 
 ## Java 9
 ## Модули (проект Jigsaw)

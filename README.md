@@ -77,6 +77,7 @@
     + [Merge Sort](algorithms/src/main/java/kovteba/mergesort/MergeSort.java)
     + [Fibonacci](algorithms/src/main/java/kovteba/fibonaccinumber/FibonacciNumber.java)
     + [Palindrome](algorithms/src/main/java/kovteba/palindrome/Palindrome.java)
+    + [Reverse Array](algorithms/src/main/java/kovteba/reversearr/ReverseApp.java)
 ---    
 + [Internationalozation](internationalization)
 ---

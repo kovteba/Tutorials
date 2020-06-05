@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.*;
 import java.util.function.BiFunction;
+import java.util.stream.Stream;
 
 import static java.lang.Thread.currentThread;
 
@@ -46,22 +47,23 @@ public class Test {
       App obj = new App();
 
       System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1");
-      Class<?> cls = obj.getClass();
-      Method[] methods = cls.getMethods();
-      for (Method method : methods) {
-         System.out.println("Method name : " + method.getName());
-         System.out.println("Return type : " +
-             method.getReturnType().getName());
 
-         Class<?>[] params = method.getParameterTypes();
-         System.out.print("Parameters : ");
-         for (Class<?> paramType : params) {
-            System.out.print(" " + paramType.getName());
-         }
-         System.out.println();
-      }
+
+
+
+
+      /////
+//      Stream<Integer> stream = Stream.of(1, 2);
+//      System.out.println(stream.reduce((final x, final y) -> x).get());
+
 
    }
+
+
+
+
+
+
 
 
    static void change(FinalClass finalClass) {
@@ -72,7 +74,7 @@ public class Test {
       integer += 12;
    }
 
-   static <T> void changeT(T t){
+   static <T> void changeT(T t) {
       System.out.println(t);
    }
 
@@ -240,7 +242,8 @@ class MyClass {
    }
 }
 
-interface App1{}
+interface App1 {
+}
 
 final class App implements App1 {
    public App() {
@@ -250,11 +253,11 @@ final class App implements App1 {
       System.out.println(s);
    }
 
-   public void m1(int i){
+   public void m1(int i) {
 
    }
 
-   public Integer m2(Integer i){
+   public Integer m2(Integer i) {
       return i;
    }
 

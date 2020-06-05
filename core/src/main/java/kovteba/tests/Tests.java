@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
+import java.util.function.UnaryOperator;
 
 /**
  * @author Kovteba
@@ -783,6 +784,489 @@ class Test85 {
 //      }
    }
 }
+
+class Test86 {
+   public static void main(String[] args) {
+      String s = null;
+      System.out.println(s.length());// NullPointerException
+   }
+}
+
+class Test87 {
+   public static void main(String[] args) {
+      String s = null;
+      System.out.println(System.identityHashCode(s));
+   }
+}
+
+class Test88 {
+   public static void main(String[] args) {
+//      System.out.println(get()++);
+   }
+
+   static int get() {
+      return 1;
+   }
+}
+
+class Test89 {
+   //   abstract class ClassName1 {abstract  void woof(){}}  // false
+   abstract class ClassName2 {
+      abstract void woof();
+   }  // true
+
+   //   class ClassName3{abstract void woof();}  // false
+   abstract class ClassName4 {
+      void woof() {
+      }
+   }  // true
+//   abstract class ClassName5 { void woof();}  // false
+}
+
+class Test90 {
+   class A {
+      protected int i;
+
+      public A(int i) {
+         this.i = i;
+      }
+   }
+
+   class B extends A {
+      public B(int i) {
+         super(i);
+      }
+   }
+}
+
+class Test91 {
+   //   1
+   class A {
+      public A() {
+      }
+
+      public A(int k) {
+      }
+   }
+
+//   2
+//   class A {}
+
+//   3
+//   class A {
+//      public A (int k){}
+//      public A (int k, int m){}
+//   }
+
+//   4
+//   class A {
+//      public A (int k){}
+//   }
+
+   class B extends A {
+      public B(int p1, int p2) {
+         System.out.println(p1);
+         System.out.println(p2);
+      }
+
+      public B(int m) {
+         super(m);
+      }
+   }
+}
+
+class Test92 {
+   static class Super {
+      public int getNumber(int a) {
+         return a;
+      }
+   }
+
+   static class TestClass extends Super {
+      public int getNumber(int a, int b) {
+         return 5;
+      }
+   }
+
+   public static void main(String[] args) {
+      System.out.println(new TestClass().getNumber(4));
+   }
+}
+
+class Test93 {
+   static class Super {
+      public short getNumber() {
+         return 100;
+      }
+   }
+
+   static class TestClass extends Super {
+      public /*byte*/ short getNumber() {
+         return 5;
+      }
+   }
+
+   public static void main(String[] args) {
+      Super s = new TestClass();
+      System.out.println(s.getNumber());
+   }
+}
+
+class Test94 {
+   class Class1 {
+   }
+
+   class Class2 extends Class1 {
+   }
+
+   abstract class Class3 {
+      abstract Class1 method();
+   }
+
+   class Class4 extends Class3 {
+      Class1 method() {
+         return new Class2();
+      }
+   }
+   /*
+   1. Class2 method(){return null;}
+   2. Class3 method(){return null;}
+   3. Class1 method(){return null;}
+   4. Class3 method(){return new Class2();}
+   5. Class1 method(){return new Class2();}
+   6. Class2 method(){return new Class1();}
+   7. Class3 method(int t){return null;}
+   7. Class2 method(){return new Class2();}
+   */
+}
+
+class Test95 {
+   static class A {
+      class B {
+      }
+   }
+
+   public static void main(String[] args) {
+      //Create class B
+   }
+   /*
+   1.A.B b = new A().B();
+   2.A a = new A();
+     A.B b = a.new B();
+   3.B b = new A().new B();
+   4.B b = new B();
+   5.A.B b = new A().new B();
+   */
+}
+
+class Test96 {
+   public static void main(String[] args) {
+      int mult = 10;
+      class Local {
+         int multiplay(int n) {
+            return n/* * mult*/;
+         }
+      }
+      mult = 5;
+      int res = new Local().multiplay(mult);
+      System.out.println(res);
+   }
+}
+
+abstract class Test97 {
+   protected String s;
+   public Test97(String s) {
+      this.s = s;
+   }
+   abstract void print();
+   public static void main(String[] args) {
+      Test97 test97 = new Test97("Error") {
+         String s = "1";
+         @Override
+         void print() {
+            System.out.println(s);
+         }
+      };
+      test97.print();
+   }
+}
+
+enum Directions {
+   NORTH(1), SOUTH(2), WEST(3), EAST(4);
+   public int value;
+   Directions(int number) {
+      this.value = number;
+   }
+}
+class Test98 {
+   public static void main(String[] args) {
+      for (Directions directions : Directions.values())
+         System.out.print(directions.value + " ");
+
+   }
+}
+
+class Test99 {
+   static void method(StringBuilder builder){
+      System.out.println(builder);
+      builder.append("2");
+      System.out.println(builder);
+   }
+   public static void main(String[] args) {
+      StringBuilder stringBuilder = new StringBuilder("1");
+      method(stringBuilder);
+      System.out.print(stringBuilder);
+   }
+}
+
+class Test100 {
+   public static void main(String[] args) {
+      char[] arr1 = new char[]{'J', 'a', 'v', 'a'};
+      String str1 = new String(arr1).intern();
+      String str2 = new String("Java").intern();
+      System.out.println(str1 == str2);
+   }
+}
+
+class Test101 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      String str = new String("Java");
+//      System.out.println(str == builder);
+
+   }
+}
+
+class Test102 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      String str1 = builder.toString();
+      String str2 = builder.toString();
+      String str3 = builder.substring(0);
+      String str4 = builder.toString().intern();
+      String str5 = builder.substring(0).intern();
+      System.out.println(str1);
+      System.out.println(str2);
+      System.out.println(str1 == str2);
+      System.out.println(str1 == str3);
+      System.out.println(str2 == str3);
+      System.out.println(str4 == str5);
+   }
+}
+
+class Test103 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      builder.setLength(3);
+      System.out.println(builder);
+   }
+}
+
+class Test104 {
+   public static void main(String[] args) {
+      String s = "Java";
+      s.substring(1);
+      System.out.println(s);
+   }
+}
+
+class Test105 {
+   public static void main(String[] args) {
+      StringBuilder stringBuilder = new StringBuilder("Java");
+      StringBuffer stringBuffer = new StringBuffer("Java");
+      System.out.println(stringBuilder.hashCode() == stringBuffer.hashCode());
+      System.out.println(stringBuilder.capacity() == stringBuffer.capacity());
+   }
+}
+
+class Test106 {
+   static void method(String s){
+      System.out.println("String " + s);
+   }
+   static void method(StringBuilder builder){
+      System.out.println("StringBuilder " + builder);
+   }
+   public static void main(String[] args) {
+      method("Java");
+//      method(null);
+//      method(new Object());
+   }
+}
+
+class Test107 {
+   public static void main(String[] args) {
+      StringBuilder builder = new StringBuilder("Java");
+      builder.insert(5, "-8");
+      System.out.println(builder);
+   }
+}
+
+class Test108 {
+   public static void main(String[] args) {
+      String srt = "Java";
+      srt = srt.replaceAll("a", "-");
+      System.out.println(srt);
+   }
+}
+
+class Test109 {
+   public static void main(String[] args) {
+      String str1 = "Hello";
+      String str2 = "World";
+      UnaryOperator<String> operator = s -> s.concat(str1);
+      System.out.println(operator.apply(str2));
+   }
+}
+
+class Test110 {
+   public void m() throws Exception{
+      throw new Exception();
+   }
+}
+class Test110t extends Test110{
+   public void m(){}
+   public static void main(String[] args) {
+      Test110 x = new Test110t();
+//      x.m();
+   }
+}
+
+class Test111 {
+   public static void method() throws Exception{
+      throw new Error("Error");
+   }
+   public static void main(String[] args) {
+      try{
+         method();
+      } catch (Exception e){
+         System.out.println("Exception");
+      }
+   }
+}
+
+class Test112 {
+   static class A {
+      protected void m() throws Exception{}
+   }
+   static class B extends A {
+      public void m(){}
+   }
+   public static void main(String[] args) {
+      A a = new B();
+//      a.m();
+   }
+}
+
+class Test113 {
+   static class A {
+      protected void m() throws Exception{}
+   }
+   static class B extends A {
+      public void m(){}
+   }
+   public static void main(String[] args) {
+      A a = new B();
+      ((B)a).m();
+   }
+}
+
+class Test114 {
+   void m1() throws Exception {
+      throw new Exception();
+   }
+   void m2() throws RuntimeException {
+      throw new NullPointerException();
+   }
+   public static void main(String[] args) {
+      Test114 test114 = new Test114();
+      try {
+         test114.m1();
+      } catch (Exception e){
+//         test114.m1();
+      } finally {
+         test114.m2();
+      }
+   }
+}
+
+class Test115 {
+   public Test115() {
+      try {
+         throw new MyException();
+      } catch (Exception e){
+
+      }
+   }
+   class MyException extends Exception {
+      private static final long serialUID = 1L;
+   }
+   public static void main(String[] args) {
+      Test115 test115 = new Test115();
+      Test115 test1151 = test115;
+   }
+}
+
+
+class Test116 {
+   static class FirstEx extends Exception {
+      private static final long serialID = 1L;
+   }
+   static class SecondEx extends Exception {
+      private static final long serialID = 1L;
+   }
+   static void m1() throws FirstEx { throw new FirstEx(); }
+   static void m2() throws SecondEx { throw new SecondEx(); }
+   public static void main(String[] args) {
+//      try {
+//         m1();
+//      } finally {
+//         m2();
+//      }
+   }
+}
+
+class Base {
+   public void m() throws Exception {
+      System.out.println("Test1");
+   }
+}
+class Test117 extends Base{
+   public void m() {
+      System.out.println("Test2");
+   }
+   public static void main(String[] args) {
+      Base base = new Test117();
+//      base.m();
+   }
+}
+
+//class Test111 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test111 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test111 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test111 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+
+
+
 
 
 
