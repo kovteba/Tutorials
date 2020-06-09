@@ -78,6 +78,7 @@
     + [Fibonacci](algorithms/src/main/java/kovteba/fibonaccinumber/FibonacciNumber.java)
     + [Palindrome](algorithms/src/main/java/kovteba/palindrome/Palindrome.java)
     + [Reverse Array](algorithms/src/main/java/kovteba/reversearr/ReverseApp.java)
+    + [Dublicates number](algorithms/src/main/java/kovteba/duplicatesnumber/DuplicatesNumber.java)
 ---    
 + [Internationalozation](internationalization)
 ---
@@ -88,6 +89,10 @@
     + [Dependency Injection](spring/src/main/java/kovteba/dependencyinjectionbeans)
 ---
 + [LINUX](linux)
+---
++ [GIT](git)
+---
++ [IntelliJ IDEA](intellijidea)
 ---
 + [EXAMPLES](examples)
 ---

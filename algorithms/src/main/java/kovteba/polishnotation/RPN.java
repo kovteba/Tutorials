@@ -7,7 +7,6 @@ import java.util.Deque;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-import static jdk.vm.ci.meta.JavaKind.Char;
 
 public class RPN {
 
