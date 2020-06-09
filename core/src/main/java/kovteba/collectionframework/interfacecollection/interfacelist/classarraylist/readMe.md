@@ -6,6 +6,8 @@
 - [Метод removeIf()](#Метод-removeIf())
 - [](#)
 
+
+---
 - Быстрый доступ к элементам по индексу за время __O(1)__;  
 - Доступ к элементам по значению за линейное время __O(n)__;  
 - Вставка в ArrayList связана со сдвигом всех элементов, находящихся после точки вставки, поэтому алгоритмическая 
@@ -15,12 +17,13 @@
 - Не синхронизирован.  
 
 ```
-get(index)        |   O(1)
-add(E)            |   O(n)	
-add(E, index)     |   O(n)	
-remove(index)     |   O(n)	
-Iterator.remove() |   O(n)
-Iterator.add(E)   |   O(n)
+get(index)          |   O(1)
+add(E)              |   O(n)	
+add(E, index)       |   O(n)	
+remove(index)       |   O(n)	
+Iterator.remove()   |   O(n)
+Iterator.add(E)     |   O(n)
+contains()          |   O(n)
 ```
 
 Как и Vector является реализацией динамического массива объектов.  
