@@ -24,6 +24,7 @@
         <module>linux</module>
         <module>git</module>
         <module>intellijidea</module>
+        <module>maven</module>
     </modules>
 
     <build>
