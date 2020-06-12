@@ -16,6 +16,15 @@
 - [Constructor](#Constructor)
 - [Setter](#Setter)
 - [Add list](#Add-list)
+- [File Properties](#File-Properties)
+- [@Component](#@Component)
+- [@Autowired](#@Autowired)
+    - [Поля](#Поля)
+    - [Сетер](#Сетер)
+    - [Конструктор](#Конструктор)
+- [@Qualifier](#@Qualifier)
+- [@PostConstruct](#@PostConstruct)
+- [@PreDestroy](#@PreDestroy)
 - [](#)
 
 
@@ -274,9 +283,9 @@ public class MusicPlayer {
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 
-    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.example1constructor.ClassicalMusic"/>
+    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.xmlexamples.example1constructor.ClassicalMusic"/>
 
-    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.example1constructor.MusicPlayer">
+    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.xmlexamples.example1constructor.MusicPlayer">
         <constructor-arg index="0" ref="classicMusicBean"/>
         <constructor-arg index="1" value="120"/>
     </bean>
@@ -328,8 +337,8 @@ public class MusicPlayer {
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 
-    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.example2setter.ClassicalMusic"/>
-    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.example2setter.MusicPlayer">
+    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.xmlexamples.example2setter.ClassicalMusic"/>
+    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.xmlexamples.example2setter.MusicPlayer">
         <property name="volume" value="130"/>
         <property name="music" ref="classicMusicBean"/>
     </bean>
@@ -378,12 +387,12 @@ public class MusicPlayer {
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 
-    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.example3addlist.ClassicalMusic"/>
-    <bean id="rockMusicBean" class="kovteba.dependencyinjectionbeans.example3addlist.RockMusic"/>
+    <bean id="classicMusicBean" class="kovteba.dependencyinjectionbeans.xmlexamples.example3addlist.ClassicalMusic"/>
+    <bean id="rockMusicBean" class="kovteba.dependencyinjectionbeans.xmlexamples.example3addlist.RockMusic"/>
 
-    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.example3addlist.MusicPlayer">
+    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.xmlexamples.example3addlist.MusicPlayer">
         <property name="musicList">
-            <list value-type="kovteba.dependencyinjectionbeans.example3addlist.Music">
+            <list value-type="kovteba.dependencyinjectionbeans.xmlexamples.example3addlist.Music">
                 <ref bean="classicMusicBean"/>
                 <ref bean="rockMusicBean"/>
             </list>
@@ -419,17 +428,111 @@ public class Example3App {
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.example2setter.MusicPlayer">
+    <bean id="musicPlayer" class="kovteba.dependencyinjectionbeans.xmlexamples.example2setter.MusicPlayer">
         <property name="volume" value="${music.Player.volume}"/>
     </bean>
 
 </beans>
 ```
 
+## @Component
+`@Component` - сканирует выделеный пакет в поисках данной анотоции и инициализирует Beans
 
+Добавить в ApplicationContext.xml
+```xml
+<context:component-scan base-package="kovteba"/>
+```
 
+## @Autowired
+Применимо к :
+- Полям
+- Сетерам
+- Конструкторам
 
+### Поля
+Анотация `@Autowired` внедряет зависимости в `private` поля, даже если нет конструктора или сетера. (Reflection)
 
+Но внедрение через поля является Bad Practice. 
+
+При внедрении прямо в поля вы не предоставляете прямого способа создания экземпляра класса со всеми 
+необходимыми зависимостями. Это означает, что:    
+- Существует способ (путем вызова конструктора по-умолчанию) создать объект с использованием new в состоянии, 
+    когда ему не хватает некоторых из его обязательных зависимостей, и использование приведет к NullPointerException
+- Такой класс не может быть использован вне DI-контейнеров (тесты, другие модули) и нет способа кроме рефлексии 
+    предоставить ему необходимые зависимости
+    
+__Неизменность__     
+В отличие от способа с использованием конструктора, внедрение через поля не может использоваться для присвоения 
+зависимостей `final`-полям, что приводит к тому, что ваши объекты становятся изменяемыми
+
+### Сетер
+Сеттеры следует использовать для инъекций опциональных зависимостей. Класс должен быть способен функционировать, 
+даже если они не были предоставлены. Зависимости могут быть изменены в любое время после создания объекта. 
+
+Официальная рекомендация из документации по Spring 3.x поощряет использование сеттеров над конструкторами:  
+>Команда Spring главным образом выступает за инъекцию через сеттеры, потому что большое количество аргументов 
+>конструктора может стать громоздким, особенно если свойства являются необязательными. Сеттеры также делают 
+>объекты этого класса пригодными для реконфигурации или повторной инъекции позже. Управление через JMX MBeans 
+>является ярким примером
+>
+>Некоторые пуристы предпочитают инъекцию на основе конструктора. Предоставление всех зависимостей означает, 
+>что объект всегда возвращается в вызывающий код в полностью инициализированном состоянии. Недостатком является 
+>то, что объект становится менее поддающимся реконфигурации и повторной инъекции 
+
+### Конструктор
+Инъекция через конструкторы хороша для обязательных зависимостей — тех, которые требуются для корректной 
+функциональности объекта. Передавая их через конструктор, вы можете быть уверенными в том, что объект 
+полностью готов к использованию с момента создания. Поля, присвоенные в конструкторе, также могут быть 
+`final`, что позволяет объекту быть полностью неизменным или как минимум защищает необходимые поля.
+
+Одно из следствий использования внедрения через конструктор — это то что теперь невозможна циклическая 
+зависимость между двумя объектами, созданными таким образом (в отличие от внедрения через сеттер). Это 
+скорее плюс, чем ограничение, поскольку следует избегать циклических зависимостей, что обычно является 
+признаком плохой архитектуры. Таким образом предотвращается подобная практика.
+
+Еще одним преимуществом является то, что при использовании __Spring 4.3+__ вы можете полностью отвязать 
+ваш класс от конкретного DI-фреймворка. Причина в том, что Spring теперь поддерживает __неявное внедрение 
+через конструктор__ для сценариев использования с одним конструктором. Это означает, что вам больше не 
+нужны DI-аннотации в вашем классе. Конечно, вы можете достигнуть того же результата с помощью явного 
+конфигурирования DI в настройках Spring для данного класса; просто сейчас это сделать гораздо проще.
+
+Что касается Spring 4.x, официальная рекомендация из документации изменилась и теперь инъекция через 
+сеттер более не предпочтительна над конструктором:
+
+>Команда Spring главным образом выступает за инъекцию через конструктор, поскольку она позволяет 
+>реализовывать компоненты приложения как неизменяемые объекты и гарантировать, что требуемые 
+>зависимости не null. Более того, компоненты, внедренные через через конструктор, всегда возвращаются 
+>в клиентский код в полностью инициализированном состоянии. Как небольшое замечание, большое число 
+>аргументов конструктора является признаком «кода с запашком» и подразумевает, что у класса, вероятно, 
+>слишком много обязанностей, и его необходимо реорганизовать, чтобы лучше решать вопрос о разделении ответственности.
+ 
+>Инъекция через сеттер должна использоваться в первую очередь для опциональных зависимостей, которым 
+>могут быть присвоены значения по-умолчанию внутри класса. В противном случае, проверки на not-null 
+>должны быть использованы везде, где код использует эти зависимости. Одно из преимуществ использования 
+>внедрения через сеттеры заключается в том, что они делают объекты класса поддающимися реконфигурации 
+>и повторному инжектированию позже
+
+### Заключение    
+В основном стоит избегать внедрения через поля. Как альтернативу для внедрения следует использовать 
+сеттеры или конструкторы. У каждого из них есть свои преимущества и недостатки в зависимости от ситуации. 
+Однако так как эти подходы можно смешивать, это не выбор «или-или» и вы можете в одном классе комбинировать 
+инъекцию и через сеттер, и через конструктор. Конструкторы больше подходят для обязательных зависимостей 
+и при нужде в неизменяемых объектах. Сеттеры лучше подходят для опциональных зависимостей.
+
+## @Qualifier
+В слечае когда два бина подходят возникает неопределенность, эта анотация использоуется какой бин нужно использовать
+```java
+   @Autowired
+   public MusicPlayer(@Qualifier("rockMusic") Music music) {
+      this.music = music;
+   }
+```
+
+## @PostConstruct
+При инициализации бина
+
+## @PreDestroy
+При уничтожении бина
 
 
 

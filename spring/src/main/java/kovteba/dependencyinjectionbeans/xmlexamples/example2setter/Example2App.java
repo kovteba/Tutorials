@@ -1,23 +1,18 @@
-package kovteba.dependencyinjectionbeans.example3addlist;
+package kovteba.dependencyinjectionbeans.xmlexamples.example2setter;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-@Configuration
-public class Example3App {
+public class Example2App {
    public static void main(String[] args) {
 
       ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+
       MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
 
-      musicPlayer.playMusicList();
+      musicPlayer.playMusic();
+
+      System.out.println(musicPlayer.getVolume());
 
       context.close();
    }
-
-//   @Bean
-//   public static MusicPlayer getPlayer(){
-//      return new MusicPlayer();
-//   }
 }

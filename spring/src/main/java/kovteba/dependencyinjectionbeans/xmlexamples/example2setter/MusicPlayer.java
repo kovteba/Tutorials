@@ -1,4 +1,4 @@
-package kovteba.dependencyinjectionbeans.example2setter;
+package kovteba.dependencyinjectionbeans.xmlexamples.example2setter;
 
 public class MusicPlayer {
 

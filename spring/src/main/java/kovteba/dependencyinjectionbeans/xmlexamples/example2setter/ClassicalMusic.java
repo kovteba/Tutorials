@@ -1,4 +1,4 @@
-package kovteba.dependencyinjectionbeans.example1constructor;
+package kovteba.dependencyinjectionbeans.xmlexamples.example2setter;
 
 public class ClassicalMusic implements Music {
 

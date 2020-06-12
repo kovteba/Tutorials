@@ -1,4 +1,4 @@
-package kovteba.dependencyinjectionbeans.example1constructor;
+package kovteba.dependencyinjectionbeans.xmlexamples.example1constructor;
 
 public class RockMusic implements Music {
    @Override
