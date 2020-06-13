@@ -25,32 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example1constructor/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example1constructor/Example1App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/Example1App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example1constructor/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example1constructor/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example1constructor/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example2setter/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example2setter/Example2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/Example2App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example2setter/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example2setter/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example2setter/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example3addlist/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example3addlist/Example3App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/Example3App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example3addlist/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example3addlist/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/example3addlist/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/musicPlayer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/musicPlayer.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,8 +184,8 @@
       <item itemvalue="Application.DoubleValue" />
       <item itemvalue="Application.Akvelon" />
       <item itemvalue="Application.Application" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.App" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -291,14 +269,9 @@
       <workItem from="1591351824390" duration="27202000" />
       <workItem from="1591687445696" duration="40155000" />
       <workItem from="1591860986353" duration="10782000" />
-      <workItem from="1591943249161" duration="29563000" />
-    </task>
-    <task id="LOCAL-00065" summary="update">
-      <created>1589299717017</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1589299717019</updated>
+      <workItem from="1591943249161" duration="30172000" />
+      <workItem from="1592031681041" duration="2196000" />
+      <workItem from="1592043604187" duration="609000" />
     </task>
     <task id="LOCAL-00066" summary="update">
       <created>1589319753316</created>
@@ -636,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591967513241</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="update">
+      <created>1591993333407</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1591993333407</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +699,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="730" y="347" width="449" height="393" key="#com.intellij.fileTypes.FileTypeChooser/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509282800" />
-    <state x="775" y="1189" width="436" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1591984946789">
+    <state x="775" y="1189" width="436" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1592033281461">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="690" y="0" width="526" height="1080" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1848@0.0.1920.1848" timestamp="1591102321227" />
@@ -730,7 +710,7 @@
     <state x="748" y="1189" width="446" height="582" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590914410906" />
     <state x="491" y="132" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590941823148" />
     <state x="690" y="153" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591714592821" />
-    <state x="775" y="1189" width="436" height="584" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591984946789" />
+    <state x="775" y="1189" width="436" height="584" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592033281461" />
     <state x="760" y="1299" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591262514621">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
@@ -807,7 +787,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
-    <state width="999" height="184" key="GridCell.Tab.0.bottom" timestamp="1591991065737">
+    <state width="999" height="184" key="GridCell.Tab.0.bottom" timestamp="1591993913405">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.bottom/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816426" />
@@ -819,9 +799,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661859" />
     <state width="535" height="926" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591719526620" />
-    <state width="999" height="184" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591991065737" />
+    <state width="999" height="184" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591993913405" />
     <state width="535" height="587" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591734998023" />
-    <state width="999" height="184" key="GridCell.Tab.0.center" timestamp="1591991065736">
+    <state width="999" height="184" key="GridCell.Tab.0.center" timestamp="1591993913405">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.center/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816423" />
@@ -833,9 +813,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661858" />
     <state width="535" height="926" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591719526620" />
-    <state width="999" height="184" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591991065736" />
+    <state width="999" height="184" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591993913405" />
     <state width="535" height="587" key="GridCell.Tab.0.center/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591734998023" />
-    <state width="999" height="184" key="GridCell.Tab.0.left" timestamp="1591991065736">
+    <state width="999" height="184" key="GridCell.Tab.0.left" timestamp="1591993913404">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.left/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816421" />
@@ -847,9 +827,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661856" />
     <state width="535" height="926" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591719526619" />
-    <state width="999" height="184" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591991065736" />
+    <state width="999" height="184" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591993913404" />
     <state width="535" height="587" key="GridCell.Tab.0.left/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591734998023" />
-    <state width="999" height="184" key="GridCell.Tab.0.right" timestamp="1591991065737">
+    <state width="999" height="184" key="GridCell.Tab.0.right" timestamp="1591993913405">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.right/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816425" />
@@ -861,7 +841,7 @@
     <state width="365" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661859" />
     <state width="535" height="926" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591719526620" />
-    <state width="999" height="184" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591991065737" />
+    <state width="999" height="184" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591993913405" />
     <state width="535" height="587" key="GridCell.Tab.0.right/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591734998023" />
     <state width="699" height="587" key="GridCell.Tab.1.bottom" timestamp="1590439148562">
       <screen x="257" y="1080" width="1366" height="768" />
@@ -917,7 +897,7 @@
     <state x="550" y="1107" width="900" height="741" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590753857036" />
     <state x="577" y="1107" width="1024" height="741" key="SettingsEditor/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591807000107" />
     <state x="293" y="31" width="1024" height="737" key="SettingsEditor/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591381746556" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1591967519407">
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1591993662679">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1591105472710" />
@@ -928,7 +908,7 @@
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589473103415" />
     <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590764889960" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590937724569" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591967519407" />
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591993662679" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591735030802" />
     <state x="842" y="1393" width="247" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1589816796948">
       <screen x="257" y="1080" width="1366" height="768" />
