@@ -1012,8 +1012,7 @@ public class TestClass {
 инициализирован, если ошибка происходит в статическом блоке и объект класса не будет создан, если ошибка возникает в 
 нестатическом блоке.
 
-Heap и Stack
----
+## Heap и Stack
 ![model heap](img/memory_model.jpg)
 ![Explain](img/explain_memory_model.png)
 
