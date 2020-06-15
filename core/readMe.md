@@ -888,7 +888,27 @@ Java, который избавляется от объектов, которы�
 
 ## Java Collection Framework
 [__Java Collection Framework__](src/main/java/kovteba/collectionframework) — иерархия интерфейсов и их реализаций, 
-которая является частью `JDK` и позволяет разработчику пользоваться большим количесвом структур данных из «коробки».  
+которая является частью `JDK` и позволяет разработчику пользоваться большим количесвом структур данных из «коробки».    
++ [Interface Collection](src/main/java/kovteba/collectionframework/interfacecollection)
+    + [Interface List](src/main/java/kovteba/collectionframework/interfacecollection/interfacelist)
+        + [Class ArrayList](src/main/java/kovteba/collectionframework/interfacecollection/interfacelist/classarraylist)
+        + [Class LinkedList](src/main/java/kovteba/collectionframework/interfacecollection/interfacelist/classlinkedlist)
+        + [Class Stack](src/main/java/kovteba/collectionframework/interfacecollection/interfacelist/classstack)
+        + [Class Vector](src/main/java/kovteba/collectionframework/interfacecollection/interfacelist/classvector)
+    + [Interface Set](src/main/java/kovteba/collectionframework/interfacecollection/interfaceset)
+        + [Class HashSet](src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/classhashset)
+        + [Class LinkedHashSet](src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/classlinkedhashset)
+        + [Class TreeSet](src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/classtreeset)
+    + [Interface Queue](src/main/java/kovteba/collectionframework/interfacecollection/interfacequeue)
+        + [Interface Deque](src/main/java/kovteba/collectionframework/interfacecollection/interfacequeue/interfacedeque)
+            + [Class ArrayDeque](src/main/java/kovteba/collectionframework/interfacecollection/interfacequeue/interfacedeque/classarraydeque)
+        + [Class PriorityQueue](src/main/java/kovteba/collectionframework/interfacecollection/interfacequeue/classpriorityqueue)
++ [Interface Map](src/main/java/kovteba/collectionframework/interfacemap)
+    + [Class HashMap](src/main/java/kovteba/collectionframework/interfacemap/classhashmap)
+    + [Class HashTable](src/main/java/kovteba/collectionframework/interfacemap/classhashtable)
+    + [Class LinkedHashMap](src/main/java/kovteba/collectionframework/interfacemap/classlinkedhashmap)
+    + [Class TreeMap](src/main/java/kovteba/collectionframework/interfacemap/classtreemap)
+    + [Class WeakHashMap](src/main/java/kovteba/collectionframework/interfacemap/classweakhashmap)
 
 ## Блоки инициализации
 Блоки инициализации представляют собой код, заключенный в фигурные скобки и размещаемый внутри класса вне объявления 
