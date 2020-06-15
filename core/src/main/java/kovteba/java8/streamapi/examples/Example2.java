@@ -1,4 +1,4 @@
-package kovteba.streamapi.examples;
+package kovteba.java8.streamapi.examples;
 
 import java.util.Arrays;
 import java.util.Comparator;

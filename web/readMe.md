@@ -2,6 +2,8 @@
 - [Servlet](src/main/java/kovteba/servlet)
 - [JSP](src/main/java/kovteba/jsp)
 - [REST](src/main/java/kovteba/rest)
+- [HTML](src/main/java/kovteba/html)
+- [CSS](src/main/java/kovteba/css)
 ----
 
 - [HTML](#HTML)

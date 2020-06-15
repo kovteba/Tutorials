@@ -71,6 +71,8 @@
     + [Servlet](web/src/main/java/kovteba/servlet)
     + [JSP](web/src/main/java/kovteba/jsp)
     + [REST](web/src/main/java/kovteba/rest)
+    + [HTML](web/src/main/java/kovteba/html)
+    + [CSS](web/src/main/java/kovteba/CSS)
 ---    
 + [Algoritms](algorithms)
     + [Bubble Sort](algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java)
@@ -80,6 +82,7 @@
     + [Palindrome](algorithms/src/main/java/kovteba/palindrome/Palindrome.java)
     + [Reverse Array](algorithms/src/main/java/kovteba/reversearr/ReverseApp.java)
     + [Dublicates number](algorithms/src/main/java/kovteba/duplicatesnumber/DuplicatesNumber.java)
+    + [Greedy Algorithms](algorithms/src/main/java/kovteba/greedyalgorithms)
 ---    
 + [Internationalozation](internationalization)
 ---

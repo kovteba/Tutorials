@@ -69,16 +69,7 @@
     - [jjs](#jjs)
     - [LocalDateTime](#LocalDateTime)
     - [ZonedDateTime](#ZonedDateTime)
-    - [Examples](#Examples)
-        - [Current date](#Current-date)
-        - [Plus one week](#Plus-one-week)
-        - [Plus one month](#Plus-one-month)
-        - [Plus one year](#Plus-one-year)
-        - [Plus ten years](#Plus-ten-years)
-        - [Next Tuesday](#Next-Tuesday)
-        - [Get second saturday in this month](#Get-second-saturday-in-this-month)
-        - [Current date in millisec](#Current-date-in-millisec)
-        - [Current date in millisec by localTime](#Current-date-in-millisec-by-localTime)
+        - [Examples](src/main/java/kovteba/java8/dateclasses)
     - [Class Java 8 для декодирования, кодирования данных](#Class-Java-8-для-декодирования,-кодирования-данных)
     - [Effectively final](#Effectively-final)
 - [Java 9](#Java-9)
@@ -1359,7 +1350,7 @@ public @interface About{
 
 ## Java 8
 ## Lambda
-[__Лямбда-выражение__](src/main/java/kovteba/lambda) или просто __лямбда__ в Java — упрощённая запись анонимного 
+[__Лямбда-выражение__](src/main/java/kovteba/java8/lambda) или просто __лямбда__ в Java — упрощённая запись анонимного 
 класса, реализующего функциональный интерфейс.
 
 ## Functional interface
@@ -1370,30 +1361,14 @@ public @interface About{
 интерфейс с одним абстрактным методом.
 
 ## Steam API
-Начиная с _JDK 8_ в Java появился новый API - [__Stream API__](src/main/java/kovteba/streamapi). Его задача - 
+Начиная с _JDK 8_ в Java появился новый API - [__Stream API__](src/main/java/kovteba/java8/streamapi). Его задача - 
 упростить работу с наборами данных, в частности, упростить операции фильтрации, сортировки и другие манипуляции 
 с данными. Вся основная функциональность данного API сосредоточена в пакете java.util.stream.
 
 ## Optional
-`Optional` - это контейнер объекта, он может содержать значение или некоторый тип `Т`, или просто быть `null`. 
-Он предоставляет много полезных методов избавляющие от добавления повторяющихся i`f null/notNull` проверок, что 
-позволяет нам сфокусироваться на том, что мы хотим сделать.
-Метод `isPresent()` возвращает `true` если экземпляр Optional содержит не `null` значение и `false` в противном случае. 
-Метод `orElseGet()` содержит запасной механизм результата, если Optional содержит `null`, принимая функции для 
-генерации значения по умолчанию. Метод map() преобразует текущее значение Optional и возвращает новый экземпляр 
-Optional. Метод orElse() похож на orElseGet(), но вместо функции он принимает значение по умолчанию.
-```java
-List<Integer> list = Arrays.asList(null, 1, 12, 14);
-Optional<Integer> optional = Optional.ofNullable(list.get(1));
-optional.ifPresent(System.out::println);
-```
-```java
-List<Integer> list = Arrays.asList(null, 1, 12, 14);
-Optional<Integer> optional = Optional.ofNullable(list.get(1));
-if (optional.isPresent()){
- System.out.println(optional.get());
-}
-```
+В релизе Java 8 появился новый класс [`Optional`](src/main/java/kovteba/java8/optional) призванный помочь 
+разработчикам в обработке `NullPointerException`. Это контейнер объекта, он может содержать значение или 
+некоторый тип `Т`, или просто быть `null`. 
 
 ## Nashorn
 __Nashorn__ - это движок JavaScript, разрабатываемый полностью на Java компанией Oracle.  Он призван дать возможность 
@@ -1415,62 +1390,6 @@ LocalDateTime объединяет вместе LocaleDate и LocalTime и со�
 ## ZonedDateTime
 __ZonedDateTime__ - аналог java.util.Calendar. Это самый мощный класс с полной информацией о временном контексте, 
 включает временную зону. Он содержит дату и время в календарной системе ISO-8601.
-
-## Examples
-### Current date
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-```
-
-### Plus one week
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusOneWeek = today.plus(1, ChronoUnit.WEEKS);
-```
-
-### Plus one month
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusOneMonth = today.plus(1, ChronoUnit.MONTHS);
-```
-
-### Plus one year
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusOneYear = today.plus(1, ChronoUnit.YEARS);
-```
-
-### Plus ten years
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate plusTenYears = today.plus(1, ChronoUnit.DECADES);
-```
-
-### Next Tuesday
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate nextTuesday = today.with(TemporalAdjusters.next(DayOfWeek.TUESDAY));
-```
-
-### Get second saturday in this month
-```java
-LocalDate today = ZonedDateTime.now().toLocalDate();
-LocalDate firstInYear = LocalDate.of(today.getYear(), today.getMonth(), 1);
-LocalDate secondsSaturday = firstInYear.with(TemporalAdjusters.nextOrSame(DayOfWeek.SATURDAY)).with(TemporalAdjusters.next(DayOfWeek.SATURDAY));
-```
-
-### Current date in millisec
-```java
-Date currentDate = new Date();
-Instant now = currentDate.toInstant();
-```
-### Current date in millisec by localTime
-```java
-Date currentDate = new Date();
-Instant now = currentDate.toInstant();
-ZoneId currentZone = ZoneId.systemDefault();
-LocalDateTime localDateTime = LocalDateTime.ofInstant(now, currentZone);
-```
 
 ## Class Java 8 для декодирования, кодирования данных
 В _Java 8_ для этого появился класс `public static class Base64.Decoder` - этот класс реализует декодер для 
