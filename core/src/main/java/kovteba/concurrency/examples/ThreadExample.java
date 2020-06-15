@@ -1,4 +1,4 @@
-package kovteba.concurrency;
+package kovteba.concurrency.examples;
 
 class ThreadExample  extends Thread {
 

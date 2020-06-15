@@ -51,7 +51,7 @@ public class Test {
 
       System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
-
+      System.out.println(Objects.hash(null));
 
       /////
 //      Stream<Integer> stream = Stream.of(1, 2);

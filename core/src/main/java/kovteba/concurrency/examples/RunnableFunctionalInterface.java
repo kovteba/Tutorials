@@ -1,4 +1,4 @@
-package kovteba.concurrency;
+package kovteba.concurrency.examples;
 
 public class RunnableFunctionalInterface {
 
