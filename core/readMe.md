@@ -1013,7 +1013,6 @@ public class TestClass {
 нестатическом блоке.
 
 ## Heap и Stack
-***
 ![model heap](img/memory_model.jpg)
 ![Explain](img/explain_memory_model.png)
 
