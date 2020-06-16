@@ -43,6 +43,7 @@ public class Test {
 
       list.forEach(System.out::println);
 
+
       int s = 0;
 
       changeT(s);
@@ -56,6 +57,9 @@ public class Test {
       /////
 //      Stream<Integer> stream = Stream.of(1, 2);
 //      System.out.println(stream.reduce((final x, final y) -> x).get());
+
+
+
 
 
    }
