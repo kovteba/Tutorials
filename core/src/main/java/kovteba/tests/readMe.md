@@ -2145,8 +2145,11 @@ Answer:
 ### Что не позволяет делать reflection в Java?
 Answer: Изменять код методов
 
-### 
-Answer: 
+### javax.servlet.ServletException: Class home.web.Type is not a Servlet
+Answer: Проблема заключается в том, что либа с сервлетами не должна входить в итоговый war файл, а должна 
+использоваться только для компиляции. Такого поведения можно добиться добавив `<scope>provided</scope>` в тег dependency, 
+содержащий либу с сервлетами.
+
 ### 
 Answer: 
 ### 
