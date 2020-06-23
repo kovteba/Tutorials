@@ -17,13 +17,13 @@
         <module>algorithms</module>
         <module>design-patterns</module>
         <module>java-persistence-api</module>
-        <module>examples</module>
         <module>javascript</module>
         <module>data-base</module>
         <module>linux</module>
         <module>git</module>
         <module>intellijidea</module>
         <module>maven</module>
+        <module>spring</module>
     </modules>
 
     <build>

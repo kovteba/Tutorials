@@ -3,7 +3,9 @@
 + [Java core](core)
     - [Введение](core#Введение)
     - [ООП](core#ООП)
-    - [Ассоциация, Композиция, Агрегация](core#Ассоциация,-Композиция,-Агрегация)
+    - [Связывание](core#Связывание)
+        - [Динамическое связывание](core#Динамическое-связывание)
+    - [Ассоциация](core#Ассоциация)
         - [Агрегация](core#Агрегация)
         - [Композиция](core#Композиция)
     - [Class](core#Class)
@@ -158,6 +160,7 @@
 ---
 + [Spring](spring)
     + [Dependency Injection](spring/src/main/java/kovteba/dependencyinjectionbeans)
+    + [Spring Data]()
 ---
 + [LINUX](linux)
 ---
@@ -167,8 +170,7 @@
 ---
 + [MAVEN](maven)
 ---
-+ [EXAMPLES](examples)
----
+
 
 
 

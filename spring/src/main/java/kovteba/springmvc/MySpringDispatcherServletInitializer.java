@@ -1,11 +1,6 @@
 package kovteba.springmvc;
 
-import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-
 
 // Замена web.xml
 public class MySpringDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -26,9 +21,4 @@ public class MySpringDispatcherServletInitializer extends AbstractAnnotationConf
    protected String[] getServletMappings() {
       return new String[0];
    }
-}
-
-
-class MyClass{
-
 }

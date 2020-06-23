@@ -25,78 +25,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/Binding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/AddValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/TestAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/binarytree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/binarytree/Lesson20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/chesshorse/ChessHorse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/haffman/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/haffman/MyHuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/haffman/ReadAndWriteClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmyarraylist/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmyarraylist/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmylinkedlist/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmylinkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmylinkedlist/MyLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/BbqRibs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/GardenFreshSalad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/GreekSalad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/KitchenMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/Steak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Cuccumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Meet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Mozzarella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Oil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Pepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Solt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Sous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Tommato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/ActionForCooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CookHotPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CooksLIst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CooksStaffFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/InitCooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/visitor/ActionForVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/squaretriangle/SquareTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/kovteba/testspack/TestMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Dependency-Injection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Dependency-Lookup.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/dictionary/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/dictionary/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/compareuserbyname/CompareUserByName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/compareuserbyname/MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/compareuserbyname/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/javalanguagespecification/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/App1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/CallableClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/FinalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/INF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/InnerClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/InnerClass$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/My$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/My.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/MyClass$MyNonStaticInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/MyClass$MyStaticInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/Outer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/Test$TestStat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/target/classes/kovteba/testspack/Test34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/Binding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/Encapsulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/AddValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/anotationforinstallvalue/AddValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/anotationforinstallvalue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/anotationforinstallvalue/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/anotationforinstallvalue/TestAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/anotationforinstallvalue/TestAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/binarytree/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/binarytree/Lesson20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/chesshorse/ChessHorse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/compareuserbyname/CompareUserByName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/factorial/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/haffman/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/haffman/MyHuffmanTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/haffman/ReadAndWriteClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/javalanguagespecification/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/javalanguagespecification/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmyarraylist/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmyarraylist/MyArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmylinkedlist/DoublyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmylinkedlist/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/realizedmylinkedlist/MyLinkedListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/BbqRibs.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/dish/BbqRibs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/dish/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/GardenFreshSalad.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/dish/GardenFreshSalad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/GreekSalad.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/dish/GreekSalad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/KitchenMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/dish/KitchenMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/dish/Steak.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/dish/Steak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Cuccumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Cuccumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Meet.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Meet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Mozzarella.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Mozzarella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Oil.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Oil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Pepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Solt.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Solt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Sous.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Sous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/products/Tommato.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/products/Tommato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/Waiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/staff/Waiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/ActionForCooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/ActionForCooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CookHotPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CookHotPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CooksLIst.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CooksLIst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CooksStaffFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/CooksStaffFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/InitCooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/staff/cooks/InitCooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/restoranfactorybuilderpattern/visitor/ActionForVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/restoranfactorybuilderpattern/visitor/ActionForVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/squaretriangle/SquareTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/testspack/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/testspack/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/testspack/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main/java/kovteba/testspack/TestMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/testspack/TestMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/git/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/CommonsMultipartResolver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/ContextLoaderListener.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/HibernateDaoSupport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/InternalResourceViewResolver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/LocaleChangeInterceptor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/RequestMappingHandlerAdapter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/ResponseBody_example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/SpringMVCController.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/jackson-databind.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/img/validation_annotation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/musicPlayer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/kovteba/spring/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/kovteba/rest/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/kovteba/rest/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +164,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/epamFinProject/motordeport_jdbc_servlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/src/main/java/kovteba" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -170,14 +191,27 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba" />
+      <recent name="$PROJECT_DIR$/spring" />
+      <recent name="$PROJECT_DIR$/algorithms/src/main/java/kovteba" />
+      <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img" />
       <recent name="$PROJECT_DIR$/examples/src/main/java/kovteba/finddayinyearbynumber" />
-      <recent name="$PROJECT_DIR$/examples/src/main/java/kovteba" />
-      <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples" />
-      <recent name="$PROJECT_DIR$/algorithms/src/main/java/kovteba/akvelon" />
-      <recent name="$PROJECT_DIR$/examples/src/main/java/kovteba/testspack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.dependencyinjectionbeans.anotationexamples.App" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.dependencyinjectionbeans.anotationexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Binding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kovteba.Binding" />
       <module name="examples" />
@@ -191,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.restoranfactorybuilderpattern.Main" />
+    <configuration name="ChessHorse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.chesshorse.ChessHorse" />
       <module name="examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.restoranfactorybuilderpattern.*" />
+          <option name="PATTERN" value="kovteba.chesshorse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.Main" />
+    <configuration name="Lesson20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.binarytree.Lesson20" />
       <module name="examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.*" />
+          <option name="PATTERN" value="kovteba.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,25 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.testspack.Test" />
-      <module name="examples" />
+    <configuration name="Test119" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test119" />
+      <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.testspack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.testspack.TestMemory" />
-      <module name="examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kovteba.testspack.*" />
+          <option name="PATTERN" value="kovteba.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,27 +265,27 @@
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring" />
+      <module name="springOne" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kovteba.spring.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Binding" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TestMemory" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.Test119" />
+      <item itemvalue="Application.ChessHorse" />
+      <item itemvalue="Application.Lesson20" />
+      <item itemvalue="Application.Binding" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.TestMemory" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Binding" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Lesson20" />
+        <item itemvalue="Application.ChessHorse" />
+        <item itemvalue="Application.Test119" />
       </list>
     </recent_temporary>
   </component>
@@ -348,13 +369,12 @@
       <workItem from="1592207074530" duration="24393000" />
       <workItem from="1592278835495" duration="16931000" />
       <workItem from="1592375250559" duration="14255000" />
-    </task>
-    <task id="LOCAL-00083" summary="update">
-      <created>1590670017793</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1590670017794</updated>
+      <workItem from="1592466352932" duration="727000" />
+      <workItem from="1592467110706" duration="16000" />
+      <workItem from="1592467279787" duration="66000" />
+      <workItem from="1592468185595" duration="20000" />
+      <workItem from="1592469929905" duration="21329000" />
+      <workItem from="1592829338619" duration="29349000" />
     </task>
     <task id="LOCAL-00084" summary="update">
       <created>1590675433261</created>
@@ -692,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592316454011</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="update">
+      <created>1592466671423</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1592466671423</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +803,7 @@
     </state>
     <state x="730" y="347" width="449" height="393" key="#com.intellij.fileTypes.FileTypeChooser/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586509282800" />
     <state x="803" y="1327" width="437" height="287" key="#com.intellij.fileTypes.FileTypeChooser/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592232058318" />
-    <state x="690" y="153" width="436" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1592321078218">
+    <state x="690" y="153" width="436" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1592837636147">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="0" width="526" height="1080" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1848@0.0.1920.1848" timestamp="1591102321227" />
@@ -786,7 +813,7 @@
     <state x="690" y="153" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589468124135" />
     <state x="748" y="1189" width="446" height="582" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590914410906" />
     <state x="491" y="132" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590941823148" />
-    <state x="690" y="153" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592321078218" />
+    <state x="690" y="153" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592837636147" />
     <state x="775" y="1189" width="436" height="584" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592315410244" />
     <state x="760" y="1299" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591262514621">
       <screen x="284" y="1080" width="1366" height="768" />
@@ -847,7 +874,7 @@
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="985" y="1285" width="512" height="547" key="EnvironmentVariablesDialog/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591262641202" />
-    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl" timestamp="1592413127317">
+    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl" timestamp="1592903805573">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="1223" y="298" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1848@0.0.1920.1848" timestamp="1591108992114" />
@@ -858,13 +885,13 @@
     <state x="1081" y="173" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589288939313" />
     <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590577827697" />
     <state x="769" y="146" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589546405800" />
-    <state x="1081" y="173" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591717949091" />
-    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592413127317" />
+    <state x="1081" y="173" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592832251166" />
+    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592903805573" />
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog" timestamp="1584960621610">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
-    <state width="1324" height="183" key="GridCell.Tab.0.bottom" timestamp="1592427269478">
+    <state width="1324" height="183" key="GridCell.Tab.0.bottom" timestamp="1592929174634">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.bottom/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816426" />
@@ -876,9 +903,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661859" />
     <state width="1418" height="300" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592337176751" />
-    <state width="1324" height="183" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592427269478" />
+    <state width="1324" height="183" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592929174634" />
     <state width="999" height="184" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764423" />
-    <state width="1324" height="183" key="GridCell.Tab.0.center" timestamp="1592427269477">
+    <state width="1324" height="183" key="GridCell.Tab.0.center" timestamp="1592929174628">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.center/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816423" />
@@ -890,9 +917,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661858" />
     <state width="1418" height="300" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592337176751" />
-    <state width="1324" height="183" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592427269477" />
+    <state width="1324" height="183" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592929174628" />
     <state width="999" height="184" key="GridCell.Tab.0.center/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764422" />
-    <state width="1324" height="183" key="GridCell.Tab.0.left" timestamp="1592427269477">
+    <state width="1324" height="183" key="GridCell.Tab.0.left" timestamp="1592929174627">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.left/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816421" />
@@ -904,9 +931,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661856" />
     <state width="1418" height="300" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592337176750" />
-    <state width="1324" height="183" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592427269477" />
+    <state width="1324" height="183" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592929174627" />
     <state width="999" height="184" key="GridCell.Tab.0.left/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764422" />
-    <state width="1324" height="183" key="GridCell.Tab.0.right" timestamp="1592427269477">
+    <state width="1324" height="183" key="GridCell.Tab.0.right" timestamp="1592929174629">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.right/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816425" />
@@ -918,7 +945,7 @@
     <state width="365" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661859" />
     <state width="1418" height="300" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592337176751" />
-    <state width="1324" height="183" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592427269477" />
+    <state width="1324" height="183" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592929174629" />
     <state width="999" height="184" key="GridCell.Tab.0.right/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764423" />
     <state width="699" height="587" key="GridCell.Tab.1.bottom" timestamp="1590439148562">
       <screen x="257" y="1080" width="1366" height="768" />
@@ -946,12 +973,13 @@
     <state width="216" height="452" key="HiddenNamespacesPopup/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960260429" />
     <state width="154" height="322" key="HiddenNamespacesPopup/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1587190493550" />
     <state width="154" height="322" key="HiddenNamespacesPopup/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1589816780608" />
-    <state x="608" y="1131" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1590422816048">
-      <screen x="257" y="1080" width="1366" height="768" />
+    <state x="635" y="1131" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1592930584268">
+      <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="493" y="198" width="924" height="691" key="Maven.ArtifactSearchDialog/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588685713502" />
     <state x="608" y="1131" key="Maven.ArtifactSearchDialog/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590422816048" />
     <state x="351" y="163" key="Maven.ArtifactSearchDialog/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589480795409" />
+    <state x="635" y="1131" width="924" height="691" key="Maven.ArtifactSearchDialog/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592930584268" />
     <state x="3" y="27" width="1334" height="727" key="MergeDialog" timestamp="1586536053815">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -962,8 +990,8 @@
     </state>
     <state x="854" y="412" width="347" height="263" key="MultipleFileMergeDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1586511438140" />
     <state x="608" y="310" width="357" height="256" key="MultipleFileMergeDialog/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586536053818" />
-    <state x="412" y="38" width="1024" height="737" key="SettingsEditor" timestamp="1592331194649">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="577" y="1107" width="1024" height="737" key="SettingsEditor" timestamp="1592930034263">
+      <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="703" y="0" width="947" height="1080" key="SettingsEditor/0.0.1920.1848@0.0.1920.1848" timestamp="1586454839260" />
     <state x="295" y="27" width="900" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1587157133682" />
@@ -973,9 +1001,13 @@
     <state x="412" y="37" width="1024" height="852" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589006907689" />
     <state x="550" y="1107" width="900" height="741" key="SettingsEditor/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590753857036" />
     <state x="412" y="38" key="SettingsEditor/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592331194649" />
-    <state x="577" y="1107" width="1024" height="741" key="SettingsEditor/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591807000107" />
+    <state x="577" y="1107" width="1024" height="741" key="SettingsEditor/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592930034263" />
     <state x="293" y="31" width="1024" height="737" key="SettingsEditor/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591381746556" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592316461510">
+    <state x="696" y="1208" width="540" height="524" key="StructurePopup" timestamp="1592466706807">
+      <screen x="284" y="1080" width="1366" height="768" />
+    </state>
+    <state x="696" y="1208" width="540" height="524" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466706807" />
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592466679889">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1591105472710" />
@@ -986,7 +1018,7 @@
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589473103415" />
     <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590764889960" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590937724569" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592316461510" />
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466679889" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243882597" />
     <state x="798" y="1258" width="327" height="445" key="chooseDestDirectoryDialog" timestamp="1592391586972">
       <screen x="284" y="1080" width="1366" height="768" />
@@ -1031,7 +1063,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="257" y="261" width="582" height="819" key="find.popup/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590577874388" />
-    <state x="423" y="1184" width="1157" height="595" key="new project wizard" timestamp="1592404934429">
+    <state x="423" y="1184" width="1157" height="595" key="new project wizard" timestamp="1592930030838">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="180" y="92" width="1627" height="869" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586454713943" />
@@ -1041,7 +1073,7 @@
     <state x="204" y="148" key="new project wizard/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588693794968" />
     <state x="402" y="1185" width="1157" height="592" key="new project wizard/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590675247164" />
     <state x="195" y="146" key="new project wizard/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591717968334" />
-    <state x="423" y="1184" width="1157" height="595" key="new project wizard/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592404934429" />
+    <state x="423" y="1184" width="1157" height="595" key="new project wizard/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592930030838" />
     <state x="680" y="1240" width="563" height="482" key="refactoring.ChangeSignatureDialog" timestamp="1591353373798">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
@@ -1053,15 +1085,16 @@
     <state x="488" y="214" key="run.anything.popup/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588691738038" />
     <state x="488" y="214" key="run.anything.popup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591719883363" />
     <state x="631" y="1232" key="run.anything.popup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591694681293" />
-    <state x="709" y="1115" width="672" height="703" key="search.everywhere.popup" timestamp="1591954972529">
-      <screen x="284" y="1080" width="1366" height="768" />
+    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup" timestamp="1592850541301">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1588411605436" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586529375488" />
     <state x="486" y="90" width="945" height="989" key="search.everywhere.popup/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588694505535" />
     <state x="603" y="1144" width="672" height="703" key="search.everywhere.popup/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590588812230" />
     <state x="346" y="89" width="673" height="679" key="search.everywhere.popup/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590523532416" />
-    <state x="709" y="1115" width="672" height="703" key="search.everywhere.popup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591954972529" />
+    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592850541301" />
+    <state x="709" y="1115" width="672" height="703" key="search.everywhere.popup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592467075826" />
     <state x="529" y="1165" width="865" height="632" key="spring file set editor" timestamp="1591984104443">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>

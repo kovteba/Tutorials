@@ -1,5 +1,17 @@
-# Dependency injection, Bean
+# Dependency injection, Bean, IoC
 
+
+- [Концепции инверсии управления](#Концепции-инверсии-управления)
+- [Dependency Lookup](#Dependency-Lookup)
+    - [Dependency Pull](#Dependency-Pull)
+    - [Contextualized Dependency](#Contextualized-Dependency)
+- [Dependency lnjection](#Dependency-lnjection)
+    - [Constructor Dependency lnjection](#Constructor Dependency lnjection)
+    - [Setter Dependency lnjection](#Setter-Dependency-lnjection)
+- [](#)
+- [](#)
+
+---
 - [Объясните суть паттерна DI или IoC](#Объясните-суть-паттерна-DI-или-IoC)
 - [Какие преимущества применения Dependency Injection (DI)?](#Какие-преимущества-применения-Dependency-Injection-(DI)?)
 - [Что такое IoC контейнер Spring?](#Что-такое-IoC-контейнер-Spring?)
@@ -27,6 +39,46 @@
 - [@PreDestroy](#@PreDestroy)
 - [](#)
 
+
+
+
+
+## Концепции инверсии управления
+Разновидности LоС, включают пассивную инверсию зависимостей, или внедрение зависимостей (_Dependency Injection_), 
+и активную инверсию зависимостей, или поиск зависимостей (_Dependency Lookup_).
+
+## Dependency Lookup
+![Dependency Lookup](img/Dependency-Lookup.png)
+- Dependency Pull (Извлечение зависимостей)
+- Contextualized Dependency Lookup (Контекстуализированный поиск зависимостей), или CDL
+
+### Dependency Pull
+```java
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+puЬlic class DependencyPull [
+   puЬlic static void main (String [] args) {
+      ApplicationContext ctx = new ClassPathXmlApplicationContext("META-INF/spring/app-context.xml");
+      MessageRenderer mr = ctx.getBean ( "renderer", MessageRenderer. class);
+      mr.render();
+   }
+}
+```
+
+### Contextualized Dependency
+
+## Dependency lnjection
+![Dependency Injection](img/Dependency-Injection.png)
+- Constructor Dependency Injection (Внедрение зависимостей через конструктор)
+- Setter Dependency Injection (Внедрение зависимостей через метод установки).
+
+### Constructor Dependency lnjection
+### Setter-Dependency-lnjection
+
+
+
+
+---
 
 ## Объясните суть паттерна DI или IoC
 __Dependency injection (DI)__ - паттерн проектирования и архитектурная модель, так же известная как 

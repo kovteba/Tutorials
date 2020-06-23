@@ -1,15 +1,10 @@
 package kovteba.testspack;
 
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZonedDateTime;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 import java.util.function.BiFunction;
-import java.util.stream.Stream;
 
 import static java.lang.Thread.currentThread;
 
@@ -101,9 +96,6 @@ public class Test {
       }
    }
 }
-
-
-
 
 
 class FinalClass {

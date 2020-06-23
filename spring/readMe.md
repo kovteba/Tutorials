@@ -32,6 +32,8 @@
 - [Как проверить (валидировать) данные формы в Spring Web MVC Framework?](#Как-проверить-(валидировать)-данные-формы-в-Spring-Web-MVC-Framework?)
 - [Что вы знаете Spring MVC Interceptor и как он используется?](#Что-вы-знаете-Spring-MVC-Interceptor-и-как-он-используется?)
 - [Расскажите о Spring Security.](#Расскажите-о-Spring-Security.)
+- [ViewResolver](#ViewResolver)
+- [Repository](#Repository)
 - [](#)
 
 ## Что такое Spring? Из каких частей состоит Spring Framework?
@@ -375,6 +377,28 @@ HandlerInterceptor. Так же нужно указать перехватчик
 аутентификации, авторизации и распределения ролей и маппинга доступных страниц, ссылок и т.п., предоставляет 
 защиту от различных вариантов атак (например CSRF). Имеет множество различных настроек, но остается легким в 
 использовании.
+
+## ViewResolver
+При работе с Spring MVC этот интерфейс ищет представление по его названию.
+Настройка ViewResolver:   
+```xml
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="WEB-INF/views/"/>
+    <property name="suffix" value=".jsp"/>
+</bean>
+```
+
+## Repository
+```
+Repository
+    CrudRepository
+        PagingAndSortingRepository
+            JpaRepository extends QueryByExampleExecutor
+```
+- `Repository` - Центральный интерфейс Spring Data  выступает в роли маркера
+- `CrudRepository` - репозтторий представляющий CRUD функционал
+- `PagingAndSortedRepositpry` - доп функционал по сортировке и пагинации данных
+- `JpaRepository` - представляющий специфический для Java Persistance API функционал
 
 
 
