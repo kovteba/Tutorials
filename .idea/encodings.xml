@@ -13,8 +13,6 @@
     <file url="file://$PROJECT_DIR$/git/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/intellijidea/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/intellijidea/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/internationalization/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/internationalization/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-persistence-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-persistence-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/javascript/src/main/java" charset="UTF-8" />
@@ -27,7 +25,6 @@
     <file url="file://$PROJECT_DIR$/maven/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springOne/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/src/main/resources" charset="UTF-8" />
   </component>

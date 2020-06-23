@@ -152,8 +152,6 @@
     + [Reverse Array](algorithms/src/main/java/kovteba/reversearr/ReverseApp.java)
     + [Dublicates number](algorithms/src/main/java/kovteba/duplicatesnumber/DuplicatesNumber.java)
     + [Greedy Algorithms](algorithms/src/main/java/kovteba/greedyalgorithms)
----    
-+ [Internationalozation](internationalization)
 ---
 + [Java Persistence API](java-persistence-api)
     + [HIBERNATE](java-persistence-api/src/main/java/kovteba/hibernate)

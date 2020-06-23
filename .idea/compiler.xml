@@ -26,6 +26,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="examples" target="11" />
+      <module name="internationalization" target="1.8" />
       <module name="springOne" target="11" />
     </bytecodeTargetLevel>
   </component>
