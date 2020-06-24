@@ -158,7 +158,8 @@
 ---
 + [Spring](spring)
     + [Dependency Injection](spring/src/main/java/kovteba/dependencyinjectionbeans)
-    + [Spring Data]()
+    + [Spring Data](spring/src/main/java/kovteba/springdata)
+    + [Spring MVC](spring/src/main/java/kovteba/springmvc)
 ---
 + [LINUX](linux)
 ---

@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="linux" />
         <module name="springOne" />
-        <module name="internationalization" />
         <module name="java-persistence-api" />
         <module name="javascript" />
         <module name="data-base" />

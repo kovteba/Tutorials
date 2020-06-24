@@ -25,29 +25,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/internationalization/internationalization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springdata/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/example/I18NSample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/controller/WelcomeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nDE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nFR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/i18n/i18nUS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/java/kovteba/jspservlet/readMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_de_DE.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_en_US.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/MessagesBundle_fr_FR.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/resources/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internationalization/src/main/webapp/templates/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internationalization/internationalization.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/ClassicalMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/MusicPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/anotationexamples/RockMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/ClassicalMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/Example1App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/MusicPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example1constructor/RockMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/ClassicalMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/Example2App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/MusicPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example2setter/RockMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/ClassicalMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/Example3App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/MusicPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/xmlexamples/example3addlist/RockMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/spring/Application.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +135,7 @@
       <recent name="$PROJECT_DIR$/examples/src/main/java/kovteba/finddayinyearbynumber" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kovteba.dependencyinjectionbeans.anotationexamples.App" />
       <module name="spring" />
@@ -181,15 +188,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test119" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test119" />
-      <module name="core" />
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.tests.*" />
+          <option name="PATTERN" value="kovteba.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kovteba.spring.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,19 +210,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.Test119" />
       <item itemvalue="Application.ChessHorse" />
       <item itemvalue="Application.Lesson20" />
       <item itemvalue="Application.Binding" />
       <item itemvalue="Application.App" />
+      <item itemvalue="Spring Boot.Application (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Binding" />
         <item itemvalue="Application.Lesson20" />
         <item itemvalue="Application.ChessHorse" />
-        <item itemvalue="Application.Test119" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +311,7 @@
       <workItem from="1592467279787" duration="66000" />
       <workItem from="1592468185595" duration="20000" />
       <workItem from="1592469929905" duration="21329000" />
-      <workItem from="1592829338619" duration="32778000" />
-    </task>
-    <task id="LOCAL-00085" summary="update">
-      <created>1590677349494</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1590677349495</updated>
+      <workItem from="1592829338619" duration="35460000" />
     </task>
     <task id="LOCAL-00086" summary="update">
       <created>1590677545089</created>
@@ -649,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592943077554</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="update">
+      <created>1592947035618</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1592947035619</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -937,7 +944,7 @@
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="696" y="1208" width="540" height="524" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466706807" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592943092051">
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592947044933">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1591105472710" />
@@ -948,7 +955,7 @@
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589473103415" />
     <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590764889960" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590937724569" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592943092051" />
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592947044933" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243882597" />
     <state x="798" y="1258" width="327" height="445" key="chooseDestDirectoryDialog" timestamp="1592391586972">
       <screen x="284" y="1080" width="1366" height="768" />
