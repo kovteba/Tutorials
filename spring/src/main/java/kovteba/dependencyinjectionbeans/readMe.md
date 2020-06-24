@@ -6,8 +6,9 @@
     - [Dependency Pull](#Dependency-Pull)
     - [Contextualized Dependency](#Contextualized-Dependency)
 - [Dependency lnjection](#Dependency-lnjection)
-    - [Constructor Dependency lnjection](#Constructor Dependency lnjection)
-    - [Setter Dependency lnjection](#Setter-Dependency-lnjection)
+    - [Constructor Dependency lnjection](#Constructor-Dependency-lnjection)
+    - [Setter Dependency lnjection](#Setter-Dependency-Injection)
+    - [Lookup Method Injection](#Lookup Method Injection)
 - [](#)
 - [](#)
 
@@ -73,7 +74,19 @@ puЬlic class DependencyPull [
 - Setter Dependency Injection (Внедрение зависимостей через метод установки).
 
 ### Constructor Dependency lnjection
-### Setter-Dependency-lnjection
+[__Constructor Dependency lnjection__](https://github.com/kovteba/Examples/tree/master/spring3)
+
+### Setter Dependency Injection
+[__Setter Dependency Injection__](https://github.com/kovteba/Examples/tree/master/spring4)
+
+### Lookup Method Injection
+Тип [__Lookup Method Injection__](https://github.com/kovteba/Examples/tree/master/spring8) был добавлен в 
+_Spring 1.1_ для преодоления проблем, возникающих, когда один бин зависит от другого бина, который имеет 
+отличающийся жизненный цикл - в частности, когда одиночный объект (siпgleton) зависит от неодиночного объекта. 
+В такой ситуации _Setter Injection_ и _Constructor Injection приводят к тому, что одиночный бин поддерживает 
+единственный экземпляр того, что должно быть неодиночным бином. В некоторых случаях необходимо, чтобы 
+одиночный бин при возникновении потребности получал новый экземпляр неодиночного бина.
+
 
 
 
