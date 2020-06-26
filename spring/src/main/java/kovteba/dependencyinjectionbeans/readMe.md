@@ -25,10 +25,19 @@
     - [Сетер](#Сетер)
     - [Конструктор](#Конструктор)
 - [@Qualifier](#@Qualifier)
-- [@PostConstruct](#@PostConstruct)
-- [@PreDestroy](#@PreDestroy)
+- [Инициализация Bean](#Инициализация-Bean)
+    - [@PostConstruct](#@PostConstruct)
+    - [init method](#init-method)
+    - [Interface InitializingBean](#Interface-InitializingBean)
+- [Уничтожение Bean](#Уничтожение-Bean)
+    - [@PreDestroy](#@PreDestroy)
+    - [destroy method](#destroy-method)
+    - [Interface DisposableBean](#Interface-DisposableBean)
 - [@Component](#@Component)
 - [Add list](#Add-list)
+- [Interface BeanNameAware](#Interface-BeanNameAware)
+- [FactoryBean](#FactoryBean)
+- [Потокобезопасен ли Spring bean](#Потокобезопасен-ли-Spring-bean)
 - [](#)
 - [](#)
 
@@ -463,13 +472,60 @@ __Неизменность__
 
 ---
 
-## @PostConstruct
-При инициализации бина
+## Инициализация Bean
+- @PostConstruct
+- init-method
+- Interface InitializingBean
+
+К одному и тому же экземпляру бина можно применять все механизмы. В этом случае Spring вызывает метод, 
+аннотированный `@PostConstruct`, затем метод `InitializingBean.afterPropertiesSet()` и, наконец, 
+ваш метод инициализации, указанный в конфигурационном файле.
+
+### @PostConstruct
+При инициализации бина  
+`@PostConstruct` или `init-method` в XML файле сообщает Spring, что нужно вызвать метод отмеченный аннотацией или 
+указаный в конфигурационном файле, после окончания конфигурирования бина.
+
+Применение метода инициализации является идеальным способом удостовериться в правильности конфигурации бинов. 
+Благодаря этому механизму вы можете получить все преимущества loC, не теряя контроля, который дает 
+определение зависимостей вручную. Единственное ограничение метода инициализации связано с тем, что он не 
+может принимать аргументы. Можно определять любой возвращаемый тип, хотя он игнорируется Spriпg, и 
+можно даже использовать статический метод, но этот метод не должен принимать аргументы.
+
+[Examples...](https://github.com/kovteba/Examples/tree/master/spring10)
+
+### init method
+[Examples...](https://github.com/kovteba/Examples/tree/master/spring10)
+
+### Interface InitializingBean
+Интерфейс `InitializingBean`, предлагаемый в Spring, позволяет определять внутри бина код, который будет 
+выполняться, когда бин получает уведомление о том, что платформа Spring завершила его конфигурирования. 
+Подобно методу инициализации, это дает возможность проверить допустимость конфигурации бина, предоставляя 
+наряду с этим любые стандартные значения. В интерфейсе `InitializingBean` определен единственный метод 
+`afterPropertiesSet()`, который служит той же цели, что и метод `init()`
+
+[Examples...](https://github.com/kovteba/Examples/tree/master/spring11)
 
 ---
 
-## @PreDestroy
+## Уничтожение Bean
+- @PreDestroy
+- destroy-method
+- Interface DisposableBean
+
+Spring запускает эти методы непосредственно перед уничтожением бина.
+
+Как и в случае с созданием бина, при уничтожении бина можно использовать все механизмы на одном и том 
+же экземпляре бина. В такой ситуации Spring сначала вызывает метод, аннотированный `@PreDestroy`, 
+затем метод `DisposaЬleBean.destroy()` и, наконец, ваш метод уничтожения, сконфигурированный в 
+определении XML.
+
+### @PreDestroy
 При уничтожении бина
+
+### destroy method
+
+### Interface DisposableBean
 
 ---
 
@@ -535,6 +591,31 @@ public class Example3App {
 ```
 
 ---
+
+## Interface BeanNameAware
+Интерфейс BeanNameAware, который бин может реализовать, чтобы получить свое имя, имеет единственный метод: 
+`setBeanName(String)`. Платформа Spring вызывает метод setBeanName () после завершения конфигурирования 
+бина, но перед любыми обратными вызовами жизненного цикла (инициализации или уничтожения)
+
+Метод `BeanNameAware.setBeanName()` вызывается перед тем, как первый экземпляр бина будет возвращен 
+приложению через вызов `ApplicationContext.getBean()`
+
+[Examples...](https://github.com/kovteba/Examples/tree/master/spring12)
+
+---
+
+## FactoryBean
+__FactoryBean__ - это бин, который действует как фабрика для других бинов. Фабрики бинов конфигурируются 
+внутри `ApplicationContext` подобно обычным бинам, но когда платформа Spring применяет интерфейс 
+`FactoryBean` для удовлетворения запроса зависимости или поиска, она не возвращает экземпляр 
+`FactoryBean`, а взамен вызывает метод `FactoryBean.getObject()` и возвращает результат этого вызова.
+
+---
+
+## Потокобезопасен ли Spring bean
+По умолчанию бин задается как синглтон в Spring. Таким образом все публичные переменные класса могут быть изменены 
+одновременно из разных мест. Так что - нет, не является. Однако поменяв область действия бина на `request`, `prototype`, 
+`session` он станет потокобезопасным, но это скажется на производительности.
 
 
 

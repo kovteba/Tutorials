@@ -25,9 +25,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Spring-control-bean-life.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/cherry-pick1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/cherry-pick2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/different-branch1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/different-branch2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/forcing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/forcing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/merge-different1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/merge-different2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/rebase-different1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/rebase-different2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/reset1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/reset2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/revert1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git/img/revert2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/img/CommonsMultipartResolver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/img/HibernateDaoSupport.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/img/RequestMappingHandlerAdapter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/img/ResponseBody_example.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/img/jackson-databind.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/img/spring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/img/validation_annotation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/aop/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/ContextLoaderListener.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/InternalResourceViewResolver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/LocaleChangeInterceptor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/SpringMVCController.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springsecurity/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/git/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +108,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/git/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -88,11 +122,11 @@
       <recent name="java.kovteba" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img" />
       <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img" />
       <recent name="$PROJECT_DIR$/algorithms" />
       <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img" />
       <recent name="$PROJECT_DIR$/spring" />
-      <recent name="$PROJECT_DIR$/spring/src/main/resources/img" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kovteba.chesshorse" />
@@ -101,11 +135,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/git/img" />
+      <recent name="$PROJECT_DIR$/spring/img" />
+      <recent name="$PROJECT_DIR$/spring" />
       <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img" />
       <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba" />
-      <recent name="$PROJECT_DIR$/spring" />
-      <recent name="$PROJECT_DIR$/algorithms/src/main/java/kovteba" />
-      <recent name="$PROJECT_DIR$/examples/src/main/java/kovteba/finddayinyearbynumber" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
@@ -284,14 +318,7 @@
       <workItem from="1592467279787" duration="66000" />
       <workItem from="1592468185595" duration="20000" />
       <workItem from="1592469929905" duration="21329000" />
-      <workItem from="1592829338619" duration="47101000" />
-    </task>
-    <task id="LOCAL-00090" summary="update">
-      <created>1590749684165</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1590749684165</updated>
+      <workItem from="1592829338619" duration="81383000" />
     </task>
     <task id="LOCAL-00091" summary="update">
       <created>1590764874654</created>
@@ -629,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593012021430</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="update">
+      <created>1593026522748</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1593026522748</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,7 +818,7 @@
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="985" y="1285" width="512" height="547" key="EnvironmentVariablesDialog/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591262641202" />
-    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl" timestamp="1592903805573">
+    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593109166642">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="1223" y="298" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1848@0.0.1920.1848" timestamp="1591108992114" />
@@ -796,7 +830,7 @@
     <state x="1026" y="1203" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590577827697" />
     <state x="769" y="146" width="424" height="491" key="FileChooserDialogImpl/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1589546405800" />
     <state x="1081" y="173" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592832251166" />
-    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592903805573" />
+    <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593109166642" />
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog" timestamp="1584960621610">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -913,12 +947,13 @@
     <state x="412" y="38" key="SettingsEditor/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592331194649" />
     <state x="577" y="1107" width="1024" height="741" key="SettingsEditor/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592946384539" />
     <state x="293" y="31" width="1024" height="737" key="SettingsEditor/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1591381746556" />
-    <state x="696" y="1208" width="540" height="524" key="StructurePopup" timestamp="1592466706807">
-      <screen x="284" y="1080" width="1366" height="768" />
+    <state x="579" y="180" width="760" height="737" key="StructurePopup" timestamp="1593202954823">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="579" y="180" width="760" height="737" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593202954823" />
     <state x="696" y="1208" width="540" height="524" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466706807" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593012025409">
-      <screen x="284" y="1080" width="1366" height="768" />
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593026528347">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1591105472710" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1588858224532" />
@@ -928,6 +963,7 @@
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1589473103415" />
     <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590764889960" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590937724569" />
+    <state x="555" y="276" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593026528347" />
     <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593012025409" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243882597" />
     <state x="798" y="1258" width="327" height="445" key="chooseDestDirectoryDialog" timestamp="1592391586972">

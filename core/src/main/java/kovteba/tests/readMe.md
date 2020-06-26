@@ -2140,11 +2140,24 @@ Some val
 Val from non-static
 ```
 
-## Test
+## Test120
 ```java
-
+class Test120 {
+   public static void main(String[] args) {
+      int n = 33;
+      System.out.println(n % 2);
+      int s = 0;
+      while (n > 0){
+         s += n % 2;
+         System.out.println("s: " + s);
+         n /= 2;
+         System.out.println("n: " + n);
+      }
+      System.out.println(s);
+   }
+}
 ```
-Answer: 
+Answer: 2
 
 ## Test
 ```java
