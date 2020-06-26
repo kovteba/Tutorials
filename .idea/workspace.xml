@@ -25,43 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/git/img/cherry-pick1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/cherry-pick2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/different-branch1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/different-branch2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/forcing1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/forcing2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/merge-different1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/merge-different2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/rebase-different1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/rebase-different2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/reset1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/reset2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/revert1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git/img/revert2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/img/CommonsMultipartResolver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/img/HibernateDaoSupport.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/img/RequestMappingHandlerAdapter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/img/ResponseBody_example.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/img/jackson-databind.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/img/spring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/img/validation_annotation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/aop/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/ContextLoaderListener.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/InternalResourceViewResolver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/LocaleChangeInterceptor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/SpringMVCController.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springsecurity/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/git/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +283,7 @@
       <workItem from="1592467279787" duration="66000" />
       <workItem from="1592468185595" duration="20000" />
       <workItem from="1592469929905" duration="21329000" />
-      <workItem from="1592829338619" duration="81383000" />
+      <workItem from="1592829338619" duration="82503000" />
     </task>
     <task id="LOCAL-00091" summary="update">
       <created>1590764874654</created>
