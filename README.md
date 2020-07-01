@@ -160,6 +160,8 @@
     + [Dependency Injection](spring/src/main/java/kovteba/dependencyinjectionbeans)
     + [Spring Data](spring/src/main/java/kovteba/springdata)
     + [Spring MVC](spring/src/main/java/kovteba/springmvc)
+    + [AOP](spring/src/main/java/kovteba/aop)
+    + [Spring Security](spring/src/main/java/kovteba/springsecurity)
 ---
 + [LINUX](linux)
 ---

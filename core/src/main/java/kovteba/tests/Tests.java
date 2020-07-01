@@ -1308,11 +1308,137 @@ class Test120 {
    }
 }
 
-//class Test111 {
-//   public static void main(String[] args) {
-//
-//   }
-//}
+class Test121 {
+   public static void main(String[] args) {
+      for (final int i : new int[]{1, 2, 3}){
+         System.out.println(i + 1);
+      }
+   }
+}
+
+class Test122 {
+   public static void main(String[] args) {
+      Set<A> set = new HashSet<>();
+      set.add(new A("JAVA"));
+      set.add(new A("Java"));
+      set.add(new A("Java"));
+
+      for (A a : set){
+         a.value = a.value.toLowerCase();
+      }
+
+      set.add(new A("java"));
+      System.out.println(set.size());
+   }
+   public static class A {
+
+      String value;
+      A(String value){
+         this.value = value;
+      }
+
+      @Override
+      public boolean equals(Object o) {
+         if (this == o)
+            return true;
+         if (o == null || getClass() != o.getClass())
+            return false;
+         A a = (A) o;
+         return Objects.equals(value, a.value);
+      }
+
+      @Override
+      public int hashCode() {
+         return Objects.hash(value);
+      }
+   }
+}
+
+class Test123 {
+   public static void main(String[] args) {
+//      A a = new A();
+   }
+   public static class A {
+      public A(String value) {
+         System.out.println(value);
+      }
+   }
+}
+
+class Test124 {
+   public static void main(String[] args) {
+      A a = new B();
+      a.method(null);
+   }
+   public static class A {
+      public A() {
+      }
+      void method(Object object) {
+         System.out.println(object + "best");
+      }
+   }
+   public static class B extends A {
+      public B() {
+      }
+
+      @Override
+      void method(Object object) {
+         System.out.println(object + "worst");
+      }
+   }
+}
+
+class Test125 {
+   public static void main(String[] args) {
+      A a = new B();
+   }
+   public static class A {
+      A(){
+         System.out.println("class A");
+      }
+   }
+   public static class B extends A{
+      B(){
+         System.out.println("class B");
+      }
+   }
+}
+
+class Test126 {
+   public static void main(String[] args) {
+      int[] arr = {1, 2, 3, 4, 5};
+      System.out.println(arr[5]);
+   }
+}
+
+class Test127 {
+   public static void main(String[] args) {
+      long longValue = 10L;
+      int intValue = 10;
+      String stringValue = "20";
+      System.out.println(longValue + intValue + stringValue);
+   }
+}
+
+class Test128 {
+   public static void main(String[] args) {
+      String s1 = "cat";
+      String s2 = null;
+      System.out.println(s1.equals(s2));
+      System.out.println(s2.equals(s1));
+   }
+}
+
+class Test129 {
+   public static void main(String[] args) {
+      String s1 = "Cat";
+      String s2 = new String("Cat");
+      String s3 = "Cat";
+      System.out.println(s1 == s2);
+      System.out.println(s2.equals(s3));
+      System.out.println(s3 == s1);
+   }
+}
 
 //class Test111 {
 //   public static void main(String[] args) {
@@ -1325,6 +1451,8 @@ class Test120 {
 //
 //   }
 //}
+
+
 
 
 

@@ -2159,29 +2159,193 @@ class Test120 {
 ```
 Answer: 2
 
+## Test121
+```java
+class Test121 {
+   public static void main(String[] args) {
+      for (final int i : new int[]{1, 2, 3}){
+         System.out.println(i + 1);
+      }
+   }
+}
+```
+Answer: 
+        2
+        3
+        4
+
+## Test122
+```java
+class Test122 {
+   public static void main(String[] args) {
+      Set<A> set = new HashSet<>();
+      set.add(new A("JAVA"));
+      set.add(new A("Java"));
+      set.add(new A("Java"));
+
+      for (A a : set){
+         a.value = a.value.toLowerCase();
+      }
+
+      set.add(new A("java"));
+      System.out.println(set.size());
+   }
+   public static class A {
+
+      String value;
+      A(String value){
+         this.value = value;
+      }
+
+      @Override
+      public boolean equals(Object o) {
+         if (this == o)
+            return true;
+         if (o == null || getClass() != o.getClass())
+            return false;
+         A a = (A) o;
+         return Objects.equals(value, a.value);
+      }
+
+      @Override
+      public int hashCode() {
+         return Objects.hash(value);
+      }
+   }
+}
+```
+Answer: 3
+
+## Test123
+```java
+class Test123 {
+   public static void main(String[] args) {
+//      A a = new A(); <- constructor not cant be empty
+   }
+   public static class A {
+      public A(String value) {
+         System.out.println(value);
+      }
+   }
+}
+```
+Answer: Compilation error
+
+## Test124
+```java
+class Test124 {
+   public static void main(String[] args) {
+      A a = new B();
+      a.method(null);
+   }
+   public static class A {
+      public A() {
+      }
+      void method(Object object) {
+         System.out.println(object + "best");
+      }
+   }
+   public static class B extends A {
+      public B() {
+      }
+
+      @Override
+      void method(Object object) {
+         System.out.println(object + "worst");
+      }
+   }
+}
+```
+Answer: nullworst
+
+## Test125
+```java
+class Test125 {
+   public static void main(String[] args) {
+      A a = new B();
+   }
+   public static class A {
+      A(){
+         System.out.println("class A");
+      }
+   }
+   public static class B extends A{
+      B(){
+         System.out.println("class B");
+      }
+   }
+}
+```
+Answer:    
+        class A   
+        class B
+
+## Test126
+```java
+class Test126 {
+   public static void main(String[] args) {
+      int[] arr = {1, 2, 3, 4, 5};
+      System.out.println(arr[5]);
+   }
+}
+```
+Answer: java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+
+## Test127
+```java
+class Test127 {
+   public static void main(String[] args) {
+      long longValue = 10L;
+      int intValue = 10;
+      String stringValue = "20";
+      System.out.println(longValue + intValue + stringValue);
+   }
+}
+```
+Answer: 2020
+
+## Test128
+```java
+class Test128 {
+   public static void main(String[] args) {
+      String s1 = "cat";
+      String s2 = null;
+      System.out.println(s1.equals(s2));
+      System.out.println(s2.equals(s1));
+   }
+}
+```
+Answer:   
+        false   
+        Exception in thread "main" java.lang.NullPointerException
+
+## Test129
+```java
+class Test129 {
+   public static void main(String[] args) {
+      String s1 = "Cat";
+      String s2 = new String("Cat");
+      String s3 = "Cat";
+      System.out.println(s1 == s2);
+      System.out.println(s2.equals(s3));
+      System.out.println(s3 == s1);
+   }
+}
+```
+Answer:   
+false   
+true  
+true  x-special/nautilus-clipboard
+      cut
+      file:///home/dima/Documents/ITStudy/forTraining
+
+
 ## Test
 ```java
 
 ```
 Answer: 
 
-## Test
-```java
-
-```
-Answer: 
-
-## Test
-```java
-
-```
-Answer: 
-
-## Test
-```java
-
-```
-Answer: 
 ## Test
 ```java
 
