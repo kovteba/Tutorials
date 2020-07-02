@@ -3,6 +3,8 @@ package kovteba.tests;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
 import java.util.*;
 import java.util.function.UnaryOperator;
 
@@ -1514,24 +1516,42 @@ class Test131 {
 
 class Test132 {
    public static void main(String[] args) {
-      List<Integer> ints = Arrays.asList(1,2,3);
+      List<Integer> ints = Arrays.asList(1, 2, 3);
 //      List<Number> nums = ints; // compile-time error. Проблема обнаружилась на этапе компиляции
 //      nums.set(2, 3.14);
       assert ints.toString().equals("[1, 2, 3.14]");
    }
 }
 
-//class Test131 {
-//   public static void main(String[] args) {
-//
-//   }
-//}
+class Test133 {
+   public static void main(String[] args) {
+      List<String> list = Arrays.asList("Hello", "World");
+      List<Integer> data = new ArrayList(list);
+      Integer intNumber = data.get(0);
+      System.out.println(data);
+   }
+}
 
-//class Test131 {
-//   public static void main(String[] args) {
-//
-//   }
-//}
+class Test134 {
+   public static void main(String[] args) {
+
+      B b = new B();
+   }
+
+   static class A {
+      A(){
+         System.out.println("1");
+      }
+   }
+   static class B extends A {
+      B(){
+         System.out.println("2");
+      }
+   }
+
+
+
+}
 
 //class Test131 {
 //   public static void main(String[] args) {

@@ -13,7 +13,7 @@
 - [Особенности и преимуществ Spring Framework](#Особенности-и-преимуществ-Spring-Framework)
 - [Java Naming and Directory Interface](#Java-Naming-and-Directory-Interface)
 - [Enterprise Java Beans](#Enterprise-Java-Beans)
-- [Spring Bean](#Spring Bean)
+- [Spring Bean](#Spring-Bean)
 - [Dependency injection](#Dependency-injection)
 - [ApplicationContext Spring](#ApplicationContext-Spring)
     - [Создание ApplicationContext](#Создание-ApplicationContext)

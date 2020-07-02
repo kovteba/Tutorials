@@ -124,6 +124,7 @@
     + [Abstract Factory](design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory)
     + [Factory](design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod)
     + [Builder](design-patterns/src/main/java/kovteba/creationalpatterns/builder)
+    + [Prototype](design-patterns/src/main/java/kovteba/creationalpatterns/prototype)
     + [MVC vs MVP vs MVVM](design-patterns#MVC-vs-MVP-vs-MVVM)
 ---    
 + [JDBC](jdbc)
