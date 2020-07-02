@@ -1,10 +1,6 @@
 # Spring
 
 
-
----
-
-
 - [Spring и его компоненты](#Spring-и-его-компоненты)
     - [AOP](src/main/java/kovteba/aop)
     - [Spring Data](src/main/java/kovteba/springdata)
@@ -34,6 +30,7 @@
 - [MultipartResolver](#MultipartResolver)
 
 
+---
 
 
 - [Как получить объекты ServletContext и ServletConfig внутри Spring Bean?](#Как-получить-объекты-ServletContext-и-ServletConfig-внутри-Spring-Bean?)
