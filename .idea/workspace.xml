@@ -27,6 +27,7 @@
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,33 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test129">
-    <configuration name="Test125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test125" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kovteba.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test126" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test126" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kovteba.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test131">
     <configuration name="Test127" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test127" />
       <module name="core" />
@@ -180,6 +155,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test130" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test131" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test131" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springOne" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kovteba.spring.Application" />
@@ -189,19 +190,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.Test125" />
-      <item itemvalue="Application.Test126" />
       <item itemvalue="Application.Test127" />
       <item itemvalue="Application.Test128" />
       <item itemvalue="Application.Test129" />
+      <item itemvalue="Application.Test130" />
+      <item itemvalue="Application.Test131" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test131" />
+        <item itemvalue="Application.Test130" />
         <item itemvalue="Application.Test129" />
         <item itemvalue="Application.Test128" />
         <item itemvalue="Application.Test127" />
-        <item itemvalue="Application.Test126" />
-        <item itemvalue="Application.Test125" />
       </list>
     </recent_temporary>
   </component>
@@ -291,14 +292,7 @@
       <workItem from="1592468185595" duration="20000" />
       <workItem from="1592469929905" duration="21329000" />
       <workItem from="1592829338619" duration="87711000" />
-      <workItem from="1593597045267" duration="13181000" />
-    </task>
-    <task id="LOCAL-00092" summary="update">
-      <created>1590937532373</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1590937532374</updated>
+      <workItem from="1593597045267" duration="20145000" />
     </task>
     <task id="LOCAL-00093" summary="update">
       <created>1590937715326</created>
@@ -636,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593623170450</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="update">
+      <created>1593626709680</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1593626709680</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +808,7 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="847" y="443" width="225" height="201" key="Github.ShareDialog/252.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1584960621610" />
-    <state width="337" height="562" key="GridCell.Tab.0.bottom" timestamp="1593619771310">
+    <state width="1000" height="177" key="GridCell.Tab.0.bottom" timestamp="1593680345737">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.bottom/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816426" />
@@ -819,9 +820,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.bottom/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661859" />
     <state width="1419" height="177" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593601871575" />
-    <state width="337" height="562" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593619771310" />
+    <state width="1000" height="177" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593680345737" />
     <state width="999" height="184" key="GridCell.Tab.0.bottom/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764423" />
-    <state width="337" height="562" key="GridCell.Tab.0.center" timestamp="1593619771310">
+    <state width="1000" height="177" key="GridCell.Tab.0.center" timestamp="1593680345737">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.center/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816423" />
@@ -833,9 +834,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.center/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661858" />
     <state width="1419" height="177" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593601871575" />
-    <state width="337" height="562" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593619771310" />
+    <state width="1000" height="177" key="GridCell.Tab.0.center/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593680345737" />
     <state width="999" height="184" key="GridCell.Tab.0.center/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764422" />
-    <state width="337" height="562" key="GridCell.Tab.0.left" timestamp="1593619771309">
+    <state width="1000" height="177" key="GridCell.Tab.0.left" timestamp="1593680345736">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.left/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816421" />
@@ -847,9 +848,9 @@
     <state width="365" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.left/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661856" />
     <state width="1419" height="177" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593601871575" />
-    <state width="337" height="562" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593619771309" />
+    <state width="1000" height="177" key="GridCell.Tab.0.left/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593680345736" />
     <state width="999" height="184" key="GridCell.Tab.0.left/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764422" />
-    <state width="337" height="562" key="GridCell.Tab.0.right" timestamp="1593619771310">
+    <state width="1000" height="177" key="GridCell.Tab.0.right" timestamp="1593680345737">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state width="365" height="587" key="GridCell.Tab.0.right/0.0.1920.1848@0.0.1920.1848" timestamp="1591214816425" />
@@ -861,7 +862,7 @@
     <state width="365" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590949991029" />
     <state width="365" height="587" key="GridCell.Tab.0.right/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590943661859" />
     <state width="1419" height="177" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593601871575" />
-    <state width="337" height="562" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593619771310" />
+    <state width="1000" height="177" key="GridCell.Tab.0.right/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593680345737" />
     <state width="999" height="184" key="GridCell.Tab.0.right/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243764423" />
     <state width="337" height="562" key="GridCell.Tab.1.bottom" timestamp="1593619771311">
       <screen x="284" y="1080" width="1366" height="768" />
@@ -928,7 +929,7 @@
     </state>
     <state x="579" y="180" width="760" height="737" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593202954823" />
     <state x="696" y="1208" width="540" height="524" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466706807" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593623698986">
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593626715780">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1591105472710" />
@@ -940,7 +941,7 @@
     <state x="652" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590764889960" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590937724569" />
     <state x="555" y="276" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593026528347" />
-    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593623698986" />
+    <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593626715780" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1592243882597" />
     <state x="798" y="1258" width="327" height="445" key="chooseDestDirectoryDialog" timestamp="1592391586972">
       <screen x="284" y="1080" width="1366" height="768" />
@@ -1007,8 +1008,8 @@
     <state x="488" y="214" key="run.anything.popup/257.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1588691738038" />
     <state x="488" y="214" key="run.anything.popup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1591719883363" />
     <state x="631" y="1232" key="run.anything.popup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1591694681293" />
-    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup" timestamp="1592850541301">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="709" y="1115" width="672" height="703" key="search.everywhere.popup" timestamp="1593679537706">
+      <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1588411605436" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1586529375488" />
@@ -1016,7 +1017,7 @@
     <state x="603" y="1144" width="672" height="703" key="search.everywhere.popup/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1590588812230" />
     <state x="346" y="89" width="673" height="679" key="search.everywhere.popup/257.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1590523532416" />
     <state x="597" y="49" width="945" height="989" key="search.everywhere.popup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592850541301" />
-    <state x="709" y="1115" width="672" height="703" key="search.everywhere.popup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592467075826" />
+    <state x="709" y="1115" width="672" height="703" key="search.everywhere.popup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593679537706" />
     <state x="529" y="1165" width="865" height="632" key="spring file set editor" timestamp="1591984104443">
       <screen x="284" y="1080" width="1366" height="768" />
     </state>

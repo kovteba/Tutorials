@@ -975,13 +975,17 @@ class Test96 {
 
 abstract class Test97 {
    protected String s;
+
    public Test97(String s) {
       this.s = s;
    }
+
    abstract void print();
+
    public static void main(String[] args) {
       Test97 test97 = new Test97("Error") {
          String s = "1";
+
          @Override
          void print() {
             System.out.println(s);
@@ -994,10 +998,12 @@ abstract class Test97 {
 enum Directions {
    NORTH(1), SOUTH(2), WEST(3), EAST(4);
    public int value;
+
    Directions(int number) {
       this.value = number;
    }
 }
+
 class Test98 {
    public static void main(String[] args) {
       for (Directions directions : Directions.values())
@@ -1007,11 +1013,12 @@ class Test98 {
 }
 
 class Test99 {
-   static void method(StringBuilder builder){
+   static void method(StringBuilder builder) {
       System.out.println(builder);
       builder.append("2");
       System.out.println(builder);
    }
+
    public static void main(String[] args) {
       StringBuilder stringBuilder = new StringBuilder("1");
       method(stringBuilder);
@@ -1080,12 +1087,14 @@ class Test105 {
 }
 
 class Test106 {
-   static void method(String s){
+   static void method(String s) {
       System.out.println("String " + s);
    }
-   static void method(StringBuilder builder){
+
+   static void method(StringBuilder builder) {
       System.out.println("StringBuilder " + builder);
    }
+
    public static void main(String[] args) {
       method("Java");
 //      method(null);
@@ -1119,12 +1128,15 @@ class Test109 {
 }
 
 class Test110 {
-   public void m() throws Exception{
+   public void m() throws Exception {
       throw new Exception();
    }
 }
-class Test110t extends Test110{
-   public void m(){}
+
+class Test110t extends Test110 {
+   public void m() {
+   }
+
    public static void main(String[] args) {
       Test110 x = new Test110t();
 //      x.m();
@@ -1132,13 +1144,14 @@ class Test110t extends Test110{
 }
 
 class Test111 {
-   public static void method() throws Exception{
+   public static void method() throws Exception {
       throw new Error("Error");
    }
+
    public static void main(String[] args) {
-      try{
+      try {
          method();
-      } catch (Exception e){
+      } catch (Exception e) {
          System.out.println("Exception");
       }
    }
@@ -1146,11 +1159,15 @@ class Test111 {
 
 class Test112 {
    static class A {
-      protected void m() throws Exception{}
+      protected void m() throws Exception {
+      }
    }
+
    static class B extends A {
-      public void m(){}
+      public void m() {
+      }
    }
+
    public static void main(String[] args) {
       A a = new B();
 //      a.m();
@@ -1159,14 +1176,18 @@ class Test112 {
 
 class Test113 {
    static class A {
-      protected void m() throws Exception{}
+      protected void m() throws Exception {
+      }
    }
+
    static class B extends A {
-      public void m(){}
+      public void m() {
+      }
    }
+
    public static void main(String[] args) {
       A a = new B();
-      ((B)a).m();
+      ((B) a).m();
    }
 }
 
@@ -1174,14 +1195,16 @@ class Test114 {
    void m1() throws Exception {
       throw new Exception();
    }
+
    void m2() throws RuntimeException {
       throw new NullPointerException();
    }
+
    public static void main(String[] args) {
       Test114 test114 = new Test114();
       try {
          test114.m1();
-      } catch (Exception e){
+      } catch (Exception e) {
 //         test114.m1();
       } finally {
          test114.m2();
@@ -1193,13 +1216,15 @@ class Test115 {
    public Test115() {
       try {
          throw new MyException();
-      } catch (Exception e){
+      } catch (Exception e) {
 
       }
    }
+
    class MyException extends Exception {
       private static final long serialUID = 1L;
    }
+
    public static void main(String[] args) {
       Test115 test115 = new Test115();
       Test115 test1151 = test115;
@@ -1211,11 +1236,19 @@ class Test116 {
    static class FirstEx extends Exception {
       private static final long serialID = 1L;
    }
+
    static class SecondEx extends Exception {
       private static final long serialID = 1L;
    }
-   static void m1() throws FirstEx { throw new FirstEx(); }
-   static void m2() throws SecondEx { throw new SecondEx(); }
+
+   static void m1() throws FirstEx {
+      throw new FirstEx();
+   }
+
+   static void m2() throws SecondEx {
+      throw new SecondEx();
+   }
+
    public static void main(String[] args) {
 //      try {
 //         m1();
@@ -1230,10 +1263,12 @@ class Base {
       System.out.println("Test1");
    }
 }
-class Test117 extends Base{
+
+class Test117 extends Base {
    public void m() {
       System.out.println("Test2");
    }
+
    public static void main(String[] args) {
       Base base = new Test117();
 //      base.m();
@@ -1248,20 +1283,20 @@ class Test118 {
          System.out.println(i + " ");
          try {
             t.sleep(1000);
-         } catch (InterruptedException e){
+         } catch (InterruptedException e) {
             System.out.println("inter");
          }
       }
    }
 
-   static class MyThread extends Thread{
+   static class MyThread extends Thread {
       @Override
       public void run() {
          for (int i = 1; i <= 5; i++) {
             System.out.println(i + " ");
             try {
                Thread.sleep(1000);
-            } catch (InterruptedException e){
+            } catch (InterruptedException e) {
                System.out.println("inter");
             }
          }
@@ -1276,17 +1311,21 @@ class Test119 {
       System.out.println(TestClass.v);
    }
 }
+
 class TestClass {
 
    public static String v = "Initial val";
+
    {
       System.out.println("!!! Non-static initializer");
       v = "Val from non-static";
    }
+
    static {
       System.out.println("!!! Static initializer");
       v = "Some val";
    }
+
    public void a() {
       System.out.println("!!! a() called");
    }
@@ -1298,7 +1337,7 @@ class Test120 {
       int n = 33;
       System.out.println(n % 2);
       int s = 0;
-      while (n > 0){
+      while (n > 0) {
          s += n % 2;
          System.out.println("s: " + s);
          n /= 2;
@@ -1310,7 +1349,7 @@ class Test120 {
 
 class Test121 {
    public static void main(String[] args) {
-      for (final int i : new int[]{1, 2, 3}){
+      for (final int i : new int[]{1, 2, 3}) {
          System.out.println(i + 1);
       }
    }
@@ -1323,17 +1362,19 @@ class Test122 {
       set.add(new A("Java"));
       set.add(new A("Java"));
 
-      for (A a : set){
+      for (A a : set) {
          a.value = a.value.toLowerCase();
       }
 
       set.add(new A("java"));
       System.out.println(set.size());
    }
+
    public static class A {
 
       String value;
-      A(String value){
+
+      A(String value) {
          this.value = value;
       }
 
@@ -1358,6 +1399,7 @@ class Test123 {
    public static void main(String[] args) {
 //      A a = new A();
    }
+
    public static class A {
       public A(String value) {
          System.out.println(value);
@@ -1370,13 +1412,16 @@ class Test124 {
       A a = new B();
       a.method(null);
    }
+
    public static class A {
       public A() {
       }
+
       void method(Object object) {
          System.out.println(object + "best");
       }
    }
+
    public static class B extends A {
       public B() {
       }
@@ -1392,13 +1437,15 @@ class Test125 {
    public static void main(String[] args) {
       A a = new B();
    }
+
    public static class A {
-      A(){
+      A() {
          System.out.println("class A");
       }
    }
-   public static class B extends A{
-      B(){
+
+   public static class B extends A {
+      B() {
          System.out.println("class B");
       }
    }
@@ -1440,17 +1487,80 @@ class Test129 {
    }
 }
 
-//class Test111 {
+class Test130 {
+   public static void main(String[] args) {
+      String s2 = new String("str");
+      String s1 = "str";
+      System.out.println(s1 == s2);
+   }
+}
+
+class Test131 {
+   public static void main(String[] args) {
+      StringBuilder mInfoTextView = new StringBuilder();
+      for (int i = 0; i < 10; i++) {
+         mInfoTextView.append(i).append(" ");
+         if (i % 2 == 0) {
+            continue;
+         }
+         mInfoTextView.append("\n");
+
+      }
+      System.out.println(mInfoTextView.toString());
+   }
+}
+
+//class Test131 {
 //   public static void main(String[] args) {
 //
 //   }
 //}
 
-//class Test111 {
+//class Test131 {
 //   public static void main(String[] args) {
 //
 //   }
 //}
+
+//class Test131 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test131 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test131 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test131 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test131 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+//class Test131 {
+//   public static void main(String[] args) {
+//
+//   }
+//}
+
+
+
+
 
 
 
