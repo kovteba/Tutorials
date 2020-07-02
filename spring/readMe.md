@@ -4,12 +4,12 @@
 
 ---
 
+
 - [Spring и его компоненты](#Spring-и-его-компоненты)
     - [AOP](src/main/java/kovteba/aop)
     - [Spring Data](src/main/java/kovteba/springdata)
     - [Spring MVC](src/main/java/kovteba/springmvc)
     - [Spring Security](src/main/java/kovteba/springsecurity)
-    - [](#)
 - [Особенности и преимуществ Spring Framework](#Особенности-и-преимуществ-Spring-Framework)
 - [Java Naming and Directory Interface](#Java-Naming-and-Directory-Interface)
 - [Enterprise Java Beans](#Enterprise-Java-Beans)
@@ -44,6 +44,8 @@
 - [Как проверить (валидировать) данные формы в Spring Web MVC Framework?](#Как-проверить-(валидировать)-данные-формы-в-Spring-Web-MVC-Framework?)
 - [Repository](#Repository)
 - [](#)
+
+
 ---
 
 
