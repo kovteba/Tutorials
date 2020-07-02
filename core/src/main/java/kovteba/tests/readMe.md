@@ -2335,22 +2335,48 @@ class Test129 {
 Answer:   
 false   
 true  
-true  x-special/nautilus-clipboard
-      cut
-      file:///home/dima/Documents/ITStudy/forTraining
+true  
 
 
-## Test
+## Test131
 ```java
+class Test131 {
+   public static void main(String[] args) {
+      StringBuilder mInfoTextView = new StringBuilder();
 
+      for (int i = 0; i < 10; i++) {
+         mInfoTextView.append(i).append(" ");
+         if (i % 2 == 0) {
+            continue;
+         }
+         mInfoTextView.append("\n");
+
+      }
+      
+      System.out.println(mInfoTextView.toString());
+   }
+}
 ```
 Answer: 
+0 1 
+2 3 
+4 5 
+6 7 
+8 9 
 
-## Test
+## Test132
 ```java
-
+class Test132 {
+   public static void main(String[] args) {
+      List<Integer> ints = Arrays.asList(1,2,3);
+      List<Number> nums = ints; // compile-time error. Проблема обнаружилась на этапе компиляции
+      nums.set(2, 3.14);
+      assert ints.toString().equals("[1, 2, 3.14]");
+   }
+}
 ```
-Answer: 
+Answer: compile-time error.
+Explain: Дженерики инвариантны
 
 ## Test
 ```java

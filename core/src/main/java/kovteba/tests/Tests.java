@@ -1498,6 +1498,7 @@ class Test130 {
 class Test131 {
    public static void main(String[] args) {
       StringBuilder mInfoTextView = new StringBuilder();
+
       for (int i = 0; i < 10; i++) {
          mInfoTextView.append(i).append(" ");
          if (i % 2 == 0) {
@@ -1506,15 +1507,19 @@ class Test131 {
          mInfoTextView.append("\n");
 
       }
+
       System.out.println(mInfoTextView.toString());
    }
 }
 
-//class Test131 {
-//   public static void main(String[] args) {
-//
-//   }
-//}
+class Test132 {
+   public static void main(String[] args) {
+      List<Integer> ints = Arrays.asList(1,2,3);
+//      List<Number> nums = ints; // compile-time error. Проблема обнаружилась на этапе компиляции
+//      nums.set(2, 3.14);
+      assert ints.toString().equals("[1, 2, 3.14]");
+   }
+}
 
 //class Test131 {
 //   public static void main(String[] args) {
