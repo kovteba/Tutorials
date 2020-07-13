@@ -3,8 +3,6 @@ package kovteba.tests;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Target;
 import java.util.*;
 import java.util.function.UnaryOperator;
 
@@ -1534,7 +1532,6 @@ class Test133 {
 
 class Test134 {
    public static void main(String[] args) {
-
       B b = new B();
    }
 
@@ -1548,22 +1545,48 @@ class Test134 {
          System.out.println("2");
       }
    }
-
-
-
 }
 
-//class Test131 {
-//   public static void main(String[] args) {
-//
-//   }
-//}
+class Test135 {
+   public static void main(String[] args) {
+      F f = new F();
+      f.method();
+   }
+   interface A {
+      default void method(){
+         System.out.println("a");
+      }
+   }
+   interface B {
+      default void method(){
+         System.out.println("b");
+      }
+   }
 
-//class Test131 {
-//   public static void main(String[] args) {
-//
-//   }
-//}
+   static class F implements A, B {
+      @Override
+      public void method() {
+
+      }
+   }
+}
+
+class Test136 {
+   public static void main(String[] args) {
+
+   }
+   class Class136 implements Interface136{
+      @Override
+      public void method() {
+
+      }
+   }
+   interface Interface136 {
+      default /*protected*/ void method(){
+         System.out.println("Interface");
+      }
+   }
+}
 
 //class Test131 {
 //   public static void main(String[] args) {

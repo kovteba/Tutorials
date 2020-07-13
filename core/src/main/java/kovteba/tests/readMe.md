@@ -2378,6 +2378,124 @@ class Test132 {
 Answer: compile-time error.
 Explain: Дженерики инвариантны
 
+## Test134
+```java
+class Test134 {
+   public static void main(String[] args) {
+      B b = new B();
+   }
+
+   static class A {
+      A(){
+         System.out.println("1");
+      }
+   }
+   static class B extends A {
+      B(){
+         System.out.println("2");
+      }
+   }
+}
+```
+Answer: 
+1
+2
+
+## Test135
+```java
+class Test135 {
+   public static void main(String[] args) {
+      F f = new F();
+      f.method();
+   }
+   interface A {
+      default void method(){
+         System.out.println("a");
+      }
+   }
+   interface B {
+      default void method(){
+         System.out.println("b");
+      }
+   }
+
+   static class F implements A, B { // <- compile error
+
+   }
+}
+```
+Answer: Компилятор не понимает какой метод вызывать, поэтому требует реализацию
+
+## Test136
+```java
+class Test136 {
+   public static void main(String[] args) {
+
+   }
+   class Class136 implements Interface136{
+      @Override
+      protected void method() {
+
+      }
+   }
+   interface Interface136 {
+      default protected void method(){ // <-- compile error
+         System.out.println("Interface");
+      }
+   }
+}
+
+```
+Answer: В интерфейсе не может быть protected
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
+## Test
+```java
+
+```
+Answer: 
+
 ## Test
 ```java
 
