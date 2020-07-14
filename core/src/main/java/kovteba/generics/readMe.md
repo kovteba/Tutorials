@@ -18,6 +18,12 @@
 - [Type Inference](#Type-Inference)
 - [Generics after compille](#Generics-after-compille)
 - [Extends](#Extends)
+- [Diamond](#Diamond)
+- [Ошибка неоднозначности](#Ошибка-неоднозначности)
+- [Ограничения](#Ограничения)
+    - [Получить экземпляр по параметру типа нельзя](#Получить-экземпляр-по-параметру-типа-нельзя)
+    - [Ограничения на статические члены](#Ограничения-на-статические-члены)
+    - [Ограничения на создание массивов](#Ограничения-на-создание-массивов)
 - [](#)
 
 ---
@@ -604,4 +610,98 @@ public class HelloWorld{
 И вот тут-то и кроется коварство. Без diamond синтаксиса компилятор не понимает, что его обманывают, а вот с 
 diamond — понимает.
 
+---
+
+## Ошибка неоднозначности
+```java
+class MyGenClass<T, V>{
+   T ob1;
+   V ob2;
+   void Set(T o) {
+      ob1 = o;
+   } 
+   void set(V o) {
+      ob1 = o;
+   } 
+}
+```
+При попытке перегрузить метод возникает ошибка неоднозначности.
+
+Вопервых нет никаких ограничений чтобы сосздать класс таким образом
+```java
+MyGenClass<String, Sting> ob = new MyGenClass<>();
+```
+В таком случае методы будут одинаковы.
+
+Более фундаментальная проблема заключается в том что после стирания типов метод будет выглядеть
+```java
+void set(Object o) {
+   
+}
+```
+
+---
+
+## Ограничения
+
+### Получить экземпляр по параметру типа нельзя
+```java
+class Gen<T> {
+   T ob;
+   Gen() {
+      ob = new T(); // Недопустимо
+   }
+}
+```
+
+---
+
+### Ограничения на статические члены
+```java
+class Wrong<T> {
+   static T ob;
+   static T getOb() {
+      return ob;
+   }
+}
+```
+
+class Right<T> {
+   static <U> U getOb(U o) {
+      return o;
+   }
+}
+
+---
+
+### Ограничения на создание массивов
+Стр. 435, "Полное руководство java"
+```java
+class Gen<T extends Number> {
+
+   T ob;
+
+   T vals[]; //Right
+
+   Gen(T o, T[] nums) {
+      ob = o;
+
+//      vals = new T[10]; dont right
+
+      vals = nums;
+
+   }
+
+   public static void main(String[] args) {
+      Integer[] n = {1, 2, 3, 4, 5};
+
+      Gen<Integer> iOb = new Gen<>(50, n);
+      
+//      Gen<Integer> gens[] = new Gen<Integer>[10];
+      
+      Gen<?> gens[] = new Gen[10];
+   }
+}
+
+```
 
