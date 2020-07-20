@@ -25,241 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/buildingsEmployees.BiJDoQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/buildingsEmployees.BiJDoQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/metahack.pkov5Q.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/metahack.pkov5Q.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511/storage_v2/_src_/schema/test.kkQ2AA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorials.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/files/compressBinaryFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/files/compressBinaryFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/files/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/files/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/files/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/duplicatesnumber/DuplicatesNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/duplicatesnumber/DuplicatesNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/fibonaccinumber/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/fibonaccinumber/FibonacciNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/findmissingnumber/FindMissingNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/findmissingnumber/FindMissingNumberInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/greedyalgorithms/GreedyAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/greedyalgorithms/GreedyAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/Huffman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/HuffmanTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/ReadAndWriteClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/ReadAndWriteClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/example1/Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/example1/Huffman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/example1/HuffmanNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/example1/HuffmanNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/example1/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/huffman/example1/MyComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/insertsort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/insertsort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/mergesort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/palindrome/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/palindrome/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/polishnotation/RPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/polishnotation/RPN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/reversearr/ReverseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/reversearr/ReverseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/testspack/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/testspack/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/testspack/TestMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/kovteba/testspack/TestMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/META-INF/algorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/bubblesort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/bubblesort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/duplicatesnumber/DuplicatesNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/duplicatesnumber/DuplicatesNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/fibonaccinumber/FibonacciNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/fibonaccinumber/FibonacciNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/findmissingnumber/FindMissingNumberInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/findmissingnumber/FindMissingNumberInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/greedyalgorithms/GreedyAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/greedyalgorithms/GreedyAlgorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Huffman$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Huffman$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Huffman.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Huffman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/HuffmanTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/HuffmanTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/HuffmanTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/HuffmanTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/ReadAndWriteClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/ReadAndWriteClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/Huffman.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/Huffman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/HuffmanNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/HuffmanNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/huffman/example1/MyComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/insertsort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/insertsort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/mergesort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/mergesort/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/palindrome/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/palindrome/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/polishnotation/RPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/polishnotation/RPN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/target/classes/kovteba/reversearr/ReverseApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/target/classes/kovteba/reversearr/ReverseApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/Metaspace.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/Metaspace.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/PermGen.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/PermGen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/Priority.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/Priority.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/concurrency.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/concurrency.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/javadoc.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/javadoc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/stack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/core/img/stack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/abstractclass/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/abstractclass/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/finalclass/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/finalclass/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/interface/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/interface/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/nestedclass/img/Anonimusclass.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/nestedclass/img/Anonimusclass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/nestedclass/img/innerclass.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/nestedclass/img/innerclass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/nestedclass/img/staicnested.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/nestedclass/img/staicnested.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/toplevelclass/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/classtypes/toplevelclass/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/classhashset/img/hashset.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/classhashset/img/hashset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/interfacesortedset/interfacenavigableset/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/interfacesortedset/interfacenavigableset/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/interfacesortedset/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacecollection/interfaceset/interfacesortedset/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacemap/classhashmap/img/hashmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacemap/classhashmap/img/hashmap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacemap/interfacesortedmap/interfacenavigablemap/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacemap/interfacesortedmap/interfacenavigablemap/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacemap/interfacesortedmap/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/collectionframework/interfacemap/interfacesortedmap/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ExchangerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ExchangerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/RunnableFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/RunnableFunctionalInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/SemaphoreExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/SemaphoreExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreWaitNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreWaitNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ThreadExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ThreadExampleJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ThreadExampleJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img/threadlife.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img/threadlife.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img/threads.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img/threads.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/byte/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/byte/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/img/shellclasses.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/img/shellclasses.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/integer/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/integer/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/short/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/short/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/ImmutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/ImmutableString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/dictionary/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/dictionary/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img/HeapForOutOfMemoryError.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img/HeapForOutOfMemoryError.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/functionalinterface/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/functionalinterface/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/io/img/InputStream.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/io/img/InputStream.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/io/img/OutputStream.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/io/img/OutputStream.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/io/img/io-api.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/io/img/io-api.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/io/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/io/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/dateclasses/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/dateclasses/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/lambda/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/lambda/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/optional/examples/OptionalExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/optional/examples/OptionalExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/optional/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/optional/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/streamapi/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/streamapi/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/reflection/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/reflection/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/tests/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/data-base.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/1nferror.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/1nferror.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/1nfright.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/1nfright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/2nferror.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/2nferror.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/2nfno3nf.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/2nfno3nf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/2nfright1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/2nfright1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/2nfright2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/2nfright2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/3nfright1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/3nfright1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/img/3nfright2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/img/3nfright2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/nonrelationaldb/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/nonrelationaldb/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/buildings_employees.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/buildings_employees.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/computers_firm.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/computers_firm.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/movies_boxoffice.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/movies_boxoffice.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/ships.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/ships.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/mysql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/mysql/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/sql/img/joins.png" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/sql/img/joins.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/sql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/sql/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/img/mvc.png" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/img/mvc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/img/mvvm.png" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/img/mvvm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/img/presenter.png" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/img/presenter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/application/ConfigureApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/application/ConfigureApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/MacOSButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/MacOSButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/WindowsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/button/WindowsButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/Checkbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/MacOSCheckbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/MacOSCheckbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/WindowsCheckbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/checkbox/WindowsCheckbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/GUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/GUIFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/MacOSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/MacOSFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/WindowsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/factories/WindowsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/abstractfactory/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/CarBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/CarBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/CarManualBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/builders/CarManualBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Manual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/cars/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/GPSNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/GPSNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/Transmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/Transmission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/TripComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/components/TripComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/director/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/builder/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/AppleDonut.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/AppleDonut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/CherryDonut.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/CherryDonut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/Donut.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/Donut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/VanillaDonut.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/donuts/VanillaDonut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/factory/DonutFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/factory/DonutFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/factorymethod/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/prototype/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns/src/main/java/kovteba/creationalpatterns/prototype/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/git.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/areas.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/areas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/cherry-pick1.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/cherry-pick1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/cherry-pick2.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/cherry-pick2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/deltas.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/deltas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/different-branch1.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/different-branch1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/different-branch2.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/different-branch2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/forcing1.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/forcing1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/forcing2.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/forcing2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/merge-different1.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/merge-different1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/merge-different2.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/merge-different2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/rebase-different1.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/rebase-different1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/rebase-different2.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/rebase-different2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/reset1.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/reset1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/reset2.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/reset2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/revert1.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/revert1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/revert2.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/revert2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/img/snapshots.png" beforeDir="false" afterPath="$PROJECT_DIR$/git/img/snapshots.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/git/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/git/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intellijidea/intellijidea.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intellijidea/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/intellijidea/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intellijidea/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/intellijidea/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-persistence-api/src/main/java/kovteba/hibernate/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-persistence-api/src/main/java/kovteba/hibernate/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-persistence-api/src/main/java/kovteba/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-persistence-api/src/main/java/kovteba/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/javascript.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc/img/jdbcdrivers.png" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc/img/jdbcdrivers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/linux.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linux/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/img/maven-structure.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/maven/img/maven-structure.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/maven.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/maven/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/img/CommonsMultipartResolver.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/img/CommonsMultipartResolver.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/img/HibernateDaoSupport.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/img/HibernateDaoSupport.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/img/RequestMappingHandlerAdapter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/img/RequestMappingHandlerAdapter.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/img/ResponseBody_example.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/img/ResponseBody_example.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/img/jackson-databind.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/img/jackson-databind.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/img/spring.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring/img/spring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/img/validation_annotation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/img/validation_annotation.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/aop/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/aop/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Dependency-Injection.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Dependency-Injection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Dependency-Lookup.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Dependency-Lookup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Spring-control-bean-life.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/Spring-control-bean-life.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/beanlife.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img/beanlife.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springdata/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springdata/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/MySpringDispatcherServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/ContextLoaderListener.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/ContextLoaderListener.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/InternalResourceViewResolver.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/InternalResourceViewResolver.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/LocaleChangeInterceptor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/LocaleChangeInterceptor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/SpringMVCController.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img/SpringMVCController.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/kovteba/springsecurity/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/kovteba/springsecurity/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/betweentcposi.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/betweentcposi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/osi-model.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/osi-model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/tcpip-model.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/tcpip-model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/kovteba/html/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/kovteba/html/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/kovteba/jsp/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/kovteba/jsp/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/kovteba/rest/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/kovteba/rest/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -536,14 +303,7 @@
       <workItem from="1594661696137" duration="9235000" />
       <workItem from="1594925997441" duration="1576000" />
       <workItem from="1595259496546" duration="1054000" />
-      <workItem from="1595267860989" duration="301000" />
-    </task>
-    <task id="LOCAL-00102" summary="update">
-      <created>1591105457308</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1591105457309</updated>
+      <workItem from="1595267860989" duration="1618000" />
     </task>
     <task id="LOCAL-00103" summary="update">
       <created>1591285403500</created>
@@ -881,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594927553984</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="update">
+      <created>1595268478866</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1595268478867</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1144,10 +911,11 @@
     </state>
     <state x="579" y="180" width="760" height="737" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593202954823" />
     <state x="696" y="1208" width="540" height="524" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466706807" />
-    <state x="525" y="1107" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594927564809">
-      <screen x="0" y="0" width="1920" height="1848" />
+    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1595268499539">
+      <screen x="0" y="0" width="1920" height="2160" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1594927564809" />
+    <state x="525" y="1294" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1595268499539" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1588858224532" />
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333146531" />
