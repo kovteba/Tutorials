@@ -24,10 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/git/readMe.md" afterDir="false" />
-    </list>
+    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,14 +300,7 @@
       <workItem from="1594661696137" duration="9235000" />
       <workItem from="1594925997441" duration="1576000" />
       <workItem from="1595259496546" duration="1054000" />
-      <workItem from="1595267860989" duration="1618000" />
-    </task>
-    <task id="LOCAL-00103" summary="update">
-      <created>1591285403500</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1591285403501</updated>
+      <workItem from="1595267860989" duration="1661000" />
     </task>
     <task id="LOCAL-00104" summary="update">
       <created>1591294382250</created>
@@ -648,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595268478867</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="update">
+      <created>1595269509084</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1595269509084</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,11 +908,11 @@
     </state>
     <state x="579" y="180" width="760" height="737" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593202954823" />
     <state x="696" y="1208" width="540" height="524" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466706807" />
-    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1595268499539">
+    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1595269513374">
       <screen x="0" y="0" width="1920" height="2160" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1594927564809" />
-    <state x="525" y="1294" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1595268499539" />
+    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1595269513374" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1588858224532" />
     <state x="647" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.0.1920.1080@252.1080.1366.768" timestamp="1586791297823" />
     <state x="395" y="216" width="800" height="535" key="Vcs.Push.Dialog.v2/252.1080.1366.768/0.27.1366.741@0.27.1366.741" timestamp="1587333146531" />

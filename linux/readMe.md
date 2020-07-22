@@ -10,8 +10,8 @@
     - [FILE](#FILE)
     - [CP](#CP)
     - [MV](#MV)
-    - [](#)
-    - [](#)
+    - [ОТКРЫТЫЕ ПОРТЫ UBUNTU](#ОТКРЫТЫЕ-ПОРТЫ-UBUNTU)
+    - [Освободить заняты порт](#Освободить-занятый-порт)
     - [](#)
     - [](#)
     - [](#)
@@ -70,6 +70,23 @@ free
 ```
 mv foo.txt bar.txt
 ```
+
+---
+
+## ОТКРЫТЫЕ ПОРТЫ UBUNTU
+```
+sudo lsof -nP -i | grep LISTEN
+netstat -ntlp | grep LISTEN
+ss -ltupn
+```
+
+---
+
+## Освободить занятый порт
+```
+kill -9 idProcess
+```
+
 
 
 
