@@ -24,6 +24,7 @@
         <module>maven</module>
         <module>spring</module>
         <module>software-testing</module>
+        <module>lombok</module>
     </modules>
 
     <build>

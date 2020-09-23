@@ -13,6 +13,7 @@
         <module name="jdbc" />
         <module name="springOne" />
         <module name="javascript" />
+        <module name="lombok" />
         <module name="spring" />
         <module name="core" />
         <module name="intellijidea" />
