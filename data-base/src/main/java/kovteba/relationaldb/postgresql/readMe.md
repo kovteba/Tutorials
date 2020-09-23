@@ -3,6 +3,7 @@
 - [](#)
 - [Удаление PostgreSQL](#Удаление-PostgreSQL)
 - [Переключение БД](#Переключение-БД)
+- [Show all tables in DB](#Show-all-tables-in-DB)
 - [Install PostgreSQL](#Install-PostgreSQL)
 - [Установка пароля для пользователя postgres](#Установка-пароля-для-пользователя-postgres)
 - [Список пользователей](#Список-пользователей)
@@ -30,7 +31,14 @@ sudo groupdel postgres
 \connect (or \c) dbname
 ```
 
----
+---   
+
+## Show all tables in DB
+```
+\dt;
+```
+
+---   
 
 ## Install PostgreSQL
 ```

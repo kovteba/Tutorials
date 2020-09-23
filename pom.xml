@@ -23,6 +23,7 @@
         <module>intellijidea</module>
         <module>maven</module>
         <module>spring</module>
+        <module>software-testing</module>
     </modules>
 
     <build>

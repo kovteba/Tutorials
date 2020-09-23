@@ -7,30 +7,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="linux" />
-        <module name="springOne" />
-        <module name="java-persistence-api" />
-        <module name="javascript" />
-        <module name="data-base" />
-        <module name="design-patterns" />
-        <module name="spring" />
         <module name="algorithms" />
-        <module name="git" />
-        <module name="core" />
-        <module name="jdbc" />
-        <module name="intellijidea" />
         <module name="maven" />
+        <module name="software-testing" />
+        <module name="jdbc" />
+        <module name="springOne" />
+        <module name="javascript" />
+        <module name="spring" />
+        <module name="core" />
+        <module name="intellijidea" />
+        <module name="git" />
         <module name="web" />
+        <module name="linux" />
+        <module name="data-base" />
+        <module name="java-persistence-api" />
+        <module name="design-patterns" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="examples" target="11" />
-      <module name="internationalization" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="examples" options="" />
       <module name="springOne" options="-parameters" />
     </option>
   </component>
