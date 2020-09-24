@@ -513,5 +513,19 @@ git pull
 git merge master
 ```
 
+---
+
+## squash commit
+```
+git rebase -i HEAD~n
+n = count comits
+```
+Изменить `pick` на `s` у комитов которые хочешь собрать в один
+
+Чтобы обновить удаленную ветку
+```
+git push -f origin branchName
+```
+
 
 

@@ -13,3 +13,9 @@ q
 Adata-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md,d/f/dffa23f7ae0115453e09508698831d50b34f434c
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+A
+lombok/lombok.iml,8/e/8e1213d955721d7ef2fda67384341176e6268c14
+>
+lombok/pom.xml,6/e/6e32a5d49d847645323ac827c9384ef0f5b2c015
+@
+lombok/readMe.md,b/c/bc1db82e1be1ba9eb46d051c60114dfa7a125195
