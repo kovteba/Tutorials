@@ -149,6 +149,7 @@
 - [Документирование кода](#Документирование-кода)
 - [ClassPath](#ClassPath)
 - [Атомарность](#Атомарность)
+- [@NotNul @NotEmpty @NotBlank](#@NotNul-@NotEmpty-@NotBlank)
 - [](#)
 - [-----](#-----)
 
@@ -2197,9 +2198,32 @@ volatile double атомарны.
 
 Операции над ссылками на объекты в Java являются всегда атомарными независимо от разрядности JVM и гарантируются JMM.
 
+---
 
+### @NotNul @NotEmpty @NotBlank
+```
+String name = null;
+NotNull = false
+NotEmpty = false
+NotBlank = false
 
+String nam = "";
+NotNull = true
+NotEmpty = false
+NotBlank = false
 
+String name = "  ";
+NotNull = true
+NotEmpty = true
+NotBlank = false
+
+String name = "zojian"
+NotNull = true
+NotEmpty = true
+NotBlank = true
+```
+
+---
 
 
 
@@ -2207,6 +2231,9 @@ volatile double атомарны.
 
 
 ## -----
+
+
+
 ## Если у класса `Point{int x, y;}` реализовать метод `equals(Object that) {(return this.x == that.x && this.y == that.y)}`, но сделать хэш код в виде `int hashCode() {return x;}`, то будут ли корректно такие точки помещаться и извлекаться из `HashSet`?
 `HashSet` использует `HashMap` для хранения элементов. При добавлении элемента в `HashMap` вычисляется хэш код, 
 по которому определяется позиция в массиве, куда будет вставлен новый элемент. У всех экземпляров класса `Point` 

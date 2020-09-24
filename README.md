@@ -165,6 +165,7 @@
     + [Spring MVC](spring/src/main/java/kovteba/springmvc)
     + [AOP](spring/src/main/java/kovteba/aop)
     + [Spring Security](spring/src/main/java/kovteba/springsecurity)
+    + [JPA Specification, QueryDSL](spring/src/main/java/kovteba/jpaspecification)
 ---
 + [Lombok](lombok)
 ---
