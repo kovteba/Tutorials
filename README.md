@@ -169,6 +169,10 @@
 ---
 + [Lombok](lombok)
 ---
++ [Mockito](mockito)
+---
++ [JUnit](junit)
+---
 + [LINUX](linux)
 ---
 + [GIT](git)
@@ -187,3 +191,4 @@
 - [AlexWrls](https://github.com/AlexWrls/JavaQuestions/tree/808fa35114895397d158b39f7d6c95da5dcd1bff)
 - [java-online.ru](http://java-online.ru/)
 - [enhorse](https://github.com/enhorse/java-interview)
+- [codeflow](https://www.codeflow.site/ru/article/mockito-2-java-8)

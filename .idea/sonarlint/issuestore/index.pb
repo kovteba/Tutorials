@@ -23,3 +23,7 @@ A
 git/pom.xml,4/3/4363ff3bced62e53c32d5b11e400001a09d3137e
 =
 git/readMe.md,4/b/4b3997dad6dd29b5b5ed08e09cb7e8989dfd5fa4
+<
+core/pom.xml,7/6/76401d80919958a0380f14132adf8b8fc9c3d6ea
+g
+7spring/src/main/java/kovteba/jpaspecification/readMe.md,6/4/6432925ef5a6eec2c64646df6d6e0a38686934a6
