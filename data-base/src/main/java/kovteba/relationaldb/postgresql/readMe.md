@@ -71,3 +71,10 @@ select * from pg_database;
 ```
 
 ---
+
+## Подключение к Postgres в Docker Conteiner
+```
+psql -U postgres
+```
+
+---

@@ -16,6 +16,7 @@
         <module name="mockito" />
         <module name="javascript" />
         <module name="lombok" />
+        <module name="docker" />
         <module name="spring" />
         <module name="core" />
         <module name="intellijidea" />

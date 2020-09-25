@@ -27,3 +27,21 @@ A
 core/pom.xml,7/6/76401d80919958a0380f14132adf8b8fc9c3d6ea
 g
 7spring/src/main/java/kovteba/jpaspecification/readMe.md,6/4/6432925ef5a6eec2c64646df6d6e0a38686934a6
+I
+dictionary/dictionary.iml,c/a/ca91261504b3b69986483f329f8a6f184048db30
+?
+junit/junit.iml,9/2/9297de992cff123da75347d89a33299e7b78ee7d
+C
+mockito/mockito.iml,f/d/fd97ce10baf89853f96d27839daba16390fd638d
+B
+dictionary/pom.xml,c/8/c8ba00621311b067d75ed369bd03809d1b8028ca
+=
+junit/pom.xml,6/b/6b98a971b3759c5bda96e4b83cda18b35010afcc
+?
+mockito/pom.xml,5/5/557f3cca9f4635d689b84ffdc1ec903ca792cc96
+?
+junit/readMe.md,4/9/490a2256e5599bd7347b8061c7ab729762dfe7c4
+A
+mockito/readMe.md,2/e/2eb1bfcb8e438321ca95a1653026b1b8d2dad32c
+D
+dictionary/readMe.md,d/e/de7bff2620196c009b47ea850a88b820e78f65d4

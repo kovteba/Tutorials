@@ -28,6 +28,7 @@
         <module>mockito</module>
         <module>junit</module>
         <module>dictionary</module>
+        <module>docker</module>
     </modules>
 
     <build>

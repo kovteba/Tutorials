@@ -28,27 +28,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4363ff3bced62e53c32d5b11e400001a09d3137e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b3997dad6dd29b5b5ed08e09cb7e8989dfd5fa4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6432925ef5a6eec2c64646df6d6e0a38686934a6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e32a5d49d847645323ac827c9384ef0f5b2c015" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76401d80919958a0380f14132adf8b8fc9c3d6ea" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e1213d955721d7ef2fda67384341176e6268c14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc1db82e1be1ba9eb46d051c60114dfa7a125195" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/dictionary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/junit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockito/mockito.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockito/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mockito/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2eb1bfcb8e438321ca95a1653026b1b8d2dad32c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/490a2256e5599bd7347b8061c7ab729762dfe7c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/557f3cca9f4635d689b84ffdc1ec903ca792cc96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b98a971b3759c5bda96e4b83cda18b35010afcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/9297de992cff123da75347d89a33299e7b78ee7d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8ba00621311b067d75ed369bd03809d1b8028ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca91261504b3b69986483f329f8a6f184048db30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de7bff2620196c009b47ea850a88b820e78f65d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd97ce10baf89853f96d27839daba16390fd638d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,15 +220,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -364,14 +359,8 @@
       <workItem from="1600931989734" duration="31000" />
       <workItem from="1600938973950" duration="229000" />
       <workItem from="1600939390333" duration="2995000" />
-      <workItem from="1601017516770" duration="6385000" />
-    </task>
-    <task id="LOCAL-00108" summary="update">
-      <created>1591734996542</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1591734996542</updated>
+      <workItem from="1601017516770" duration="8188000" />
+      <workItem from="1601068493975" duration="425000" />
     </task>
     <task id="LOCAL-00109" summary="update">
       <created>1591816288338</created>
@@ -709,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600968691209</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="update">
+      <created>1601026028340</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1601026028341</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,15 +757,11 @@
     </state>
     <state x="690" y="153" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593769460644" />
     <state x="775" y="1189" width="436" height="584" key="#com.intellij.ide.util.MemberChooser/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1593690962293" />
-    <state x="745" y="1392" width="705" height="148" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592389697460">
-      <screen x="284" y="1080" width="1366" height="768" />
-    </state>
-    <state x="745" y="1392" width="705" height="148" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592389697460" />
-    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl" timestamp="1600932019478">
+    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl" timestamp="1601027477674">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="1081" y="0" width="596" height="1080" key="FileChooserDialogImpl/0.0.1920.2160@0.0.1920.2160" timestamp="1595262975304" />
-    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1600932019478" />
+    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601027477674" />
     <state x="1081" y="27" key="FileChooserDialogImpl/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1598382542830" />
     <state x="1081" y="27" width="596" height="1053" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598545543081" />
     <state x="1081" y="173" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1592832251166" />
@@ -814,34 +806,30 @@
       <screen x="284" y="1080" width="1366" height="768" />
     </state>
     <state x="635" y="1131" width="924" height="691" key="Maven.ArtifactSearchDialog/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592930584268" />
-    <state x="412" y="1118" width="1024" height="852" key="SettingsEditor" timestamp="1601024574085">
+    <state x="412" y="1118" width="1024" height="852" key="SettingsEditor" timestamp="1601068598885">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="412" y="38" width="977" height="737" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867548675" />
-    <state x="412" y="1118" width="1024" height="852" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601024574085" />
+    <state x="412" y="1118" width="1024" height="852" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601068598885" />
     <state x="577" y="1107" width="1024" height="741" key="SettingsEditor/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592946384539" />
     <state x="579" y="180" width="760" height="737" key="StructurePopup" timestamp="1593202954823">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="579" y="180" width="760" height="737" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1593202954823" />
     <state x="696" y="1208" width="540" height="524" key="StructurePopup/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592466706807" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600968695828">
+    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601026032465">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1594927564809" />
     <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1595449265040" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1600968695828" />
+    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601026032465" />
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1594719861180" />
     <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1594663569484" />
-    <state x="798" y="1258" width="327" height="445" key="chooseDestDirectoryDialog" timestamp="1592391586972">
-      <screen x="284" y="1080" width="1366" height="768" />
-    </state>
-    <state x="798" y="1258" width="327" height="445" key="chooseDestDirectoryDialog/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592391586972" />
-    <state x="195" y="1226" width="1157" height="596" key="new project wizard" timestamp="1601024570016">
+    <state x="195" y="1226" width="1157" height="596" key="new project wizard" timestamp="1601068594624">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="195" y="146" key="new project wizard/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867537248" />
-    <state x="195" y="1226" width="1157" height="596" key="new project wizard/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601024570016" />
+    <state x="195" y="1226" width="1157" height="596" key="new project wizard/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601068594624" />
     <state x="423" y="1184" width="1157" height="595" key="new project wizard/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1592930030838" />
     <state x="597" y="49" width="945" height="989" key="search.everywhere.popup" timestamp="1600355427337">
       <screen x="0" y="0" width="1920" height="1080" />
