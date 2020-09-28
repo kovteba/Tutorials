@@ -45,3 +45,9 @@ A
 mockito/readMe.md,2/e/2eb1bfcb8e438321ca95a1653026b1b8d2dad32c
 D
 dictionary/readMe.md,d/e/de7bff2620196c009b47ea850a88b820e78f65d4
+A
+docker/docker.iml,6/b/6b9b919b28186911e9f29ed215dde30c7a0f51d9
+>
+docker/pom.xml,8/0/80d33e2395f7c23d01f72bafceab838c185e402d
+@
+docker/readMe.md,c/3/c3606387e2f31f108f485c288af6dbd1f5844b49

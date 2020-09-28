@@ -29,6 +29,7 @@
         <module>junit</module>
         <module>dictionary</module>
         <module>docker</module>
+        <module>javax</module>
     </modules>
 
     <build>

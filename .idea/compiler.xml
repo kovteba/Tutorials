@@ -23,6 +23,7 @@
         <module name="git" />
         <module name="dictionary" />
         <module name="web" />
+        <module name="javax" />
         <module name="linux" />
         <module name="data-base" />
         <module name="java-persistence-api" />
