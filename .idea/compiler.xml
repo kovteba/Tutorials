@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="algorithms" />
         <module name="junit" />
+        <module name="flyway" />
         <module name="maven" />
         <module name="software-testing" />
         <module name="jdbc" />

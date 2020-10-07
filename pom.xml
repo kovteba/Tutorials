@@ -30,6 +30,7 @@
         <module>dictionary</module>
         <module>docker</module>
         <module>javax</module>
+        <module>flyway</module>
     </modules>
 
     <build>
