@@ -3,6 +3,7 @@
 - [](#)
 - [Удаление PostgreSQL](#Удаление-PostgreSQL)
 - [Переключение БД](#Переключение-БД)
+- [Show all databases](#Show-all-databases)
 - [Show all tables in DB](#Show-all-tables-in-DB)
 - [Install PostgreSQL](#Install-PostgreSQL)
 - [Установка пароля для пользователя postgres](#Установка-пароля-для-пользователя-postgres)
@@ -13,6 +14,8 @@
 - [Проверяем состояние сервера](#Проверяем-состояние-сервера)
 - [Запустить, остановить, перезапустить](#Запустить-остановить-перезапустить)
 - [Как посмотреть какая версия PostgreSQL запущена?](#Как-посмотреть-какая-версия-PostgreSQL-запущена?)
+- [Connect to database from user](#Connect-to-database-from-user)
+- [Работа через оболочку](#Работа-через-оболочку)
 - [](#)
 
 ---
@@ -36,7 +39,14 @@ sudo groupdel postgres
 \connect (or \c) dbname
 ```
 
----   
+---  
+
+### Show all databases
+```
+\l
+```
+
+--- 
 
 ## Show all tables in DB
 ```
@@ -208,7 +218,19 @@ template1 | postgres | UTF8
 Time: 9.583 ms
 ```
 
+---
 
+### Connect to database from user
+```
+psql -h localhost database_name user_nickname
+```
+
+---
+
+### Работа через оболочку
+```
+sudo -u postgres psql
+```
 
 
 
