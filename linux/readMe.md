@@ -12,8 +12,8 @@
     - [MV](#MV)
     - [ОТКРЫТЫЕ ПОРТЫ UBUNTU](#ОТКРЫТЫЕ-ПОРТЫ-UBUNTU)
     - [Освободить заняты порт](#Освободить-занятый-порт)
-    - [](#)
-    - [](#)
+    - [Packages installed in system](#Packages-installed-in-system)
+    - [Delete package](#Delete-package)
     - [](#)
 
 
@@ -86,6 +86,19 @@ ss -ltupn
 ```
 kill -9 idProcess
 ```
+
+## Packages installed in system
+```
+dpkg --list
+```
+
+---
+
+## Delete package
+```
+sudo apt-get remove package-name
+```
+
 
 
 

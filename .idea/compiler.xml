@@ -15,6 +15,7 @@
         <module name="jdbc" />
         <module name="springOne" />
         <module name="mockito" />
+        <module name="rabbitmq" />
         <module name="javascript" />
         <module name="lombok" />
         <module name="docker" />

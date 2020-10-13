@@ -31,6 +31,7 @@
         <module>docker</module>
         <module>javax</module>
         <module>flyway</module>
+        <module>rabbitmq</module>
     </modules>
 
     <build>
