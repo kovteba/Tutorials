@@ -1,6 +1,7 @@
 ## RabbitMQ
 
 - [How install rabbitMQ](#How-install-rabbitMQ)
+- [Default username password](#Default-username-password)
 - [Start server](#Start-server)
 - [Show active plugins](#Show-active-plugins)
 - [Activate rabbitmq_management](#Activate-rabbitmq_management)
@@ -32,6 +33,14 @@ sudo ufw allow 25672
 sudo ufw allow 61613:61614
 sudo ufw allow 1883
 sudo ufw allow 15674
+```
+
+---
+
+## Default username password
+```
+username: guest
+pwassword: guest
 ```
 
 ---

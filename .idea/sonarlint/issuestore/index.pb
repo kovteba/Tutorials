@@ -61,3 +61,11 @@ A
 flyway/pom.xml,c/1/c1ea794c54c21657e46eac09c91d247c1aea785a
 @
 flyway/readMe.md,4/1/41abf1bc01bddda30d7bc6d100759b5dbc68097b
+@
+rabbitmq/pom.xml,c/4/c420b7143a4749ea1b5dccd870188394d1bb5140
+E
+rabbitmq/rabbitmq.iml,b/c/bc4d34712fbe3ff681872e03c33ac110ae8d3120
+?
+linux/readMe.md,8/4/84f15432b6783478cd2decaad7a6108564cc704e
+B
+rabbitmq/readMe.md,e/2/e281e9565459ea3f6c9754e91d503c532f53d8f7

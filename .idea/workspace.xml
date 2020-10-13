@@ -28,20 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15ffd5b133c2f41eb122fe9130d78ae0eebe399e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/167e699d00ee2cf640b940231df0f7bc02c75f1b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41abf1bc01bddda30d7bc6d100759b5dbc68097b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fb3cb6be467f3f8600d5bc44e04cb51d7bc3511" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1ea794c54c21657e46eac09c91d247c1aea785a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linux/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,17 +205,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springOne" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kovteba.spring.Application" />
@@ -363,14 +342,8 @@
       <workItem from="1602148539979" duration="1107000" />
       <workItem from="1602230268623" duration="128000" />
       <workItem from="1602581007140" duration="620000" />
-      <workItem from="1602612692202" duration="2360000" />
-    </task>
-    <task id="LOCAL-00113" summary="update">
-      <created>1591967513241</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1591967513241</updated>
+      <workItem from="1602612692202" duration="2384000" />
+      <workItem from="1602615511859" duration="4345000" />
     </task>
     <task id="LOCAL-00114" summary="update">
       <created>1591993333407</created>
@@ -708,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602230380942</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="update">
+      <created>1602615367200</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1602615367201</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,12 +770,13 @@
     <state x="412" y="38" width="977" height="737" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867548675" />
     <state x="412" y="1118" width="1024" height="852" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644530591" />
     <state x="412" y="27" key="SettingsEditor/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614416543" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602230386322">
-      <screen x="0" y="1080" width="1920" height="1080" />
+    <state x="525" y="558" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602615371238">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1594927564809" />
     <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1601307074569" />
     <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1602230386322" />
+    <state x="525" y="558" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602615371238" />
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1594719861180" />
     <state x="679" y="1276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1594663569484" />
     <state x="195" y="27" width="1157" height="1080" key="new project wizard" timestamp="1602614413069">
