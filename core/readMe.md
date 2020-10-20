@@ -106,6 +106,7 @@
 - [Java 9](#Java-9)
     - [Модули (проект Jigsaw)](#Модули-(проект-Jigsaw))
 - [RegEx](#RegEx)
+- [var | The Java Local Variable Type Inference (LVTI)](#var)
 
 ---
 
@@ -1669,6 +1670,15 @@ import modulName.packageName;
 ## RegEx
 [__RegEx__](src/main/java/kovteba/regex) – это шаблон для поиска строки в тексте.
 
+
+---
+
+## var
+__The Java Local Variable Type Inference (LVTI)__ или кратко — тип __var__ (идентификатор var — это не ключевое 
+слово, а зарезервированное имя типа) был добавлен в Java 10 с помощью JEP 286: Local-Variable Type Inference. 
+Являясь 100% функцией компилятора, она не влияет на байт-код, время выполнения или производительность. 
+В основном компилятор проверяет правую часть от оператора присваивания и, исходя из нее, определяет 
+конкретный тип переменной, а затем заменяет им var.
 
 
 

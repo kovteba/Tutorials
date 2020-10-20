@@ -28,10 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/git/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SigmaSoftware/Internship/book-store-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -343,14 +342,12 @@
       <workItem from="1602230268623" duration="128000" />
       <workItem from="1602581007140" duration="620000" />
       <workItem from="1602612692202" duration="2384000" />
-      <workItem from="1602615511859" duration="4345000" />
-    </task>
-    <task id="LOCAL-00114" summary="update">
-      <created>1591993333407</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1591993333407</updated>
+      <workItem from="1602615511859" duration="4382000" />
+      <workItem from="1602659029460" duration="608000" />
+      <workItem from="1602759226861" duration="1402000" />
+      <workItem from="1602763626282" duration="19000" />
+      <workItem from="1602765891494" duration="688000" />
+      <workItem from="1603175705216" duration="2981000" />
     </task>
     <task id="LOCAL-00115" summary="update">
       <created>1592044339492</created>
@@ -688,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602615367201</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="update">
+      <created>1602624411644</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1602624411644</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,11 +739,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1081" y="27" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602613849407">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="1081" y="1107" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602676808018">
+      <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="1081" y="0" width="596" height="1080" key="FileChooserDialogImpl/0.0.1920.2160@0.0.1920.2160" timestamp="1595262975304" />
-    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1602582977658" />
+    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1602676808018" />
     <state x="1081" y="27" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602613849407" />
     <state x="1081" y="27" width="596" height="1053" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598545543081" />
     <state x="1053" y="1203" width="424" height="491" key="FileChooserDialogImpl/284.1080.1366.768/0.0.1920.1080@284.1080.1366.768" timestamp="1594725811033" />
@@ -770,11 +774,11 @@
     <state x="412" y="38" width="977" height="737" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867548675" />
     <state x="412" y="1118" width="1024" height="852" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644530591" />
     <state x="412" y="27" key="SettingsEditor/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614416543" />
-    <state x="525" y="558" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602615371238">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602624423855">
+      <screen x="0" y="0" width="1920" height="2160" />
     </state>
     <state x="525" y="1107" width="1125" height="741" key="Vcs.Push.Dialog.v2/0.0.1920.1848@0.0.1920.1848" timestamp="1594927564809" />
-    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1601307074569" />
+    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1602624423855" />
     <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1602230386322" />
     <state x="525" y="558" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602615371238" />
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/284.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1594719861180" />
