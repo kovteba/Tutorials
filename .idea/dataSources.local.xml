@@ -30,8 +30,13 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" negative="1">
-            <node kind="schema" negative="1" />
+          <node negative="1">
+            <node kind="database" qname="book_store" negative="1">
+              <node kind="schema" negative="1" />
+            </node>
+            <node kind="database" qname="book_store">
+              <node kind="schema" qname="bookings" negative="1" />
+            </node>
           </node>
         </introspection-scope>
       </schema-mapping>

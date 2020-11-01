@@ -28,12 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers/1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers/img/computers.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/ships/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/junit/src/main/java/junit5/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/readMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/sql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/sql/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,16 +118,6 @@
       <recent name="connection" />
       <recent name="java.kovteba" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img" />
-      <recent name="$PROJECT_DIR$/algorithms" />
-      <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img" />
-      <recent name="$PROJECT_DIR$/spring" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="kovteba.chesshorse" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -132,6 +127,16 @@
       <recent name="$PROJECT_DIR$/spring" />
       <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/dependencyinjectionbeans/img" />
       <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kovteba.chesshorse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers/img" />
+      <recent name="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers" />
+      <recent name="$PROJECT_DIR$/spring/src/main/java/kovteba/springmvc/img" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img" />
+      <recent name="$PROJECT_DIR$/algorithms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,14 +356,10 @@
       <workItem from="1602763626282" duration="19000" />
       <workItem from="1602765891494" duration="688000" />
       <workItem from="1603175705216" duration="3110000" />
-      <workItem from="1603804133437" duration="5813000" />
-    </task>
-    <task id="LOCAL-00116" summary="update">
-      <created>1592226211861</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1592226211861</updated>
+      <workItem from="1603804133437" duration="5842000" />
+      <workItem from="1603875898628" duration="21795000" />
+      <workItem from="1604059067365" duration="15965000" />
+      <workItem from="1604217169202" duration="6026000" />
     </task>
     <task id="LOCAL-00117" summary="update">
       <created>1592227050866</created>
@@ -696,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603178960754</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="update">
+      <created>1603832225557</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1603832225558</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,29 +755,36 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="555" y="201" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603804208584" />
-    <state x="1081" y="1107" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603178988522">
+    <state x="449" y="1558" width="1021" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603894860139">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
-    <state x="1081" y="0" width="596" height="1080" key="FileChooserDialogImpl/0.0.1920.2160@0.0.1920.2160" timestamp="1595262975304" />
-    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1603178988522" />
+    <state x="449" y="1558" width="1021" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1603894860139" />
+    <state x="100" y="100" width="919" height="880" key="DiffContextDialog" timestamp="1603889836217">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="919" height="880" key="DiffContextDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603889836217" />
+    <state x="1081" y="1107" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604060037082">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604060037082" />
     <state x="1081" y="27" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602613849407" />
     <state x="1081" y="27" width="596" height="1053" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598545543081" />
-    <state width="1291" height="284" key="GridCell.Tab.0.bottom" timestamp="1603815123476">
+    <state width="619" height="434" key="GridCell.Tab.0.bottom" timestamp="1603877541314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1291" height="284" key="GridCell.Tab.0.bottom/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603815123476" />
-    <state width="1291" height="284" key="GridCell.Tab.0.center" timestamp="1603815123476">
+    <state width="619" height="434" key="GridCell.Tab.0.bottom/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
+    <state width="619" height="434" key="GridCell.Tab.0.center" timestamp="1603877541314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1291" height="284" key="GridCell.Tab.0.center/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603815123476" />
-    <state width="1291" height="284" key="GridCell.Tab.0.left" timestamp="1603815123476">
+    <state width="619" height="434" key="GridCell.Tab.0.center/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
+    <state width="619" height="434" key="GridCell.Tab.0.left" timestamp="1603877541314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1291" height="284" key="GridCell.Tab.0.left/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603815123476" />
-    <state width="1291" height="284" key="GridCell.Tab.0.right" timestamp="1603815123476">
+    <state width="619" height="434" key="GridCell.Tab.0.left/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
+    <state width="619" height="434" key="GridCell.Tab.0.right" timestamp="1603877541314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1291" height="284" key="GridCell.Tab.0.right/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603815123476" />
+    <state width="619" height="434" key="GridCell.Tab.0.right/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1603804961820">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -781,16 +796,21 @@
     <state x="412" y="38" width="977" height="737" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867548675" />
     <state x="412" y="1118" width="1024" height="852" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644530591" />
     <state x="412" y="27" key="SettingsEditor/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614416543" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603178964811">
-      <screen x="0" y="1080" width="1920" height="1080" />
-    </state>
-    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1602624423855" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1603178964811" />
-    <state x="525" y="558" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602615371238" />
-    <state x="852" y="444" width="367" height="278" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603815157357">
+    <state x="525" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603832234983">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="852" y="444" width="367" height="278" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603815157357" />
+    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1602624423855" />
+    <state x="525" y="545" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603832234983" />
+    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1603178964811" />
+    <state x="525" y="558" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602615371238" />
+    <state x="852" y="444" width="367" height="292" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603887914029">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="852" y="444" width="367" height="292" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603887914029" />
+    <state x="364" y="157" width="381" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603889488850">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="364" y="157" width="381" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603889488850" />
     <state x="195" y="27" width="1157" height="1080" key="new project wizard" timestamp="1602614413069">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -802,10 +822,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="624" y="792" key="run.anything.popup/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644636156" />
-    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup" timestamp="1603814062939">
+    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup" timestamp="1603878316113">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603814062939" />
+    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603878316113" />
     <state x="597" y="75" width="945" height="965" key="search.everywhere.popup/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614357690" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

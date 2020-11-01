@@ -4,7 +4,7 @@
     - [Find the movie with a row id of 6](#Find-the-movie-with-a-row-id-of-6)
     - [BETWEEN](#BETWEEN)
     - [NOT BETWEEN](#NOT-BETWEEN)
-    - [<=](#<=)
+    - [LESS THAN](#LESS-THAN)
     - [LIKE](#LIKE)
     - [DISTINCT ORDER BY](#DISTINCT-ORDER-BY)
     - [LIMIT DESC](#LIMIT-DESC)
@@ -101,7 +101,7 @@ SELECT * FROM movies where year between 2000 and 2010;
 SELECT * FROM movies where year not between 2000 and 2010;
 ```
 
-## <=
+## LESS THAN
 ```mysql
 SELECT title, year FROM movies
 WHERE year <= 2003;
@@ -362,6 +362,12 @@ WHERE Role = 'Engineer';
 ```
 
 ## 
+_ - Эквивалентно символу
+
+Поиск слова из 3 букв
+```sql
+SELECT * FROM airports WHERE airport_name LIKE '___';
+```
 
 
 
