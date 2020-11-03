@@ -28,17 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers/1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers/img/computers.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/computers/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/sql-ex/ships/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit/src/main/java/junit5/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/img/dry.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/practice/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-base/src/main/java/kovteba/relationaldb/postgresql/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,6 +204,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springOne" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kovteba.spring.Application" />
@@ -359,14 +362,9 @@
       <workItem from="1603804133437" duration="5842000" />
       <workItem from="1603875898628" duration="21795000" />
       <workItem from="1604059067365" duration="15965000" />
-      <workItem from="1604217169202" duration="6026000" />
-    </task>
-    <task id="LOCAL-00117" summary="update">
-      <created>1592227050866</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1592227050866</updated>
+      <workItem from="1604217169202" duration="7519000" />
+      <workItem from="1604327575517" duration="599000" />
+      <workItem from="1604391489407" duration="2380000" />
     </task>
     <task id="LOCAL-00118" summary="update">
       <created>1592229579561</created>
@@ -704,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603832225558</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="update">
+      <created>1604240227759</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1604240227760</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,12 +801,12 @@
     <state x="412" y="38" width="977" height="737" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867548675" />
     <state x="412" y="1118" width="1024" height="852" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644530591" />
     <state x="412" y="27" key="SettingsEditor/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614416543" />
-    <state x="525" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603832234983">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604240232334">
+      <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1602624423855" />
     <state x="525" y="545" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603832234983" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1603178964811" />
+    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604240232334" />
     <state x="525" y="558" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602615371238" />
     <state x="852" y="444" width="367" height="292" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603887914029">
       <screen x="0" y="0" width="1920" height="1080" />
