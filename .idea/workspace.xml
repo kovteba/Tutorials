@@ -28,9 +28,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit/src/main/java/junit5/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/junit/src/main/java/junit5/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockito/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/mockito/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/byte/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/img/cast-type.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/img/shellclasses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/integer/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/short/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/AllStringCombinations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/ImmutableString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/Password.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/img/String_Pool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/dictionary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javax/javax.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit/junit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lombok/lombok.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockito/mockito.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/software-testing/software-testing.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +79,8 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1ZWcg4t87WFXoYb3yNWFnaXBNRg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,36 +92,20 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.37483615" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/dmytrokovteba/Documents/MY_BOOK/Tutorials/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="connection" />
@@ -138,13 +139,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.Main" />
+  <component name="RunManager" selected="Application.WorkWithString">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllStringCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.AllStringCombinations" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.*" />
+          <option name="PATTERN" value="kovteba.datatypes.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test130" />
+    <configuration name="ImmutableString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.ImmutableString" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.tests.*" />
+          <option name="PATTERN" value="kovteba.datatypes.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,25 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test131" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test131" />
+    <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.Password" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test134" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.tests.Test134" />
-      <module name="core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kovteba.tests.*" />
+          <option name="PATTERN" value="kovteba.datatypes.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,15 +205,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="WorkWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.WorkWithString" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kovteba.datatypes.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,20 +226,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test130" />
-      <item itemvalue="Application.Test131" />
-      <item itemvalue="Application.Test134" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AllStringCombinations" />
+      <item itemvalue="Application.ImmutableString" />
+      <item itemvalue="Application.Password" />
+      <item itemvalue="Application.WorkWithString" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkWithString" />
+        <item itemvalue="Application.ImmutableString" />
+        <item itemvalue="Application.AllStringCombinations" />
+        <item itemvalue="Application.Password" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.Test134" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test131" />
-        <item itemvalue="Application.Test130" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +369,10 @@
       <workItem from="1604327575517" duration="599000" />
       <workItem from="1604391489407" duration="6794000" />
       <workItem from="1604479326163" duration="7201000" />
+      <workItem from="1648894464864" duration="642000" />
+      <workItem from="1648975111907" duration="10285000" />
+      <workItem from="1649152143065" duration="198000" />
+      <workItem from="1649475795124" duration="12096000" />
     </task>
     <task id="LOCAL-00119" summary="update">
       <created>1592229823152</created>
@@ -728,7 +733,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modificate readMe.md core" />
@@ -758,90 +762,11 @@
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="555" y="201" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603804208584">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="555" y="201" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603804208584" />
-    <state x="449" y="1558" width="1021" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603894860139">
-      <screen x="0" y="1080" width="1920" height="1080" />
-    </state>
-    <state x="449" y="1558" width="1021" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1603894860139" />
-    <state x="100" y="100" width="919" height="880" key="DiffContextDialog" timestamp="1603889836217">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="100" y="100" width="919" height="880" key="DiffContextDialog/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603889836217" />
-    <state x="1081" y="1107" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604060037082">
-      <screen x="0" y="1080" width="1920" height="1080" />
-    </state>
-    <state x="1081" y="1107" width="596" height="1053" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604060037082" />
-    <state x="1081" y="27" width="424" height="491" key="FileChooserDialogImpl/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602613849407" />
-    <state x="1081" y="27" width="596" height="1053" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598545543081" />
-    <state width="619" height="434" key="GridCell.Tab.0.bottom" timestamp="1603877541314">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="619" height="434" key="GridCell.Tab.0.bottom/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
-    <state width="619" height="434" key="GridCell.Tab.0.center" timestamp="1603877541314">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="619" height="434" key="GridCell.Tab.0.center/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
-    <state width="619" height="434" key="GridCell.Tab.0.left" timestamp="1603877541314">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="619" height="434" key="GridCell.Tab.0.left/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
-    <state width="619" height="434" key="GridCell.Tab.0.right" timestamp="1603877541314">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="619" height="434" key="GridCell.Tab.0.right/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603877541314" />
-    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1603804961820">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="263" height="500" key="HiddenNamespacesPopup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603804961820" />
-    <state x="412" y="27" width="1024" height="1080" key="SettingsEditor" timestamp="1602614416543">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="412" y="0" width="1024" height="1080" key="SettingsEditor/0.0.1920.2160@0.0.1920.2160" timestamp="1601306434999" />
-    <state x="412" y="38" width="977" height="737" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867548675" />
-    <state x="412" y="1118" width="1024" height="852" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644530591" />
-    <state x="412" y="27" key="SettingsEditor/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614416543" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604393888740">
-      <screen x="0" y="1080" width="1920" height="1080" />
-    </state>
-    <state x="525" y="1294" width="800" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.2160@0.0.1920.2160" timestamp="1602624423855" />
-    <state x="525" y="545" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603832234983" />
-    <state x="525" y="1625" width="800" height="535" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604393888740" />
-    <state x="525" y="558" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602615371238" />
-    <state x="852" y="444" width="367" height="292" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603887914029">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="852" y="444" width="367" height="292" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603887914029" />
-    <state x="364" y="157" width="381" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603889488850">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="364" y="157" width="381" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603889488850" />
-    <state x="195" y="27" width="1157" height="1080" key="new project wizard" timestamp="1602614413069">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="195" y="0" width="1157" height="1080" key="new project wizard/0.0.1920.2160@0.0.1920.2160" timestamp="1601306430594" />
-    <state x="195" y="146" key="new project wizard/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1600867537248" />
-    <state x="195" y="1226" width="1157" height="596" key="new project wizard/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644527160" />
-    <state x="195" y="27" key="new project wizard/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614413069" />
-    <state x="624" y="792" key="run.anything.popup" timestamp="1601644636156">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="624" y="792" key="run.anything.popup/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1601644636156" />
-    <state x="597" y="1129" width="945" height="989" key="search.everywhere.popup" timestamp="1604484629710">
-      <screen x="0" y="1080" width="1920" height="1080" />
-    </state>
-    <state x="597" y="49" width="945" height="989" key="search.everywhere.popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1603878316113" />
-    <state x="597" y="1129" width="945" height="989" key="search.everywhere.popup/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1604484629710" />
-    <state x="597" y="75" width="945" height="965" key="search.everywhere.popup/0.1080.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602614357690" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBFilePropertiesTest.ic" NAME="ConnectToDBFilePropertiesTest Coverage Results" MODIFIED="1587196658930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBTest.ic" NAME="ConnectToDBTest Coverage Results" MODIFIED="1587196365779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>connection.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBTest.ic" NAME="ConnectToDBTest Coverage Results" MODIFIED="1587196365779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBFilePropertiesTest.ic" NAME="ConnectToDBFilePropertiesTest Coverage Results" MODIFIED="1587196658930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>connection.*</FILTER>
     </SUITE>
   </component>
