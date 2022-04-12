@@ -27,31 +27,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5909c1e-4d65-4887-acca-15971120b511.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="delete1">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/img/Logic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/img/Priority.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/byte/readMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/img/cast-type.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/img/shellclasses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/integer/readMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/short/readMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/AllStringCombinations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/ImmutableString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/Password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/img/String_Pool.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/datatypes/string/readMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary/dictionary.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javax/javax.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/junit/junit.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lombok/lombok.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mockito/mockito.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software-testing/software-testing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img/HeapForOutOfMemoryError.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/img/exception.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/exception/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/generics/readMe.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +83,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/dmytrokovteba/Documents/MY_BOOK/Tutorials/pom.xml",
     "node.js.detected.package.eslint": "true",
@@ -139,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WorkWithString">
+  <component name="RunManager" selected="Application.kovteba.generics.TestClass">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -192,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.TestClass" />
+    <configuration name="WorkWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.WorkWithString" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.*" />
+          <option name="PATTERN" value="kovteba.datatypes.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkWithString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.WorkWithString" />
+    <configuration name="kovteba.generics.TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.generics.TestClass" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.datatypes.string.*" />
+          <option name="PATTERN" value="kovteba.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,16 +218,16 @@
       <item itemvalue="Application.ImmutableString" />
       <item itemvalue="Application.Password" />
       <item itemvalue="Application.WorkWithString" />
-      <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.kovteba.generics.TestClass" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kovteba.generics.TestClass" />
         <item itemvalue="Application.WorkWithString" />
         <item itemvalue="Application.ImmutableString" />
         <item itemvalue="Application.AllStringCombinations" />
         <item itemvalue="Application.Password" />
-        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -372,14 +360,7 @@
       <workItem from="1648894464864" duration="642000" />
       <workItem from="1648975111907" duration="10285000" />
       <workItem from="1649152143065" duration="198000" />
-      <workItem from="1649475795124" duration="12096000" />
-    </task>
-    <task id="LOCAL-00119" summary="update">
-      <created>1592229823152</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1592229823152</updated>
+      <workItem from="1649475795124" duration="21042000" />
     </task>
     <task id="LOCAL-00120" summary="update">
       <created>1592230024943</created>
@@ -717,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604393884034</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="delete1">
+      <created>1649766931239</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1649766931240</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,7 +723,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modificate readMe.md core" />
     <MESSAGE value="Update url for img" />
     <MESSAGE value="Update core module" />
     <MESSAGE value="add messages.properties, MessagesBundle.properties, MessagesBundle_de_DE.properties, MessagesBundle_en_US.properties, MessagesBundle_fr_FR.properties" />
@@ -760,7 +747,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Add string readMe" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="delete1" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBTest.ic" NAME="ConnectToDBTest Coverage Results" MODIFIED="1587196365779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
