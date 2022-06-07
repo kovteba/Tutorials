@@ -27,9 +27,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="delete2">
+    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="delete3">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ExchangerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/RunnableFunctionalInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/SemaphoreExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreReentrantLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/StoreWaitNotify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ThreadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/examples/ThreadExampleJoin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img/threadlife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/img/threads.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/concurrency/readMe.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +69,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="4" />
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,7 +90,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dmytrokovteba/Documents/MY_BOOK/Tutorials/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dmytrokovteba/Documents/MY_BOOK/Tutorials&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -118,7 +132,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.kovteba.generics.TestClass">
+  <component name="RunManager" selected="Application.ExchangerExample">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -132,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllStringCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.AllStringCombinations" />
+    <configuration name="ExchangerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.examples.ExchangerExample" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.datatypes.string.*" />
+          <option name="PATTERN" value="kovteba.concurrency.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.ImmutableString" />
+    <configuration name="RunnableFunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.examples.RunnableFunctionalInterface" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.datatypes.string.*" />
+          <option name="PATTERN" value="kovteba.concurrency.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kovteba.datatypes.string.Password" />
+    <configuration name="ThreadExampleJoin$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kovteba.concurrency.examples.ThreadExampleJoin$Main" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kovteba.datatypes.string.*" />
+          <option name="PATTERN" value="kovteba.concurrency.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,20 +219,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AllStringCombinations" />
-      <item itemvalue="Application.ImmutableString" />
-      <item itemvalue="Application.Password" />
+      <item itemvalue="Application.ExchangerExample" />
+      <item itemvalue="Application.RunnableFunctionalInterface" />
+      <item itemvalue="Application.ThreadExampleJoin$Main" />
       <item itemvalue="Application.WorkWithString" />
       <item itemvalue="Application.kovteba.generics.TestClass" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExchangerExample" />
+        <item itemvalue="Application.RunnableFunctionalInterface" />
+        <item itemvalue="Application.ThreadExampleJoin$Main" />
         <item itemvalue="Application.kovteba.generics.TestClass" />
         <item itemvalue="Application.WorkWithString" />
-        <item itemvalue="Application.ImmutableString" />
-        <item itemvalue="Application.AllStringCombinations" />
-        <item itemvalue="Application.Password" />
       </list>
     </recent_temporary>
   </component>
@@ -352,14 +366,14 @@
       <workItem from="1648975111907" duration="10285000" />
       <workItem from="1649152143065" duration="198000" />
       <workItem from="1649475795124" duration="21657000" />
-      <workItem from="1649838428619" duration="1462000" />
-    </task>
-    <task id="LOCAL-00121" summary="update">
-      <created>1592230103913</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1592230103913</updated>
+      <workItem from="1649838428619" duration="2351000" />
+      <workItem from="1650007710615" duration="617000" />
+      <workItem from="1651129676249" duration="740000" />
+      <workItem from="1653589535748" duration="2717000" />
+      <workItem from="1653645956691" duration="19093000" />
+      <workItem from="1654088470205" duration="4470000" />
+      <workItem from="1654118042332" duration="3069000" />
+      <workItem from="1654505642277" duration="20833000" />
     </task>
     <task id="LOCAL-00122" summary="update">
       <created>1592237339209</created>
@@ -697,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649777884829</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="delete3">
+      <created>1649856797843</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856797844</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,7 +736,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update core module" />
     <MESSAGE value="add messages.properties, MessagesBundle.properties, MessagesBundle_de_DE.properties, MessagesBundle_en_US.properties, MessagesBundle_fr_FR.properties" />
     <MESSAGE value="Add I18NSample.java" />
     <MESSAGE value="add web directory" />
@@ -740,13 +760,14 @@
     <MESSAGE value="update" />
     <MESSAGE value="delete1" />
     <MESSAGE value="delete2" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete2" />
+    <MESSAGE value="delete3" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBTest.ic" NAME="ConnectToDBTest Coverage Results" MODIFIED="1587196365779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBFilePropertiesTest.ic" NAME="ConnectToDBFilePropertiesTest Coverage Results" MODIFIED="1587196658930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>connection.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBFilePropertiesTest.ic" NAME="ConnectToDBFilePropertiesTest Coverage Results" MODIFIED="1587196658930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBTest.ic" NAME="ConnectToDBTest Coverage Results" MODIFIED="1587196365779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>connection.*</FILTER>
     </SUITE>
   </component>

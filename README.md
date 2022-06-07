@@ -182,8 +182,6 @@
 + [RabbitMQ](rabbitmq)
 
 
-
-
 ## Sources
 - [jsehelper blogspot](https://jsehelper.blogspot.com/)
 - [javastudy](http://javastudy.ru/)
@@ -191,3 +189,6 @@
 - [java-online.ru](http://java-online.ru/)
 - [enhorse](https://github.com/enhorse/java-interview)
 - [codeflow](https://www.codeflow.site/ru/article/mockito-2-java-8)
+- https://habr.com/ru/post/143237/
+
+
