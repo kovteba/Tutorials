@@ -27,16 +27,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="delete4">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="delete45">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/Metaspace.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/PermGen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/explain_memory_model.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/memory_model.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/img/stack.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/kovteba/garbagecollector/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,14 +360,7 @@
       <workItem from="1654088470205" duration="4470000" />
       <workItem from="1654118042332" duration="3069000" />
       <workItem from="1654505642277" duration="22298000" />
-      <workItem from="1659607959853" duration="6233000" />
-    </task>
-    <task id="LOCAL-00123" summary="update">
-      <created>1592237936392</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1592237936392</updated>
+      <workItem from="1659607959853" duration="13368000" />
     </task>
     <task id="LOCAL-00124" summary="update">
       <created>1592238010898</created>
@@ -712,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654616171197</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="delete45">
+      <created>1659617000297</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1659617000297</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -730,7 +723,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add I18NSample.java" />
     <MESSAGE value="add web directory" />
     <MESSAGE value="Add img directory with flag ua, ru, usa" />
     <MESSAGE value="Add controller directory, add WelcomeServlet" />
@@ -755,7 +747,8 @@
     <MESSAGE value="delete2" />
     <MESSAGE value="delete3" />
     <MESSAGE value="delete4" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete4" />
+    <MESSAGE value="delete45" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete45" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBFilePropertiesTest.ic" NAME="ConnectToDBFilePropertiesTest Coverage Results" MODIFIED="1587196658930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

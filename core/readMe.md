@@ -4,7 +4,6 @@
 
 
 - [Class types](#Class-types)
-- [Garbage Collector](#Garbage-Collector)
 - 
 - [Java Collection Framework](#Java-Collection-Framework)
     + [Interface Collection](src/main/java/kovteba/collectionframework/interfacecollection)
@@ -154,13 +153,6 @@
         + [Member inner class (Простой внутренний класс);](src/main/java/kovteba/classtypes/nestedclass#Member-inner-class)
         + [Local inner class (Локальный класс);](src/main/java/kovteba/classtypes/nestedclass#Local-inner-class)
         + [Anonymous inner class (Анонимный класс).](src/main/java/kovteba/classtypes/nestedclass#Anonymous-inner-class)
-    
----
-
-## Garbage Collector
-[Garbage Collector](src/main/java/kovteba/garbagecollector) - это программа, которая работает на виртуальной машине 
-Java, который избавляется от объектов, которые больше не используются Java-приложением. Это форма 
-автоматического управления памятью.
 
 ---
 
