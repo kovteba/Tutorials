@@ -61,7 +61,6 @@
 - [var | The Java Local Variable Type Inference (LVTI)](#var)
 
 ---
-
 ## Other questions    
 - [Чем различаются JRE, JVM и JDK?](#Чем-различаются-JRE,-JVM-и-JDK?)
 - [Модификатор volatile](#Модификатор-volatile)
