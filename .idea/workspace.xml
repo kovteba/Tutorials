@@ -27,11 +27,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="delete6">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="30717b63-994a-429f-9f05-6c8e4a038174" name="Default Changelist" comment="delete7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/core/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/java8/lambda/readMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/kovteba/functionalinterface/readMe.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,14 +362,8 @@
       <workItem from="1654118042332" duration="3069000" />
       <workItem from="1654505642277" duration="22298000" />
       <workItem from="1659607959853" duration="14578000" />
-      <workItem from="1662023271882" duration="1080000" />
-    </task>
-    <task id="LOCAL-00125" summary="update">
-      <created>1592238116751</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1592238116751</updated>
+      <workItem from="1662023271882" duration="1198000" />
+      <workItem from="1662116526428" duration="2711000" />
     </task>
     <task id="LOCAL-00126" summary="update">
       <created>1592238177184</created>
@@ -708,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659628884332</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="delete7">
+      <created>1662024538679</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1662024538679</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add img directory with flag ua, ru, usa" />
     <MESSAGE value="Add controller directory, add WelcomeServlet" />
     <MESSAGE value="update readMe.md core" />
     <MESSAGE value="Add exception directory with readMe.md" />
@@ -751,7 +750,8 @@
     <MESSAGE value="delete4" />
     <MESSAGE value="delete45" />
     <MESSAGE value="delete6" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete6" />
+    <MESSAGE value="delete7" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Tutorials$ConnectToDBFilePropertiesTest.ic" NAME="ConnectToDBFilePropertiesTest Coverage Results" MODIFIED="1587196658930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
