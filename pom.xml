@@ -23,10 +23,8 @@
         <module>intellijidea</module>
         <module>maven</module>
         <module>spring</module>
-        <module>software-testing</module>
         <module>lombok</module>
         <module>mockito</module>
-        <module>junit</module>
         <module>dictionary</module>
         <module>docker</module>
         <module>javax</module>
